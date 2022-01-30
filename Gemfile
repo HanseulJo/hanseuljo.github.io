@@ -8,3 +8,4 @@ gem "jekyll-redirect-from", "~> 0.12"
 gem "classifier-reborn"
 gem "kramdown-parser-gfm"
 gem "webrick", "~> 1.7"
+gem 'jekyll-toc'
