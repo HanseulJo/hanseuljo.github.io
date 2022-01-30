@@ -97,7 +97,7 @@ collections:
 #  Advanced configuration
 # -----------------------------------------------------------------------------
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
@@ -111,6 +111,13 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'

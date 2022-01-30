@@ -7,21 +7,21 @@ order: 10
 
 # Hanseul Cho (CV)
 
-> Hello, I am Hanseul Cho(조한슬). I am a passionate student interested in any topics that applies mathematics beyond mathematics.
+Hello, I am Hanseul Cho(조한슬). I am a passionate student interested in any topics that applies mathematics beyond mathematics.
 
 Recently, I am studying the following topics with interest:
-> 
-> - Theoretical analysis of deep learning(DL), machine learning(ML)
-> - Expressive power of modern deep neural networks(e.g., Transformer)
-> - Double descent phenomenon and implicit bias/regularization
-> - Optimization and personalization for federated learning
-> - Minimax optimization for nonconvex-nonconcave function
-> - Matrix inequality of arithmetic and geometric means
-> - Neural ordinary differential equations
-> - Fairness in machine learning and deep learning
-> - (Human-AI collaboration)
-> - (Natural language inference/understanding)
-> - (Large-batch optimization)
+ 
+- Theoretical analysis of deep learning(DL), machine learning(ML)
+- Expressive power of modern deep neural networks(e.g., Transformer)
+- Double descent phenomenon and implicit bias/regularization
+- Optimization and personalization for federated learning
+- Minimax optimization for nonconvex-nonconcave function
+- Matrix inequality of arithmetic and geometric means
+- Neural ordinary differential equations
+- Fairness in machine learning and deep learning
+- (Human-AI collaboration)
+- (Natural language inference/understanding)
+- (Large-batch optimization)
 
 ---
 
@@ -43,6 +43,7 @@ At **Kim Jaechul Graduate School of AI**
 
 **Advisor**: [Chulhee Yun](https://chulheey.mit.edu) (OptiML Lab, Kim Jaechul Graduate School of AI, KAIST)
 
+
 ### **Korea Advanced Institute of Science and Technology (KAIST)**
 
 ***Bachelor’s Degree**, Dajeon, Republic of Korea — (Mar. 2017. - Feb. 2022.)*
@@ -51,7 +52,6 @@ At **Kim Jaechul Graduate School of AI**
 
 **Minor** in Computing Sciences 
 
-Credits completed: 158
 
 ### University of Twente
 
