@@ -7,11 +7,18 @@ tags:
   - theory
 comments: true
 use_math: true
+toc:      true
+toc_sticky: true
 ---
+
+
 
 📌 한 줄 요약: **Transformer의 expressive power를 이론적으로 보인 첫번째 논문**
 
 🤔 참고: 노션으로 작성한 [원문](https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce)을 옮겨온 것입니다.
+
+* TOC
+{:toc}
 
 # Abstract
 
@@ -20,6 +27,7 @@ use_math: true
 - Contextual mapping이라는 것을 수식적으로 정의했으며, Transformer Encoder의 **multi-head** **self-attention layer들이 입력 sequence에 대한 contextual mapping을 잘 계산함**을 보인다.
 - (실험도 진행하였으나 여기서는 생략)
 
+---
 ---
 
 # Keywords & Definitions
@@ -92,8 +100,9 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
     
 
 ---
+---
 
-# 본격적인 내용 정리
+# Main Text
 
 ## 1. Universal Approximator임을 보이기 힘든 이유
 
@@ -106,6 +115,7 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 
 ❓ 일반적으로, Parameter sharing이 많을수록 universal approximator가 되기 어려운 이유는 무엇일까?
 
+---
 
 ## 2. 논문에서 본 Transformer
 
@@ -115,11 +125,11 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 
 잘 알려져 있듯, transformer encoder block은 multi-head self-attention layer(’Attn’)와 token-wise feed-forward layer(’FF’)라는 두 (sub-)layer로 나뉜다. 
 
-### 2.1. 기존 Transformer 논문과의 공통점:
+### 2.1. 기존 Transformer 논문과의 공통점
 
 - 수식에서 확인할 수 있듯 residual connection은 그대로 살려두었다.
 
-### 2.2. 기존 Transformer 논문과의 차이점:
+### 2.2. 기존 Transformer 논문과의 차이점
 
 - 해석을 간단히 하기 위해 layer normalization은 뺐다고 한다.
 - Self-attention layer 식을 보면 기존 논문에서는 볼 수 없던 시그마($\sum$) 기호가 보인다. 원래 transformer 논문에서는 attention head들을 concatenate하는데, 이러한 concatenation을 수식적으로는 저렇게 표현할 수 있다고 한다. 즉 의미가 다른 식이 아니다.
@@ -138,11 +148,15 @@ $$
 \boldsymbol{E} = \begin{pmatrix} 0&1&2&\cdots&n-1\\0&1&2&\cdots&n-1\\\vdots&\vdots&\vdots&&\vdots\\0&1&2&\cdots&n-1\end{pmatrix}
 $$
 
+---
+
 ## 3. 주요 결과 (2가지)
 
 논문이 주장하는 두 가지 중요한 결과는 Abstract에서 소개한 처음 두 줄과 같다. 여기서는 더 자세한 서술을 소개한다.
 
-### 3.1. Theorem 2:
+### 3.1. Theorem 2
+
+---
 
 (임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
 1. $f$는 sequence-to-sequence 함수.
@@ -154,8 +168,9 @@ $$
 1. $g$는 $(h,m,r)=(2,1,4)$를 만족. 
 2. $d_p (f,g ) \le \epsilon$.
 
+---
 
-Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.
+- 참고: Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.
 
 | 문자 | 뜻 |
 | :---: | :---: |
@@ -163,8 +178,9 @@ Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다.
 | $m$ | attention head의 크기 |
 | $r$ | feed-forward layer의 hidden 차원 (=$d_{ff}$)  |
 
-### 3.2. Theorem 3:
+### 3.2. Theorem 3
 
+---
 (임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
 1. $f$는 sequence-to-sequence 함수.
 2. $f$의 domain은 compact.
@@ -172,7 +188,9 @@ Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다.
 
 그러면 다음 조건을 만족하는 **Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$**가 존재한다.
 1. $g$는 $(h,m,r)=(2,1,4)$를 만족. 
-2. $\operatorname{d}_p (f,g ) \le \epsilon$. 
+2. $d_p (f,g ) \le \epsilon$.
+
+---
 
 거의 모든 것이 Theorem 2와 동일하지만, Transformer network에는 positional encoding이 추가됐고, 대신 근사하려는 sequence-to-sequence 함수의 permutation equivariant 조건이 사라졌다.
 
@@ -186,15 +204,17 @@ Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다.
 ❓ 위의 두 정리는 universal approximation의 측면에서 매우 유의미한 결과를 내고 있다. 그러나 모두 존재성 정리인 탓에, 훈련 과정에서 transformer가 ‘우리가 원하는 함수’를 실제로 잘 근사할 수 있는지는 말해주지 않는 게 분명하다. 이것이 가능한지는 어떻게 연구해야 할까?/ 어떻게 연구되고 있을까?
 
 
+---
+
 ## 4. 어떻게 증명하나?
 
 Theorem 2와 Theorem 3의 증명은 매우 유사하며, 본문에서는 Theorem 2의 증명과정을 요약하여 설명한다. 세 단계로 나누어 임의의 continuous, permutation equivariant, sequence-to-sequence function $f$ with compact support를 적절한 Transformer network로 근사한다. 그 로드맵은 다음과 같다.
 
-### 1) **$f$를 piece-wise 상수함수로 근사하기**
+### 1) $f$를 piece-wise 상수함수로 근사하기
 
 상수함수라고 해서 f가 갑자기 real-valued가 되는 것이 아니다. 여기서의 상수함수 역시 행렬을 받아 행렬을 내뱉는 함수인데, 함숫값으로서의 행렬이 고정되어 있으면 상수함수인 것이다.
 
-### 2) **Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기**
+### 2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기
 
 ‘Modified’ Transformer란, 기존의 Transformer에서 쓰이던 (column-wise) softmax 함수($\sigma$)는 column-wise hardmax($\sigma_H$)로 대체하고, FF의 activation function으로 쓰이던 ReLU는 또다른 특이한 함수($\phi \in \Phi$, 자세한 정의는 아래에)로 대체한 것이다. 
 
@@ -211,9 +231,11 @@ Theorem 2와 Theorem 3의 증명은 매우 유사하며, 본문에서는 Theorem
 ❓ Modified Transformer network의 layer 순서를 뒤바꾸어 같은 종류의 layer만 이어붙일 수 있는 이유가 구체적으로 무엇일까? 여기에 skip connection은 어떤 역할을 할까?
 
 
-### 3) **Modified Transformer network를 Transformer network로 근사하기**
+### 3) Modified Transformer network를 Transformer network로 근사하기
 
 앞에서 대체했던 softmax와 ReLU를 원래대로 돌려놓는 작업이라고 보면 될 것 같다. 
+
+---
 
 ## 5. 몇 개의 block을 쌓아야 하나?
 
@@ -223,7 +245,7 @@ Theorem 2는 결과적으로 몇개의 Transformer block을 쌓아야 하는지 
 
 ❓ 논문에서는 증명을 위해 아주 작은 transformer block을 이용하고 있다. 만약 이 transformer block의 크기를 키운다면 필요한 block의 수는 줄어들까? (아마 $d$와 $n$에 따른 complexity에는 크게 차이가 있지 않을 것 같다. $h$, $m$, $r$ 등의 값은 $d$나 $n$의 값과는 관련이 없으므로.)
 
-
+---
 ---
 
 # My Comments & Questions

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jan 2022 00:15:54 +0900</pubDate>
-    <lastBuildDate>Mon, 31 Jan 2022 00:15:54 +0900</lastBuildDate>
+    <pubDate>Mon, 31 Jan 2022 00:42:47 +0900</pubDate>
+    <lastBuildDate>Mon, 31 Jan 2022 00:42:47 +0900</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
     
       <item>
@@ -15,6 +15,40 @@
         <description>&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 보인 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;🤔 참고: 노션으로 작성한 &lt;a href=&quot;https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce&quot;&gt;원문&lt;/a&gt;을 옮겨온 것입니다.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#abstract&quot; id=&quot;markdown-toc-abstract&quot;&gt;Abstract&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#keywords--definitions&quot; id=&quot;markdown-toc-keywords--definitions&quot;&gt;Keywords &amp;amp; Definitions&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#1-sequence-to-sequence-function&quot; id=&quot;markdown-toc-1-sequence-to-sequence-function&quot;&gt;1. Sequence-to-sequence Function&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#2-permutation-equivariant&quot; id=&quot;markdown-toc-2-permutation-equivariant&quot;&gt;2. Permutation Equivariant&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#3-universal-approximation&quot; id=&quot;markdown-toc-3-universal-approximation&quot;&gt;3. Universal Approximation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#4-contextual-mapping&quot; id=&quot;markdown-toc-4-contextual-mapping&quot;&gt;4. Contextual Mapping&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#main-text&quot; id=&quot;markdown-toc-main-text&quot;&gt;Main Text&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#1-universal-approximator임을-보이기-힘든-이유&quot; id=&quot;markdown-toc-1-universal-approximator임을-보이기-힘든-이유&quot;&gt;1. Universal Approximator임을 보이기 힘든 이유&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#2-논문에서-본-transformer&quot; id=&quot;markdown-toc-2-논문에서-본-transformer&quot;&gt;2. 논문에서 본 Transformer&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#21-기존-transformer-논문과의-공통점&quot; id=&quot;markdown-toc-21-기존-transformer-논문과의-공통점&quot;&gt;2.1. 기존 Transformer 논문과의 공통점&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#22-기존-transformer-논문과의-차이점&quot; id=&quot;markdown-toc-22-기존-transformer-논문과의-차이점&quot;&gt;2.2. 기존 Transformer 논문과의 차이점&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#23-positional-encoding&quot; id=&quot;markdown-toc-23-positional-encoding&quot;&gt;2.3. Positional encoding&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#3-주요-결과-2가지&quot; id=&quot;markdown-toc-3-주요-결과-2가지&quot;&gt;3. 주요 결과 (2가지)&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#31-theorem-2&quot; id=&quot;markdown-toc-31-theorem-2&quot;&gt;3.1. Theorem 2&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#32-theorem-3&quot; id=&quot;markdown-toc-32-theorem-3&quot;&gt;3.2. Theorem 3&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#4-어떻게-증명하나&quot; id=&quot;markdown-toc-4-어떻게-증명하나&quot;&gt;4. 어떻게 증명하나?&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#1-f를-piece-wise-상수함수로-근사하기&quot; id=&quot;markdown-toc-1-f를-piece-wise-상수함수로-근사하기&quot;&gt;1) $f$를 piece-wise 상수함수로 근사하기&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot; id=&quot;markdown-toc-2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot;&gt;2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#3-modified-transformer-network를-transformer-network로-근사하기&quot; id=&quot;markdown-toc-3-modified-transformer-network를-transformer-network로-근사하기&quot;&gt;3) Modified Transformer network를 Transformer network로 근사하기&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#5-몇-개의-block을-쌓아야-하나&quot; id=&quot;markdown-toc-5-몇-개의-block을-쌓아야-하나&quot;&gt;5. 몇 개의 block을 쌓아야 하나?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#my-comments--questions&quot; id=&quot;markdown-toc-my-comments--questions&quot;&gt;My Comments &amp;amp; Questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -25,6 +59,7 @@
   &lt;li&gt;(실험도 진행하였으나 여기서는 생략)&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;keywords--definitions&quot;&gt;Keywords &amp;amp; Definitions&lt;/h1&gt;
@@ -110,8 +145,9 @@
 &lt;/ul&gt;
 
 &lt;hr /&gt;
+&lt;hr /&gt;
 
-&lt;h1 id=&quot;본격적인-내용-정리&quot;&gt;본격적인 내용 정리&lt;/h1&gt;
+&lt;h1 id=&quot;main-text&quot;&gt;Main Text&lt;/h1&gt;
 
 &lt;h2 id=&quot;1-universal-approximator임을-보이기-힘든-이유&quot;&gt;1. Universal Approximator임을 보이기 힘든 이유&lt;/h2&gt;
 
@@ -126,6 +162,8 @@
 
 &lt;p&gt;❓ 일반적으로, Parameter sharing이 많을수록 universal approximator가 되기 어려운 이유는 무엇일까?&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;2-논문에서-본-transformer&quot;&gt;2. 논문에서 본 Transformer&lt;/h2&gt;
 
 &lt;p&gt;아래는 논문에서 사용한 transformer block에 대한 식이다.&lt;/p&gt;
@@ -134,13 +172,13 @@
 
 &lt;p&gt;잘 알려져 있듯, transformer encoder block은 multi-head self-attention layer(’Attn’)와 token-wise feed-forward layer(’FF’)라는 두 (sub-)layer로 나뉜다.&lt;/p&gt;
 
-&lt;h3 id=&quot;21-기존-transformer-논문과의-공통점&quot;&gt;2.1. 기존 Transformer 논문과의 공통점:&lt;/h3&gt;
+&lt;h3 id=&quot;21-기존-transformer-논문과의-공통점&quot;&gt;2.1. 기존 Transformer 논문과의 공통점&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;수식에서 확인할 수 있듯 residual connection은 그대로 살려두었다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;22-기존-transformer-논문과의-차이점&quot;&gt;2.2. 기존 Transformer 논문과의 차이점:&lt;/h3&gt;
+&lt;h3 id=&quot;22-기존-transformer-논문과의-차이점&quot;&gt;2.2. 기존 Transformer 논문과의 차이점&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;해석을 간단히 하기 위해 layer normalization은 뺐다고 한다.&lt;/li&gt;
@@ -160,11 +198,15 @@
 
 \[\boldsymbol{E} = \begin{pmatrix} 0&amp;amp;1&amp;amp;2&amp;amp;\cdots&amp;amp;n-1\\0&amp;amp;1&amp;amp;2&amp;amp;\cdots&amp;amp;n-1\\\vdots&amp;amp;\vdots&amp;amp;\vdots&amp;amp;&amp;amp;\vdots\\0&amp;amp;1&amp;amp;2&amp;amp;\cdots&amp;amp;n-1\end{pmatrix}\]
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;3-주요-결과-2가지&quot;&gt;3. 주요 결과 (2가지)&lt;/h2&gt;
 
 &lt;p&gt;논문이 주장하는 두 가지 중요한 결과는 Abstract에서 소개한 처음 두 줄과 같다. 여기서는 더 자세한 서술을 소개한다.&lt;/p&gt;
 
-&lt;h3 id=&quot;31-theorem-2&quot;&gt;3.1. Theorem 2:&lt;/h3&gt;
+&lt;h3 id=&quot;31-theorem-2&quot;&gt;3.1. Theorem 2&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
 &lt;ol&gt;
@@ -180,7 +222,11 @@
   &lt;li&gt;$d_p (f,g ) \le \epsilon$.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;참고: Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -205,8 +251,9 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;32-theorem-3&quot;&gt;3.2. Theorem 3:&lt;/h3&gt;
+&lt;h3 id=&quot;32-theorem-3&quot;&gt;3.2. Theorem 3&lt;/h3&gt;
 
+&lt;hr /&gt;
 &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;$f$는 sequence-to-sequence 함수.&lt;/li&gt;
@@ -217,8 +264,10 @@
 &lt;p&gt;그러면 다음 조건을 만족하는 &lt;strong&gt;Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$&lt;/strong&gt;가 존재한다.&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;$g$는 $(h,m,r)=(2,1,4)$를 만족.&lt;/li&gt;
-  &lt;li&gt;$\operatorname{d}_p (f,g ) \le \epsilon$.&lt;/li&gt;
+  &lt;li&gt;$d_p (f,g ) \le \epsilon$.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;거의 모든 것이 Theorem 2와 동일하지만, Transformer network에는 positional encoding이 추가됐고, 대신 근사하려는 sequence-to-sequence 함수의 permutation equivariant 조건이 사라졌다.&lt;/p&gt;
 
@@ -234,15 +283,17 @@
 
 &lt;p&gt;❓ 위의 두 정리는 universal approximation의 측면에서 매우 유의미한 결과를 내고 있다. 그러나 모두 존재성 정리인 탓에, 훈련 과정에서 transformer가 ‘우리가 원하는 함수’를 실제로 잘 근사할 수 있는지는 말해주지 않는 게 분명하다. 이것이 가능한지는 어떻게 연구해야 할까?/ 어떻게 연구되고 있을까?&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;4-어떻게-증명하나&quot;&gt;4. 어떻게 증명하나?&lt;/h2&gt;
 
 &lt;p&gt;Theorem 2와 Theorem 3의 증명은 매우 유사하며, 본문에서는 Theorem 2의 증명과정을 요약하여 설명한다. 세 단계로 나누어 임의의 continuous, permutation equivariant, sequence-to-sequence function $f$ with compact support를 적절한 Transformer network로 근사한다. 그 로드맵은 다음과 같다.&lt;/p&gt;
 
-&lt;h3 id=&quot;1-f를-piece-wise-상수함수로-근사하기&quot;&gt;1) &lt;strong&gt;$f$를 piece-wise 상수함수로 근사하기&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;1-f를-piece-wise-상수함수로-근사하기&quot;&gt;1) $f$를 piece-wise 상수함수로 근사하기&lt;/h3&gt;
 
 &lt;p&gt;상수함수라고 해서 f가 갑자기 real-valued가 되는 것이 아니다. 여기서의 상수함수 역시 행렬을 받아 행렬을 내뱉는 함수인데, 함숫값으로서의 행렬이 고정되어 있으면 상수함수인 것이다.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot;&gt;2) &lt;strong&gt;Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot;&gt;2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기&lt;/h3&gt;
 
 &lt;p&gt;‘Modified’ Transformer란, 기존의 Transformer에서 쓰이던 (column-wise) softmax 함수($\sigma$)는 column-wise hardmax($\sigma_H$)로 대체하고, FF의 activation function으로 쓰이던 ReLU는 또다른 특이한 함수($\phi \in \Phi$, 자세한 정의는 아래에)로 대체한 것이다.&lt;/p&gt;
 
@@ -263,9 +314,11 @@
 
 &lt;p&gt;❓ Modified Transformer network의 layer 순서를 뒤바꾸어 같은 종류의 layer만 이어붙일 수 있는 이유가 구체적으로 무엇일까? 여기에 skip connection은 어떤 역할을 할까?&lt;/p&gt;
 
-&lt;h3 id=&quot;3-modified-transformer-network를-transformer-network로-근사하기&quot;&gt;3) &lt;strong&gt;Modified Transformer network를 Transformer network로 근사하기&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;3-modified-transformer-network를-transformer-network로-근사하기&quot;&gt;3) Modified Transformer network를 Transformer network로 근사하기&lt;/h3&gt;
 
 &lt;p&gt;앞에서 대체했던 softmax와 ReLU를 원래대로 돌려놓는 작업이라고 보면 될 것 같다.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;5-몇-개의-block을-쌓아야-하나&quot;&gt;5. 몇 개의 block을 쌓아야 하나?&lt;/h2&gt;
 
@@ -275,6 +328,7 @@
 
 &lt;p&gt;❓ 논문에서는 증명을 위해 아주 작은 transformer block을 이용하고 있다. 만약 이 transformer block의 크기를 키운다면 필요한 block의 수는 줄어들까? (아마 $d$와 $n$에 따른 complexity에는 크게 차이가 있지 않을 것 같다. $h$, $m$, $r$ 등의 값은 $d$나 $n$의 값과는 관련이 없으므로.)&lt;/p&gt;
 
+&lt;hr /&gt;
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;my-comments--questions&quot;&gt;My Comments &amp;amp; Questions&lt;/h1&gt;
