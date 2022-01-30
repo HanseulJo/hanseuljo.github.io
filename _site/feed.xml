@@ -6,13 +6,13 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jan 2022 23:39:24 +0900</pubDate>
-    <lastBuildDate>Sun, 30 Jan 2022 23:39:24 +0900</lastBuildDate>
+    <pubDate>Mon, 31 Jan 2022 00:09:00 +0900</pubDate>
+    <lastBuildDate>Mon, 31 Jan 2022 00:09:00 +0900</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
     
       <item>
         <title>[논문리뷰] Are Transformers universal approximators of sequence-to-sequence functions?</title>
-        <description>&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 확인한 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 보인 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;🤔 참고: 노션으로 작성한 &lt;a href=&quot;https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce&quot;&gt;원문&lt;/a&gt;을 옮겨온 것입니다.&lt;/p&gt;
 
@@ -124,10 +124,7 @@
 
 &lt;p&gt;논문에서는 위의 두 이유로 인해 transformer encoder 자체가 나타낼 수 있는 sequence-to-sequence 함수의 종류에 제한이 있다고 보며, 이를 trainable한 positional encoding으로 해결한다.&lt;/p&gt;
 
-&lt;aside&gt;
-❓ 일반적으로, Parameter sharing이 많을수록 universal approximator가 되기 어려운 이유는 무엇일까?
-
-&lt;/aside&gt;
+&lt;p&gt;❓ 일반적으로, Parameter sharing이 많을수록 universal approximator가 되기 어려운 이유는 무엇일까?&lt;/p&gt;
 
 &lt;h2 id=&quot;2-논문에서-본-transformer&quot;&gt;2. 논문에서 본 Transformer&lt;/h2&gt;
 
@@ -151,10 +148,7 @@
   &lt;li&gt;Self-attention layer의 소문자 시그마 함수($\sigma(\cdot)$)는 (column-wise) softmax를 가리킨다. 그런데 기존 논문에서는 scaled dot-product attention을 사용하는 반면 여기서는 그냥 dot-product attention을 쓰는 것처럼 보인다. 사실 $\boldsymbol{W}_K$나 $\boldsymbol{W}_Q$같은 parameter들이 그 scaling factor($\frac{1}{\sqrt{d_k}}$)를 학습하면 그만이다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;aside&gt;
-❓ Layer normalization을 빼도 괜찮은 이유는 무엇일까?
-
-&lt;/aside&gt;
+&lt;p&gt;❓ Layer normalization을 빼도 괜찮은 이유는 무엇일까?&lt;/p&gt;
 
 &lt;h3 id=&quot;23-positional-encoding&quot;&gt;2.3. Positional encoding&lt;/h3&gt;
 
@@ -172,37 +166,59 @@
 
 &lt;h3 id=&quot;31-theorem-2&quot;&gt;3.1. Theorem 2:&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
-1) $f$는 sequence-to-sequence 함수.
-2) $f$의 support는 compact.
-3) $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).
-4) $f$는 &lt;strong&gt;permutation equivariant&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$f$는 sequence-to-sequence 함수.&lt;/li&gt;
+  &lt;li&gt;$f$의 support는 compact.&lt;/li&gt;
+  &lt;li&gt;$f$는 연속(w.r.t. entry-wise $\ell^p$ norm).&lt;/li&gt;
+  &lt;li&gt;$f$는 &lt;strong&gt;permutation equivariant&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 
-  &lt;p&gt;그러면 다음 조건을 만족하는 Transformer network $g$가 존재한다.
-1) $g$는 $(h,m,r)=(2,1,4)$를 만족. 
-2) $d_p (f,g ) \le \epsilon$.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;그러면 다음 조건을 만족하는 Transformer network $g$가 존재한다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$g$는 $(h,m,r)=(2,1,4)$를 만족.&lt;/li&gt;
+  &lt;li&gt;$d_p (f,g ) \le \epsilon$.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.
-| 문자 | 뜻 |
-| — | — |
-| $h$ | attention head의 개수 |
-| $m$ | attention head의 크기 |
-| $r$ | feed-forward layer의 hidden 차원 (=$d_{ff}$)  |&lt;/p&gt;
+&lt;p&gt;Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;문자&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$h$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;attention head의 개수&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$m$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;attention head의 크기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$r$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;feed-forward layer의 hidden 차원 (=$d_{ff}$)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&quot;32-theorem-3&quot;&gt;3.2. Theorem 3:&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
-1) $f$는 sequence-to-sequence 함수.
-2) $f$의 domain은 compact.
-3) $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).&lt;/p&gt;
+&lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$f$는 sequence-to-sequence 함수.&lt;/li&gt;
+  &lt;li&gt;$f$의 domain은 compact.&lt;/li&gt;
+  &lt;li&gt;$f$는 연속(w.r.t. entry-wise $\ell^p$ norm).&lt;/li&gt;
+&lt;/ol&gt;
 
-  &lt;p&gt;그러면 다음 조건을 만족하는 &lt;strong&gt;Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$&lt;/strong&gt;가 존재한다.
-1) $g$는 $(h,m,r)=(2,1,4)$를 만족. 
-2) $\operatorname{d}_p (f,g ) \le \epsilon$.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;그러면 다음 조건을 만족하는 &lt;strong&gt;Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$&lt;/strong&gt;가 존재한다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$g$는 $(h,m,r)=(2,1,4)$를 만족.&lt;/li&gt;
+  &lt;li&gt;$\operatorname{d}_p (f,g ) \le \epsilon$.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;거의 모든 것이 Theorem 2와 동일하지만, Transformer network에는 positional encoding이 추가됐고, 대신 근사하려는 sequence-to-sequence 함수의 permutation equivariant 조건이 사라졌다.&lt;/p&gt;
 

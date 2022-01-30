@@ -9,7 +9,7 @@ comments: true
 use_math: true
 ---
 
-📌 한 줄 요약: **Transformer의 expressive power를 이론적으로 확인한 첫번째 논문**
+📌 한 줄 요약: **Transformer의 expressive power를 이론적으로 보인 첫번째 논문**
 
 🤔 참고: 노션으로 작성한 [원문](https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce)을 옮겨온 것입니다.
 
@@ -24,11 +24,13 @@ use_math: true
 
 # Keywords & Definitions
 
+
 ## 1. Sequence-to-sequence Function
 
 $\mathbb{R}^{d\times n}$에서 $\mathbb{R}^{d\times n}$로 가는 함수를 **sequence-to-sequence** function이라고 말한다. 정확히는 정의역도 치역도 모두 subset of $\mathbb{R}^{d\times n}$인 함수를 말한다. ($\mathbb{R}^{d\times n}$: the set of all $d\times n$  real matrices)
 
 이때 $d$와 $n$은 각각, [Transformer 논문](https://arxiv.org/abs/1706.03762)에서 언급하는 embedding 차원과 입력 sequence 길이로 비유된다. 기존 Transformer 논문에서도 거의 같은 표기를 사용했다($d_{\text{model}} = d$). 한 가지 차이가 있다면, Transformer 논문에서는 $n\times d$ 행렬을 쓰는 반면, 이 논문에서는 그 반대($d\times n$ 행렬)를 이용하기 때문에, 행렬의 각 열(column)이 한 input word embedding(혹은 token)으로 비유된다. 안그래도 이 논문에서 계속해서 $d\times n$ 행렬 $X$를 input sequence라고 칭한다.
+
 
 - Sequence-to-sequence 함수의 연속성 정의
     
@@ -46,7 +48,6 @@ $\mathbb{R}^{d\times n}$에서 $\mathbb{R}^{d\times n}$로 가는 함수를 **se
         
         논문에서는 언제나 compact domain, compact support를 가정하기 때문에, $N_p(f)$가 무한대로 발산할 걱정은 하지 않아도 될 것 같다.
         
-
 ## 2. Permutation Equivariant
 
 - Permutation matrix란
@@ -103,10 +104,8 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 
 논문에서는 위의 두 이유로 인해 transformer encoder 자체가 나타낼 수 있는 sequence-to-sequence 함수의 종류에 제한이 있다고 보며, 이를 trainable한 positional encoding으로 해결한다. 
 
-<aside>
 ❓ 일반적으로, Parameter sharing이 많을수록 universal approximator가 되기 어려운 이유는 무엇일까?
 
-</aside>
 
 ## 2. 논문에서 본 Transformer
 
@@ -126,10 +125,8 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 - Self-attention layer 식을 보면 기존 논문에서는 볼 수 없던 시그마($\sum$) 기호가 보인다. 원래 transformer 논문에서는 attention head들을 concatenate하는데, 이러한 concatenation을 수식적으로는 저렇게 표현할 수 있다고 한다. 즉 의미가 다른 식이 아니다.
 - Self-attention layer의 소문자 시그마 함수($\sigma(\cdot)$)는 (column-wise) softmax를 가리킨다. 그런데 기존 논문에서는 scaled dot-product attention을 사용하는 반면 여기서는 그냥 dot-product attention을 쓰는 것처럼 보인다. 사실 $\boldsymbol{W}_K$나 $\boldsymbol{W}_Q$같은 parameter들이 그 scaling factor($\frac{1}{\sqrt{d_k}}$)를 학습하면 그만이다.
 
-<aside>
 ❓ Layer normalization을 빼도 괜찮은 이유는 무엇일까?
 
-</aside>
 
 ### 2.3. Positional encoding
 
@@ -147,34 +144,35 @@ $$
 
 ### 3.1. Theorem 2:
 
-> (임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
->1) $f$는 sequence-to-sequence 함수.
->2) $f$의 support는 compact.
->3) $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).
->4) $f$는 **permutation equivariant**.
->
->그러면 다음 조건을 만족하는 Transformer network $g$가 존재한다.
->1) $g$는 $(h,m,r)=(2,1,4)$를 만족. 
->2) $d_p (f,g ) \le \epsilon$.
+(임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
+1. $f$는 sequence-to-sequence 함수.
+2. $f$의 support는 compact.
+3. $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).
+4. $f$는 **permutation equivariant**.
+
+그러면 다음 조건을 만족하는 Transformer network $g$가 존재한다.
+1. $g$는 $(h,m,r)=(2,1,4)$를 만족. 
+2. $d_p (f,g ) \le \epsilon$.
 
 
 Transformer network란, 같은 Transformer block을 여러 개 쌓은 것이다. 또 위에서 쓰인 h, m, r은 각각 다음과 같은 것을 나타내는 기호다.
+
 | 문자 | 뜻 |
-| --- | --- |
+| :---: | :---: |
 | $h$ | attention head의 개수 |
 | $m$ | attention head의 크기 |
 | $r$ | feed-forward layer의 hidden 차원 (=$d_{ff}$)  |
 
 ### 3.2. Theorem 3:
 
-> (임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
->1) $f$는 sequence-to-sequence 함수.
->2) $f$의 domain은 compact.
->3) $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).
->
->그러면 다음 조건을 만족하는 **Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$**가 존재한다.
->1) $g$는 $(h,m,r)=(2,1,4)$를 만족. 
->2) $\operatorname{d}_p (f,g ) \le \epsilon$. 
+(임의의  $\epsilon>0$와 $1\le p < \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.
+1. $f$는 sequence-to-sequence 함수.
+2. $f$의 domain은 compact.
+3. $f$는 연속(w.r.t. entry-wise $\ell^p$ norm).
+
+그러면 다음 조건을 만족하는 **Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$**가 존재한다.
+1. $g$는 $(h,m,r)=(2,1,4)$를 만족. 
+2. $\operatorname{d}_p (f,g ) \le \epsilon$. 
 
 거의 모든 것이 Theorem 2와 동일하지만, Transformer network에는 positional encoding이 추가됐고, 대신 근사하려는 sequence-to-sequence 함수의 permutation equivariant 조건이 사라졌다.
 
