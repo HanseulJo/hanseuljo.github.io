@@ -1,18 +1,17 @@
 ---
 layout: post
 title: '[논문리뷰] Are Transformers universal approximators of sequence-to-sequence functions?'
-#subtitle: '리액트 훅스를 알아보자'
 categories:
   - papers
 tags:
   - theory
-  - Transformer
-comments: false
+comments: true
 use_math: true
 ---
 
 📌 한 줄 요약: **Transformer의 expressive power를 이론적으로 확인한 첫번째 논문**
 
+🤔 참고: 노션으로 작성한 [원문](https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce)을 옮겨온 것입니다.
 
 # Abstract
 

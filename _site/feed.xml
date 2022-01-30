@@ -6,13 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jan 2022 23:21:53 +0900</pubDate>
-    <lastBuildDate>Sun, 30 Jan 2022 23:21:53 +0900</lastBuildDate>
+    <pubDate>Sun, 30 Jan 2022 23:39:24 +0900</pubDate>
+    <lastBuildDate>Sun, 30 Jan 2022 23:39:24 +0900</lastBuildDate>
     <generator>Jekyll v3.9.1</generator>
     
       <item>
         <title>[논문리뷰] Are Transformers universal approximators of sequence-to-sequence functions?</title>
         <description>&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 확인한 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;🤔 참고: 노션으로 작성한 &lt;a href=&quot;https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce&quot;&gt;원문&lt;/a&gt;을 옮겨온 것입니다.&lt;/p&gt;
 
 &lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
 
@@ -282,7 +284,20 @@
         
         <category>theory</category>
         
-        <category>Transformer</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>읽고 싶은 논문 리스트!</title>
+        <description>&lt;h2 id=&quot;논문-리스트-링크&quot;&gt;&lt;strong&gt;논문 리스트: &lt;a href=&quot;https://han-5eu1.notion.site/d7c13438fa8c41218c2bfc8fd0bcebd6?v=165339f3e0e5475d81fd60e1112b4273&quot;&gt;링크&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;제 개인 노션 페이지에 읽고 싶은 논문 데이터베이스를 구축하고 있습니다. 꾸준히 업데이트 해보려 합니다. 물론 읽은 것보다 안 읽은 논문이 더 많습니다 하하&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Jan 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/papers/2022/01/29/paper-list/</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/2022/01/29/paper-list/</guid>
         
         
         <category>papers</category>
