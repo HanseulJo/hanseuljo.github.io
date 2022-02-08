@@ -46,6 +46,13 @@ google_fonts:        Lato
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
 #google_analytics:    UA-92346434-1  # 나중에 등록
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-KZSRFFRH70"
+    anonymize_ip         : # true, false (default)
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus_shortname:    hanseul
