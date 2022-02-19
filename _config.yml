@@ -28,7 +28,7 @@ author:
 
 # Fallback image and color
 image:               /assets/img/side.jpeg
-color:               '#4f86aa'  # 변경 필요
+color:               '#148bba'  # Font color
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Lato', 'Sans-serif'"
@@ -44,15 +44,9 @@ google_fonts:        Lato
 # no_google_fonts:     true
 
 # Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-#google_analytics:    UA-92346434-1  # 나중에 등록
-# Analytics
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-KZSRFFRH70"
-    anonymize_ip         : # true, false (default)
+# https://analytics.google.com
+google_analytics:
+  tracking_id: G-3K595H6QML
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus_shortname:    hanseul
