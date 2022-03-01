@@ -1,10 +1,9 @@
 ---
 layout: about
-title: About me
+title: 'About: Hanseul Cho'
 menu: true
 order: 10
 ---
-
 
 
 ## ☎️ Information
