@@ -13,13 +13,12 @@ url:                 https://hanseuljo.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             AI 공부하는 대학원생
+tagline:             ML/AI
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  수학 전공했지만 이제는 AI 공부할래.
-  그 외에 음악도 좋아합니다.
+  M.Sc. Student in OptiML Lab @ KAIST AI.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:

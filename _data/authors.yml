@@ -8,8 +8,8 @@ hanseuljo:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am a M.S. student in OptiML Lab @ [**KAIST AI**](http://gsai.kaist.ac.kr), advised by Prof. [**Chulhee Yun**](https://chulheey.mit.edu).
-    Recently, I am interested in deep learning theory.
+    I am an M.Sc. student in OptiML Lab @ [**KAIST AI**](http://gsai.kaist.ac.kr), advised by Prof. [**Chulhee Yun**](https://chulheeyun.github.io).
+    Recently, I focus on deep learning theory.
 
   # This photo will be used in the about section
   picture:
