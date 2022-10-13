@@ -1,0 +1,7 @@
+var store = [{
+        "title": "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization",
+        "excerpt":"Download paper here Abstract Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the...","categories": [],
+        "tags": [],
+        "url": "/publication/2022-10-13-sgda-with-shuffling",
+        "teaser": null
+      },]
