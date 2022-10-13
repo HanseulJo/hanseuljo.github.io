@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hanseul&apos;s Blog</title>
-    <description>M.Sc. Student in OptiML Lab @ KAIST AI.
-</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2022 14:52:17 +0900</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2022 14:52:17 +0900</lastBuildDate>
-    <generator>Jekyll v3.9.1</generator>
-    
-      <item>
-        <title>[논문리뷰] Are Transformers universal approximators of sequence-to-sequence functions?</title>
-        <description>&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 보인 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-14T02:10:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hanseul Cho / MSc</title><subtitle>MSc Student in OptiML Lab @ KAIST AI.</subtitle><author><name>Hanseul Cho</name></author><entry><title type="html">[논문읽기] Are Transformers universal approximators of sequence-to-sequence functions?</title><link href="http://localhost:4000/posts/2022/01/are-transformer-universal-approximators-of-sequence-to-sequence-functions/" rel="alternate" type="text/html" title="[논문읽기] Are Transformers universal approximators of sequence-to-sequence functions?" /><published>2022-01-30T00:00:00+09:00</published><updated>2022-01-30T00:00:00+09:00</updated><id>http://localhost:4000/posts/2022/01/are-transformer-universal-approximators-of-sequence-to-sequence-functions</id><content type="html" xml:base="http://localhost:4000/posts/2022/01/are-transformer-universal-approximators-of-sequence-to-sequence-functions/">&lt;p&gt;📌 한 줄 요약: &lt;strong&gt;Transformer의 expressive power를 이론적으로 보인 첫번째 논문&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;🤔 참고: 노션으로 작성한 &lt;a href=&quot;https://han-5eu1.notion.site/Are-Transformers-universal-approximators-of-sequence-to-sequence-functions-158eac79332a4d81b1b7cccff9b1b0ce&quot;&gt;원문&lt;/a&gt;을 옮겨온 것입니다.&lt;/p&gt;
 
@@ -50,7 +36,7 @@
   &lt;li&gt;&lt;a href=&quot;#my-comments--questions&quot; id=&quot;markdown-toc-my-comments--questions&quot;&gt;My Comments &amp;amp; Questions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Transformer encoder&lt;/strong&gt;는 &lt;strong&gt;‘permutation equivariant&lt;/strong&gt;’한 성질을 갖는 &lt;strong&gt;연속&lt;/strong&gt;인 ‘&lt;strong&gt;sequence-to-sequence&lt;/strong&gt;’ 함수(with compact support)에 대한 universal approximator임을 보인다.&lt;/li&gt;
@@ -62,9 +48,9 @@
 &lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;keywords--definitions&quot;&gt;Keywords &amp;amp; Definitions&lt;/h1&gt;
+&lt;h2 id=&quot;keywords--definitions&quot;&gt;Keywords &amp;amp; Definitions&lt;/h2&gt;
 
-&lt;h2 id=&quot;1-sequence-to-sequence-function&quot;&gt;1. Sequence-to-sequence Function&lt;/h2&gt;
+&lt;h3 id=&quot;1-sequence-to-sequence-function&quot;&gt;1. Sequence-to-sequence Function&lt;/h3&gt;
 
 &lt;p&gt;$\mathbb{R}^{d\times n}$에서 $\mathbb{R}^{d\times n}$로 가는 함수를 &lt;strong&gt;sequence-to-sequence&lt;/strong&gt; function이라고 말한다. 정확히는 정의역도 치역도 모두 subset of $\mathbb{R}^{d\times n}$인 함수를 말한다. ($\mathbb{R}^{d\times n}$: the set of all $d\times n$  real matrices)&lt;/p&gt;
 
@@ -89,13 +75,14 @@
       &lt;li&gt;
         &lt;p&gt;Note:&lt;/p&gt;
 
-        &lt;p&gt;논문에서는 언제나 compact domain, compact support를 가정하기 때문에, $N_p(f)$가 무한대로 발산할 걱정은 하지 않아도 될 것 같다.&lt;/p&gt;
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;논문에서는 언제나 compact domain, compact support를 가정하기 때문에, $N_p(f)$가 무한대로 발산할 걱정은 하지 않아도 될 것 같다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;2-permutation-equivariant&quot;&gt;2. Permutation Equivariant&lt;/h2&gt;
+&lt;h3 id=&quot;2-permutation-equivariant&quot;&gt;2. Permutation Equivariant&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -115,18 +102,17 @@
 
 &lt;p&gt;참고로 논문에서는 각각의 &lt;strong&gt;transformer (encoder) block이 permutation equivariant한 sequence-to-sequence function&lt;/strong&gt;임을 증명한다. &lt;strong&gt;(Claim 1)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;3-universal-approximation&quot;&gt;3. Universal Approximation&lt;/h2&gt;
+&lt;h3 id=&quot;3-universal-approximation&quot;&gt;3. Universal Approximation&lt;/h3&gt;
 
 &lt;p&gt;딥러닝 이론의 출발점이라고 할 만한 정리로, Neural network의 expressive power에 대해 알려주는 정리인 ‘&lt;strong&gt;universal approximation theorem&lt;/strong&gt;’이 있다. 이것의 내용을 요약하자면 다음과 같다.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Hidden layer가 1개 있는 neural network만 가지고도 아무런 연속함수(with compact support)를 &lt;strong&gt;임의의 (아주 작은) 오차로 근사&lt;/strong&gt;할 수 있다. (단! network의 width에는 제한이 없으며, 중간에 있는 activation function은 다항함수가 아님.)&lt;/p&gt;
-
 &lt;/blockquote&gt;
 
 &lt;p&gt;이처럼, Universal Approximator는 ‘임의의 정확도로 엄청 많은 함수들을 근사할 수 있’는 모델을 두고 하는 말이다.  이후로도 universal approximation에 대한 다방면의 연구가 이루어졌는데, 이는 여기서 소개하는 논문의 section 1.2 related works &amp;amp; notation에 잘 소개되어 있다.&lt;/p&gt;
 
-&lt;h2 id=&quot;4-contextual-mapping&quot;&gt;4. Contextual Mapping&lt;/h2&gt;
+&lt;h3 id=&quot;4-contextual-mapping&quot;&gt;4. Contextual Mapping&lt;/h3&gt;
 
 &lt;p&gt;논문에 따르면, Transformer가 높은 성능을 보여주는 이유가 보통 ‘contextual mapping’을 잘 계산하기 때문이라고 평가된다고 한다. 즉, 각각의 문맥을 서로 잘 구분하는 능력이 탁월하다고 보는 것이다.&lt;/p&gt;
 
@@ -147,9 +133,9 @@
 &lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;main-text&quot;&gt;Main Text&lt;/h1&gt;
+&lt;h2 id=&quot;main-text&quot;&gt;Main Text&lt;/h2&gt;
 
-&lt;h2 id=&quot;1-universal-approximator임을-보이기-힘든-이유&quot;&gt;1. Universal Approximator임을 보이기 힘든 이유&lt;/h2&gt;
+&lt;h3 id=&quot;1-universal-approximator임을-보이기-힘든-이유&quot;&gt;1. Universal Approximator임을 보이기 힘든 이유&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;너무 많아 보이는 Parameter sharing. Self-attention layer와 feed-forward layer 모두, token끼리 공유하는 parameter의 수가 매우 많다.&lt;/li&gt;
@@ -164,7 +150,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;2-논문에서-본-transformer&quot;&gt;2. 논문에서 본 Transformer&lt;/h2&gt;
+&lt;h3 id=&quot;2-논문에서-본-transformer&quot;&gt;2. 논문에서 본 Transformer&lt;/h3&gt;
 
 &lt;p&gt;아래는 논문에서 사용한 transformer block에 대한 식이다.&lt;/p&gt;
 
@@ -172,13 +158,13 @@
 
 &lt;p&gt;잘 알려져 있듯, transformer encoder block은 multi-head self-attention layer(’Attn’)와 token-wise feed-forward layer(’FF’)라는 두 (sub-)layer로 나뉜다.&lt;/p&gt;
 
-&lt;h3 id=&quot;21-기존-transformer-논문과의-공통점&quot;&gt;2.1. 기존 Transformer 논문과의 공통점&lt;/h3&gt;
+&lt;h4 id=&quot;21-기존-transformer-논문과의-공통점&quot;&gt;2.1. 기존 Transformer 논문과의 공통점&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;수식에서 확인할 수 있듯 residual connection은 그대로 살려두었다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;22-기존-transformer-논문과의-차이점&quot;&gt;2.2. 기존 Transformer 논문과의 차이점&lt;/h3&gt;
+&lt;h4 id=&quot;22-기존-transformer-논문과의-차이점&quot;&gt;2.2. 기존 Transformer 논문과의 차이점&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;해석을 간단히 하기 위해 layer normalization은 뺐다고 한다.&lt;/li&gt;
@@ -188,7 +174,7 @@
 
 &lt;p&gt;❓ Layer normalization을 빼도 괜찮은 이유는 무엇일까?&lt;/p&gt;
 
-&lt;h3 id=&quot;23-positional-encoding&quot;&gt;2.3. Positional encoding&lt;/h3&gt;
+&lt;h4 id=&quot;23-positional-encoding&quot;&gt;2.3. Positional encoding&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Trainable한 positional encoding이 없는 순수한 transformer block은 오직 ‘permutation equivariant’한 종류의 함수만을 잘 근사할 뿐이다. 그러나 positional encoding을 도입함으로써 이러한 함수 종류의 제한 없이 아무런 sequence-to-sequence 함수(with compact domain)을 잘 근사할 수 있게 된다.&lt;/li&gt;
@@ -200,15 +186,16 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;3-주요-결과-2가지&quot;&gt;3. 주요 결과 (2가지)&lt;/h2&gt;
+&lt;h3 id=&quot;3-주요-결과-2가지&quot;&gt;3. 주요 결과 (2가지)&lt;/h3&gt;
 
 &lt;p&gt;논문이 주장하는 두 가지 중요한 결과는 Abstract에서 소개한 처음 두 줄과 같다. 여기서는 더 자세한 서술을 소개한다.&lt;/p&gt;
 
-&lt;h3 id=&quot;31-theorem-2&quot;&gt;3.1. Theorem 2&lt;/h3&gt;
+&lt;h4 id=&quot;31-theorem-2&quot;&gt;3.1. Theorem 2&lt;/h4&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;$f$는 sequence-to-sequence 함수.&lt;/li&gt;
   &lt;li&gt;$f$의 support는 compact.&lt;/li&gt;
@@ -217,6 +204,7 @@
 &lt;/ol&gt;
 
 &lt;p&gt;그러면 다음 조건을 만족하는 Transformer network $g$가 존재한다.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;$g$는 $(h,m,r)=(2,1,4)$를 만족.&lt;/li&gt;
   &lt;li&gt;$d_p (f,g ) \le \epsilon$.&lt;/li&gt;
@@ -251,10 +239,11 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;32-theorem-3&quot;&gt;3.2. Theorem 3&lt;/h3&gt;
+&lt;h4 id=&quot;32-theorem-3&quot;&gt;3.2. Theorem 3&lt;/h4&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;(임의의  $\epsilon&amp;gt;0$와 $1\le p &amp;lt; \infty$에 대해) 함수 $f$가 다음의 조건을 만족한다고 하자.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;$f$는 sequence-to-sequence 함수.&lt;/li&gt;
   &lt;li&gt;$f$의 domain은 compact.&lt;/li&gt;
@@ -262,6 +251,7 @@
 &lt;/ol&gt;
 
 &lt;p&gt;그러면 다음 조건을 만족하는 &lt;strong&gt;Transformer network $g$ with (trainable) positional encoding $\boldsymbol{E}$&lt;/strong&gt;가 존재한다.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;$g$는 $(h,m,r)=(2,1,4)$를 만족.&lt;/li&gt;
   &lt;li&gt;$d_p (f,g ) \le \epsilon$.&lt;/li&gt;
@@ -285,15 +275,15 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4-어떻게-증명하나&quot;&gt;4. 어떻게 증명하나?&lt;/h2&gt;
+&lt;h3 id=&quot;4-어떻게-증명하나&quot;&gt;4. 어떻게 증명하나?&lt;/h3&gt;
 
 &lt;p&gt;Theorem 2와 Theorem 3의 증명은 매우 유사하며, 본문에서는 Theorem 2의 증명과정을 요약하여 설명한다. 세 단계로 나누어 임의의 continuous, permutation equivariant, sequence-to-sequence function $f$ with compact support를 적절한 Transformer network로 근사한다. 그 로드맵은 다음과 같다.&lt;/p&gt;
 
-&lt;h3 id=&quot;1-f를-piece-wise-상수함수로-근사하기&quot;&gt;1) $f$를 piece-wise 상수함수로 근사하기&lt;/h3&gt;
+&lt;h4 id=&quot;1-f를-piece-wise-상수함수로-근사하기&quot;&gt;1) $f$를 piece-wise 상수함수로 근사하기&lt;/h4&gt;
 
 &lt;p&gt;상수함수라고 해서 f가 갑자기 real-valued가 되는 것이 아니다. 여기서의 상수함수 역시 행렬을 받아 행렬을 내뱉는 함수인데, 함숫값으로서의 행렬이 고정되어 있으면 상수함수인 것이다.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot;&gt;2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기&lt;/h3&gt;
+&lt;h4 id=&quot;2-piece-wise-상수함수를-modified-transformer-network로-근사하기&quot;&gt;2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기&lt;/h4&gt;
 
 &lt;p&gt;‘Modified’ Transformer란, 기존의 Transformer에서 쓰이던 (column-wise) softmax 함수($\sigma$)는 column-wise hardmax($\sigma_H$)로 대체하고, FF의 activation function으로 쓰이던 ReLU는 또다른 특이한 함수($\phi \in \Phi$, 자세한 정의는 아래에)로 대체한 것이다.&lt;/p&gt;
 
@@ -309,18 +299,17 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;(….) we note that even though a Transformer network stacks self-attention and feed-forward layers in an alternate manner, &lt;strong&gt;the skip connections enable these networks to employ a composition of multiple self-attention or feed-forward layers.&lt;/strong&gt; (중략) self-attention and feed-forward layers play in realizing the ability to universally approximate sequence-to-sequence functions: 1) self-attention layers compute precise contextual maps; and 2) feed-forward layers then assign the results of these contextual maps to the desired output values. (p.6)&lt;/p&gt;
-
 &lt;/blockquote&gt;
 
 &lt;p&gt;❓ Modified Transformer network의 layer 순서를 뒤바꾸어 같은 종류의 layer만 이어붙일 수 있는 이유가 구체적으로 무엇일까? 여기에 skip connection은 어떤 역할을 할까?&lt;/p&gt;
 
-&lt;h3 id=&quot;3-modified-transformer-network를-transformer-network로-근사하기&quot;&gt;3) Modified Transformer network를 Transformer network로 근사하기&lt;/h3&gt;
+&lt;h4 id=&quot;3-modified-transformer-network를-transformer-network로-근사하기&quot;&gt;3) Modified Transformer network를 Transformer network로 근사하기&lt;/h4&gt;
 
 &lt;p&gt;앞에서 대체했던 softmax와 ReLU를 원래대로 돌려놓는 작업이라고 보면 될 것 같다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;5-몇-개의-block을-쌓아야-하나&quot;&gt;5. 몇 개의 block을 쌓아야 하나?&lt;/h2&gt;
+&lt;h3 id=&quot;5-몇-개의-block을-쌓아야-하나&quot;&gt;5. 몇 개의 block을 쌓아야 하나?&lt;/h3&gt;
 
 &lt;p&gt;Theorem 2는 결과적으로 몇개의 Transformer block을 쌓아야 하는지 보여준다. 논문에서 제시하는, permutation equivariant 함수를 잘 근사하기 위해 필요한 (h,m,r)=(2,1,4) Transformer block은 총 $O(n(1/\delta)^{dn}/n!)$개다. 또한, positional encoding까지 더해 좀 더 광범위한 sequence-to-sequence 함수를 잘 근사하기 위해서 필요한 block은 $O(n(1/\delta)^{dn})$개다.&lt;/p&gt;
 
@@ -331,7 +320,7 @@
 &lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;my-comments--questions&quot;&gt;My Comments &amp;amp; Questions&lt;/h1&gt;
+&lt;h2 id=&quot;my-comments--questions&quot;&gt;My Comments &amp;amp; Questions&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;선형대수학을 꽤나 쓰는 논문이지만 실상은 엄청나게 해석학스러운 논문이었다. 해석학1때 Weierstrass Approximation Theorem(compact domain에서 연속함수를 다항식으로 임의의 정확도로 근사하기) 배웠던 것이 새록새록…&lt;/li&gt;
@@ -346,33 +335,4 @@
 
 &lt;p&gt;❓ Modified Transformer network의 layer 순서를 뒤바꾸어 같은 종류의 layer만 이어붙일 수 있는 이유가 구체적으로 무엇일까? 여기에 skip connection은 어떤 역할을 할까?&lt;/p&gt;
 
-&lt;p&gt;❓ 논문에서는 증명을 위해 아주 작은 transformer block을 이용하고 있다. 만약 이 transformer block의 크기를 키운다면 필요한 block의 수는 줄어들까?&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Jan 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/papers/2022/01/30/are-transformer-universal-approximators-of-sequence-to-sequence-functions/</link>
-        <guid isPermaLink="true">http://localhost:4000/papers/2022/01/30/are-transformer-universal-approximators-of-sequence-to-sequence-functions/</guid>
-        
-        <category>theory</category>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>읽고 싶은 논문 리스트!</title>
-        <description>&lt;h2 id=&quot;논문-리스트-링크&quot;&gt;&lt;strong&gt;논문 리스트: &lt;a href=&quot;https://han-5eu1.notion.site/d7c13438fa8c41218c2bfc8fd0bcebd6?v=165339f3e0e5475d81fd60e1112b4273&quot;&gt;링크&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;제 개인 노션 페이지에 읽고 싶은 논문 데이터베이스를 구축하고 있습니다. 꾸준히 업데이트 해보려 합니다. 물론 읽은 것보다 안 읽은 논문이 더 많습니다 하하&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Jan 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/papers/2022/01/29/paper-list/</link>
-        <guid isPermaLink="true">http://localhost:4000/papers/2022/01/29/paper-list/</guid>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;❓ 논문에서는 증명을 위해 아주 작은 transformer block을 이용하고 있다. 만약 이 transformer block의 크기를 키운다면 필요한 block의 수는 줄어들까?&lt;/p&gt;</content><author><name>Hanseul Cho</name></author><category term="Transformer" /><category term="Universal Approximation" /><category term="Theory" /><summary type="html">📌 한 줄 요약: Transformer의 expressive power를 이론적으로 보인 첫번째 논문</summary></entry></feed>
