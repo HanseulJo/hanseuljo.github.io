@@ -1,15 +1,16 @@
 ---
-title: '[논문읽기] Are Transformers universal approximators of sequence-to-sequence functions?'
-date: 2022-01-30
-permalink: /posts/2022/01/are-transformer-universal-approximators-of-sequence-to-sequence-functions/
+layout: post
+title: '[논문리뷰] Are Transformers universal approximators of sequence-to-sequence functions?'
+categories:
+  - papers
+tags:
+  - theory
+comments: true
 use_math: true
 toc:      true
 toc_sticky: true
-tags:
-  - Transformer
-  - Universal Approximation
-  - Theory
 ---
+
 
 
 📌 한 줄 요약: **Transformer의 expressive power를 이론적으로 보인 첫번째 논문**
