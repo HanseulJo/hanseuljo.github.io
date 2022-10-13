@@ -1,31 +1,53 @@
-@mixin pre() {
-  margin-left: -1rem;
-  margin-right: -1rem;
-  padding: 1rem;
-  background-color: $gray-bg;
+/* ==========================================================================
+   MIXINS
+   ========================================================================== */
+
+%tab-focus {
+  /* Default*/
+  outline: thin dotted $warning-color;
+  /* Webkit*/
+  outline: 5px auto $warning-color;
+  outline-offset: -2px;
 }
 
-@mixin aspect-ratio($width, $height) {
-  position: relative;
+/*
+   em function
+   ========================================================================== */
 
-  &::before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
-  }
-
-  > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+@function em($target, $context: $doc-font-size) {
+  @return ($target / $context) * 1em;
 }
 
-@mixin clearfix() {
-  content: "";
-  display: table;
+
+/*
+   Bourbon clearfix
+   ========================================================================== */
+
+/*
+  * Provides an easy way to include a clearfix for containing floats.
+  * link http://cssmojo.com/latest_new_clearfix_so_far/
+  *
+  * example scss - Usage
+  *
+  * .element {
+  *   @include clearfix;
+  * }
+  *
+  * example css - CSS Output
+  *
+  * .element::after {
+  *   clear: both;
+  *   content: "";
+  *   display: table;
+  * }
+*/
+
+@mixin clearfix {
   clear: both;
+
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
 }

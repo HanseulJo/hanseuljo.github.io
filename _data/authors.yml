@@ -1,62 +1,10 @@
-# The primary author of this blog.
-# Must be the same as `author` in `_config.yml`.
-# Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-hanseuljo:
-  name:              Hanseul cho
-  email:             jhs4015@kaist.ac.kr
+# Authors
 
-  # Used at the bottom of each page and at the top of the `about` layout
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    I am an M.Sc. student in OptiML Lab @ [**KAIST AI**](http://gsai.kaist.ac.kr), advised by Prof. [**Chulhee Yun**](https://chulheeyun.github.io).
-    Recently, I focus on deep learning theory.
-
-  # This photo will be used in the about section
-  picture:
-    src:             /assets/img/me.jpeg
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    #srcset:
-      #1x:            /assets/img/me2.jpeg
-      #2x:            /assets/img/side.jpeg
-
-  # Social media icons in sidebar
-  # Comment/uncommet to show/hide
-  # Icons appear in order, can be rearranged:
-  social:
-    #facebook:        100012171849069
-    # twitter:         <username>
-    # google:          <number>
-    # vk:              <username>
-    # youtube:         <string_string_string>
-    # vimeo:           <username>
-    # vine:            <username>
-    # spotify:         <user>/<number>
-    # soundcloud:      <username>
-    # lastfm:          <username>
-    #instagram:       han.5eu1
-    # flickr:          <string@string>
-    # 500px:           <username>
-    # dribbble:        <username>
-    # behance:         <username>
-    # deviantart:      <username>
-    # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
-    # reddit:          <username>
-    # tumblr:          <username>
-    # pinterest:       <username>
-    # foursquare:      <number>
-    # yelp:            <string>
-    github:          HanseulJo
-    # stackoverflow:   <number/username>
-    # npm:             <username>
-    # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
-    # xing:            <firstname_lastname_counter>
-    # blogger:         <number>
-    # delicious:       <username>
-    # stumbleupon:     <username>
-    # paypal:          <username>
-    email:           mailto:jhs4015@kaist.ac.kr
-    #rss:             https://isme2n.github.io/feed.xml
+Hanseul Cho:
+  name        : "Hanseul Cho"
+  uri         : 
+  email       : 
+  bio         : "MSc Student at OptiML Lab in KAIST AI."
+  avatar      : "me.jpeg"
+  twitter     : 
+  google_plus : 
