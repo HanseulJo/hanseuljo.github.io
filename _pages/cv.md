@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-You can check the pdf version of cv [here](https://www.overleaf.com/read/jtgvjwhfmwxc).
-
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
