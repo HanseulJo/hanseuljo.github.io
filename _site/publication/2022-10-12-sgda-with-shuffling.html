@@ -19,7 +19,7 @@
 
 
 
-<title>Blog posts - Hanseul Cho</title>
+<title>SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization - Hanseul Cho</title>
 
 
 
@@ -29,13 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Hanseul Cho">
-<meta property="og:title" content="Blog posts">
+<meta property="og:title" content="SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization">
 
 
-  <link rel="canonical" href="http://localhost:4000/year-archive/">
-  <meta property="og:url" content="http://localhost:4000/year-archive/">
+  <link rel="canonical" href="http://localhost:4000/publication/2022-10-12-sgda-with-shuffling">
+  <meta property="og:url" content="http://localhost:4000/publication/2022-10-12-sgda-with-shuffling">
 
 
+
+  <meta property="og:description" content="AbstractStochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone setups. To narrow this gap, we study the convergence bounds of SGDA with random reshuffling (SGDA-RR) for smooth nonconvex-nonconcave objectives with Polyak-Łojasiewicz (PŁ) geometry. We analyze both simultaneous and alternating SGDA-RR for nonconvex-PŁ and primal-PŁ-PŁ objectives, and obtain convergence rates faster than with-replacement SGDA. Our rates also extend to mini-batch SGDA-RR, recovering known rates for full-batch gradient descent-ascent (GDA). Lastly, we present a comprehensive lower bound for two-time-scale GDA, which matches the full-batch rate for primal-PŁ-PŁ case.">
 
 
 
@@ -48,6 +50,9 @@
 
 
 
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2022-10-12T00:00:00-07:00">
 
 
 
@@ -151,6 +156,9 @@
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/posts/">Posts</a></li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -159,6 +167,8 @@
 </div>
 
     
+
+
 
 
 
@@ -231,15 +241,106 @@
   </div>
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization">
+    <meta itemprop="description" content="AbstractStochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone setups. To narrow this gap, we study the convergence bounds of SGDA with random reshuffling (SGDA-RR) for smooth nonconvex-nonconcave objectives with Polyak-Łojasiewicz (PŁ) geometry. We analyze both simultaneous and alternating SGDA-RR for nonconvex-PŁ and primal-PŁ-PŁ objectives, and obtain convergence rates faster than with-replacement SGDA. Our rates also extend to mini-batch SGDA-RR, recovering known rates for full-batch gradient descent-ascent (GDA). Lastly, we present a comprehensive lower bound for two-time-scale GDA, which matches the full-batch rate for primal-PŁ-PŁ case.">
+    <meta itemprop="datePublished" content="October 12, 2022">
     
-      <h1 class="page__title">Blog posts</h1>
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization
+</h1>
+          
+        
+        
+        
+          <p>Published in <i>arXiv preprint</i>, 2022 </p>
+        
+        
+             
+        
     
-    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h2 id="abstract">Abstract</h2>
+<p>Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone setups. To narrow this gap, we study the convergence bounds of SGDA with random reshuffling (SGDA-RR) for smooth nonconvex-nonconcave objectives with Polyak-Łojasiewicz (PŁ) geometry. We analyze both simultaneous and alternating SGDA-RR for nonconvex-PŁ and primal-PŁ-PŁ objectives, and obtain convergence rates faster than with-replacement SGDA. Our rates also extend to mini-batch SGDA-RR, recovering known rates for full-batch gradient descent-ascent (GDA). Lastly, we present a comprehensive lower bound for two-time-scale GDA, which matches the full-batch rate for primal-PŁ-PŁ case.</p>
+
+<h2 id="keywords">Keywords</h2>
+<p>Stochastic gradient descent-ascent(SGDA), without-replacement sampling, Random reshuffling (RR), SGDA-RR, finite-sum optimization, minimax optimization, nonconvex-PŁ, primal-PŁ-PŁ, convergence analysis,</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
 
 
 
-  </div>
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#minimax-optimization" class="page__taxonomy-item" rel="tag">minimax optimization</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#sgda" class="page__taxonomy-item" rel="tag">SGDA</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#shuffling-based" class="page__taxonomy-item" rel="tag">shuffling-based</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#without-replacement-sampling" class="page__taxonomy-item" rel="tag">without-replacement sampling</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/2022-10-12-sgda-with-shuffling" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/2022-10-12-sgda-with-shuffling" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/2022-10-12-sgda-with-shuffling" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
 </div>
 
 

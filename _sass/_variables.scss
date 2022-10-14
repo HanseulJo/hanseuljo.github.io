@@ -1,62 +1,12 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
-
-/* ==========================================================================
-   Contrast skin
-   ========================================================================== */
-
-/* Colors */
-$text-color: #000 !default;
-$muted-text-color: $text-color !default;
-$primary-color: #ff0000 !default;
-$border-color: mix(#fff, $text-color, 75%) !default;
-$footer-background-color: #000 !default;
-$link-color: #0092ca !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-
-/* contrast syntax highlighting (base16) */
-$base00: #000000 !default;
-$base01: #242422 !default;
-$base02: #484844 !default;
-$base03: #6c6c66 !default;
-$base04: #918f88 !default;
-$base05: #b5b3aa !default;
-$base06: #d9d7cc !default;
-$base07: #fdfbee !default;
-$base08: #ff6c60 !default;
-$base09: #e9c062 !default;
-$base0a: #ffffb6 !default;
-$base0b: #a8ff60 !default;
-$base0c: #c6c5fe !default;
-$base0d: #96cbfe !default;
-$base0e: #ff73fd !default;
-$base0f: #b18a3d !default;
-
-.page__content {
-  .notice,
-  .notice--primary,
-  .notice--info,
-  .notice--warning,
-  .notice--success,
-  .notice--danger {
-    color: $text-color;
-  }
-}
-
-.page__footer {
-  color: #000 !important; // override
-}
-
-.page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
-  color: inherit;
-}
-
-
-
+/* Color Theme Swatches in Hex */
+$HSCho-1: #2F5936;
+$HSCho-2: #407348;
+$HSCho-3: #C9D94E;
+$HSCho-4: #F2F2F2;
+$HSCho-5: #0D0D0D;
 
 /*
    Typography
@@ -109,18 +59,19 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : $HSCho-4;
+$background-color           : $HSCho-4;
+$code-background-color      : $HSCho-4;
 $code-background-color-dark : $light-gray;
-/*$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;*/
+$text-color                 : $HSCho-5;
+$muted-text-color           : $text-color;
+$border-color               : $lighter-gray;
 
-/*$primary-color              : #7a8288;*/
-$success-color              : #62c462;
+$primary-color              : $HSCho-2;
+$success-color              : #62a3c4;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : $HSCho-1;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -146,11 +97,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-/*$link-color                 : $info-color;*/
+$link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-/*$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);*/
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
