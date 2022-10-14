@@ -6,9 +6,9 @@ use_math: true
 toc:      true
 toc_sticky: true
 tags:
-  - Transformer
-  - Universal Approximation
-  - Theory
+  - transformer
+  - universal approximation
+  - theory
 ---
 
 
