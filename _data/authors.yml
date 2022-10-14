@@ -1,8 +1,8 @@
 # Authors
 
 me:
-  name        : "**Hanseul Cho**"
-  uri         : "http://hanseuljo.github.io/"
+  name        : "<b>Hanseul Cho</b>"
+  url         : "http://hanseuljo.github.io/"
   email       : 
   bio         : 
   avatar      : 
@@ -11,9 +11,13 @@ me:
 
 CY:
   name        : "Chulhee Yun"
-  uri         : "http://chulheeyun.github.io/"
+  url         : "http://chulheeyun.github.io/"
   email       : 
   bio         : 
   avatar      : 
   twitter     : 
   google_plus : 
+
+JO:
+  name: "Junsoo Oh"
+  url : "http://junsoo424.github.io/"

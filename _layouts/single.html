@@ -33,16 +33,54 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+        <!--Authors-->
+        {% if page.authors %}
+          <p>
+            <strong><i class="fas fa-fw fa-users" aria-hidden="true"></i> Authors:</strong>
+            {% assign authorCount = page.authors | size %}
+            {% if authorCount == 0 %}
+              No author
+            {% elsif authorCount == 1 %}
+              {{ page.authors | first }}
+            {% else %}
+              {% for authorid in page.authors %}
+                {% assign author = site.data.authors[authorid] %}
+                {% if forloop.first %}
+                  <a href="{{ author.url }}">{{ author.name }}</a>
+                {% elsif forloop.last %}
+                  and <a href="{{ author.url }}">{{ author.name }}</a>
+                {% else %}
+                  , <a href="{{ author.url }}">{{ author.name }}</a>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </p>
+        {% endif%}
         
+        <!---Venue, Date-->
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications'%}
+          <p class="page__date">
+            <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
+            <i>{{ page.venue }}</i>,
+            <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %Y" }}</time>
+          </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-             
+        <!--URL-->
+        {% if page.paperurl %}
+          <p>
+            <strong><i class="fa-solid fa-var-link"></i> URLs: </strong>
+            [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
+          </p>
+        {% endif %}
+
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
