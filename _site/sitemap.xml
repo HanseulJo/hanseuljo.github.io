@@ -25,10 +25,4 @@
 <url>
 <loc>http://localhost:4000/tags/</loc>
 </url>
-<url>
-<loc>http://localhost:4000/terms/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/markdown_generator/</loc>
-</url>
 </urlset>
