@@ -39,7 +39,7 @@ layout: default
         <!--Authors-->
         {% if page.authors %}
           <p>
-            <strong><i class="fas fa-fw fa-users" aria-hidden="true"></i> Authors:</strong>
+            👥<strong> Authors:</strong>
             {% assign authorCount = page.authors | size %}
             {% if authorCount == 0 %}
               No author
@@ -65,7 +65,7 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications'%}
           <p class="page__date">
-            <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
+            🗓<strong> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
             <i>{{ page.venue }}</i>,
             <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %Y" }}</time>
           </p>
@@ -78,15 +78,15 @@ layout: default
         <!--URL-->
         {% if page.paperurl %}
           <p>
-            <strong><i class="fa-solid fa-var-link"></i> URLs: </strong>
+            🔗<strong> URLs: </strong>
             [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
           </p>
         {% endif %}
 
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p>Citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+          <p>Citation: {{ page.citation }} </p>
         {% endif %}
 
         </header>

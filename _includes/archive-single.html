@@ -41,7 +41,7 @@
     <!--Authors-->
     {% if post.authors %}
       <p>
-        <strong><i class="fas fa-fw fa-users" aria-hidden="true"></i> Authors:</strong>
+        👥<strong> Authors:</strong>
         {% assign authorCount = post.authors | size %}
         {% if authorCount == 0 %}
           No author
@@ -67,7 +67,7 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications'%}
       <p class="page__date">
-        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
+        🗓<strong> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
         <i>{{ post.venue }}</i>,
         <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>
       </p>
@@ -86,7 +86,7 @@
     <!--URL-->
     {% if post.paperurl %}
       <p>
-        <strong><i class="fa-solid fa-var-link"></i> URLs: </strong>
+        🔗<strong> URLs: </strong>
         [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
       </p>
     {% endif %}
