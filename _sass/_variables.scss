@@ -63,9 +63,11 @@ $body-color                 : $HSCho-4;
 $background-color           : $HSCho-4;
 $code-background-color      : $HSCho-4;
 $code-background-color-dark : $light-gray;
+$footer-text-color          : $HSCho-4;
+$footer-background-color    : $HSCho-1;
 $text-color                 : $HSCho-5;
 $muted-text-color           : $text-color;
-$border-color               : $gray;
+$border-color               : $HSCho-1;
 
 $primary-color              : $HSCho-2;
 $success-color              : #62a3c4;
@@ -98,8 +100,8 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-hover           : mix(#000, $link-color, 50%);
+$link-color-visited         : mix(#fff, $link-color, 50%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 

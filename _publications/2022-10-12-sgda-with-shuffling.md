@@ -8,7 +8,9 @@ authors:
     - CY
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2210.05995'
-categories:
+categories: 
+    - arXiv preprint
+tags:
     - minimax optimization
     - SGDA
     - without-replacement sampling
