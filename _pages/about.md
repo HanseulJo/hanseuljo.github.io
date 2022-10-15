@@ -15,8 +15,8 @@ I am interested in optimization and machine learning, especially focusing on the
 
 Education
 ---
-- M.Sc. in Artificial Intelligence; KAIST (Seoul, South Korea); 2022-Current
-- B.Sc. in Mathematical Sciences; KAIST (Daejeon, South Korea); 2017-2022
+- M.Sc. in Artificial Intelligence  (KAIST, 2022 - Current)
+- B.Sc. in Mathematical Sciences  (KAIST,  2017 - 2022)
   - Minor in Computing Sciences / Summa Cum Laude
 
 News
@@ -28,4 +28,4 @@ Contact & Info
 ---
 📋 **Curriculum Vitae**: [Link to Overleaf](https://www.overleaf.com/read/jtgvjwhfmwxc)  
 📧 Email address: jhs4015 at kaist dot ac dot kr  
-💻 Github: [HanseulJo](https://github.com/HanseulJo)
+👨🏻‍💻 Github: [HanseulJo](https://github.com/HanseulJo)
