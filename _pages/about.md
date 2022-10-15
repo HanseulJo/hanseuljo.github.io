@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.Sc. student at [OptiML Lab](https://chulheeyun.github.io) in [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io).
+My name is Hanseul Cho(조한슬). I am an M.Sc. student at [OptiML Lab](https://chulheeyun.github.io) in [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io).
 Previously, I finished my BSc in Mathematical Sciences (major) and Computing Science (minor) at KAIST.  
 
 I am interested in optimization and machine learning, especially focusing on theoretical analysis of them.  
