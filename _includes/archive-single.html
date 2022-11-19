@@ -40,8 +40,8 @@
 
     <!--Authors-->
     {% if post.authors %}
-      <p>
-        👥<strong> Authors:</strong>
+      <p style="height: 10px;">
+        👥
         {% assign authorCount = post.authors | size %}
         {% if authorCount == 0 %}
           No author
@@ -62,18 +62,24 @@
       </p>
     {% endif%}
 
-    <!---Venue, Date-->
-    {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'publications'%}
-      <p class="page__date">
-        🗓<strong> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
-        <i>{{ post.venue }}</i>,
-        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>
+    <!---Venue-->
+    {% if post.collection == 'publications'%}
+      <p class="page__date" style="height: 10px;">
+        📜 
+        <i>{{ post.venue }}</i>
+        <!--<time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>-->
       </p>
     {% elsif post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
+
+    <!---Award-->
+    {% if post.collection == 'publications' and  post.award %}
+      <p style="height: 10px;">
+        🎉 {{ post.award }}
+      </p>
+    {% endif %}
+
     
     {% if post.collection == 'publications' %}
 
@@ -85,9 +91,8 @@
     
     <!--URL-->
     {% if post.paperurl %}
-      <p>
-        🔗<strong> URLs: </strong>
-        [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
+      <p style="height: 10px;">
+        🔗 [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
       </p>
     {% endif %}
 

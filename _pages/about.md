@@ -43,6 +43,7 @@ News
 ---
 
 <ul class="nobull">
+  <li>📰 [Nov 2022] Our <a href="https://arxiv.org/abs/2210.05995">paper</a> about shuffling-based stochastic gradient descent-ascent is accepted to <a href="http://aiassociation.kr">KAIA</a>-NAVER Joint Conference (2022 Fall) and selected as the <b>NAVER Best Theory Paper</b>!</li>
   <li>📰 [Oct 2022] I am happy to announce that our very first <a href="https://arxiv.org/abs/2210.05995">preprint</a> is now on arXiv!  It is about convergence analysis of shuffling-based stochastic gradient descent-ascent.</li>
   <li>📰 [Feb 2022] Finally, I am part of <a href="https://chulheeyun.github.io">OptiML Lab</a> of KAIST AI!</li>
 </ul>

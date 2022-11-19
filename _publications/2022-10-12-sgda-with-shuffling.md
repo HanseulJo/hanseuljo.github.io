@@ -6,10 +6,12 @@ date: 2022-10-12
 authors:
     - me
     - CY
-venue: 'arXiv preprint'
+venue: arXiv preprint
+award: <b>NAVER Best Theory Paper Award</b> at KAIA-NAVER Joint Conference (2022 Fall)
 paperurl: 'https://arxiv.org/abs/2210.05995'
 categories: 
-    - arXiv preprint
+    - arXiv
+    - KAIA
 tags:
     - minimax optimization
     - SGDA
