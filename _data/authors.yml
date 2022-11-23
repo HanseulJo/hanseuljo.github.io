@@ -3,21 +3,21 @@
 me:
   name        : "<b>Hanseul Cho</b>"
   url         : "http://hanseuljo.github.io/"
-  email       : 
-  bio         : 
-  avatar      : 
-  twitter     : 
-  google_plus : 
 
 CY:
   name        : "Chulhee Yun"
   url         : "http://chulheeyun.github.io/"
-  email       : 
-  bio         : 
-  avatar      : 
-  twitter     : 
-  google_plus : 
 
 JO:
   name: "Junsoo Oh"
   url : "http://junsoo424.github.io/"
+
+JL:
+  name: "Junghyun Lee"
+  url: "https://nick-jhlee.netlify.app"
+
+JC:
+  name: "Jaeyoung Cha"
+
+DS:
+  name: "Dongkuk Si"

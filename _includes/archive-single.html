@@ -13,6 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
+  <hr> <!--horizontal line-->
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -40,22 +41,21 @@
 
     <!--Authors-->
     {% if post.authors %}
-      <p style="height: 10px;">
+      <p>
         👥
         {% assign authorCount = post.authors | size %}
         {% if authorCount == 0 %}
           No author
         {% elsif authorCount == 1 %}
-          {{ post.authors | first }}
+          {% assign author = site.data.authors[post.authors.first] %}
+          <a href="{{ author.url }}">{{ author.name }}</a>
         {% else %}
           {% for authorid in post.authors %}
             {% assign author = site.data.authors[authorid] %}
-            {% if forloop.first %}
-              <a href="{{ author.url }}">{{ author.name }}</a>
-            {% elsif forloop.last %}
+            {% if forloop.last %}
               and <a href="{{ author.url }}">{{ author.name }}</a>
             {% else %}
-              , <a href="{{ author.url }}">{{ author.name }}</a>
+              <a href="{{ author.url }}">{{ author.name }}</a>{% if authorCount != 2 %},{% endif %}
             {% endif %}
           {% endfor %}
         {% endif %}
@@ -64,7 +64,7 @@
 
     <!---Venue-->
     {% if post.collection == 'publications'%}
-      <p class="page__date" style="height: 10px;">
+      <p class="page__date">
         📜 
         <i>{{ post.venue }}</i>
         <!--<time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>-->
@@ -75,9 +75,7 @@
 
     <!---Award-->
     {% if post.collection == 'publications' and  post.award %}
-      <p style="height: 10px;">
-        🎉 {{ post.award }}
-      </p>
+      <p>🎉 {{ post.award }} </p>
     {% endif %}
 
     
@@ -91,7 +89,7 @@
     
     <!--URL-->
     {% if post.paperurl %}
-      <p style="height: 10px;">
+      <p>
         🔗 [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
       </p>
     {% endif %}
@@ -103,4 +101,6 @@
     {% endif %}
 
   </article>
+
+  
 </div>
