@@ -50,6 +50,6 @@ News
 
 Contact & Info
 ---
-📋 **Curriculum Vitae**: [Link to Overleaf](https://www.overleaf.com/read/jtgvjwhfmwxc)  
+📋 **Curriculum Vitae**: [Link to Overleaf](https://www.overleaf.com/read/pmkhfyywpjnt)  
 📧 Email address: jhs4015 at kaist dot ac dot kr  
 👨🏻‍💻 Github: [HanseulJo](https://github.com/HanseulJo)
