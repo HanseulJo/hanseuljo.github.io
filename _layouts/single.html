@@ -27,14 +27,12 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
+          <!--{% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
+          {% endif %}-->
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-
-        
 
         <!--Authors-->
         {% if page.authors %}
@@ -61,18 +59,15 @@ layout: default
         {% endif%}
         
         <!---Venue, Date-->
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.collection == 'publications'%}
+        {% if page.venue and page.date %}
           <p class="page__date">
-            🗓<strong> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
-            <i>{{ page.venue }}</i>,
+            📜
+            <i>{{ page.venue }}</i>
+            &nbsp; 🗓
             <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %Y" }}</time>
           </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date">🗓 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
         <!--URL-->
@@ -99,12 +94,11 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
-
+      
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 

@@ -1,4 +1,5 @@
-# main links links
+# Navigation bar on the top of the page
+
 main:
   - title: "About"
     url: /about/
@@ -6,5 +7,5 @@ main:
   - title: "Publications"
     url: /publications/
     
-  #- title: "Posts"
-  #  url: /posts/
+  - title: "Posts"
+    url: /posts/
