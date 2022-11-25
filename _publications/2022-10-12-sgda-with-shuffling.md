@@ -1,7 +1,7 @@
 ---
 title: "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization"
 collection: publications
-permalink: /publication/2022-10-12-sgda-with-shuffling
+permalink: /publication/sgda-with-shuffling
 date: 2022-10-12
 authors:
     - me
