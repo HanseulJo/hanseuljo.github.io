@@ -23,7 +23,7 @@ gray { color: gray; font-size: 75%;}
 }
 </style>
 
-My name is Hanseul Cho(조한슬). I am an M.Sc. candidate in the [Optimization & Machine Learning(OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of Artificial Intelligence](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
+My name is Hanseul Cho(조한슬). I am an M.Sc. student in the [Optimization & Machine Learning(OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of Artificial Intelligence](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
 Previously, I finished my BSc in Mathematical Sciences (major) and Computing Sciences (minor) at KAIST.  
 
 I am interested in optimization and machine learning, especially focusing on theoretical analysis of them.  
