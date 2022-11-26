@@ -63,15 +63,17 @@
 
     <!---Venue, Date, URL-->
     <p>
-      {% if post.venue %}
-      📜 <i>{{ post.venue }}</i>
-      {% endif %}
       {% if post.date %}
-      &nbsp; &nbsp; 🗓
-      <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+      🗓
+      <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
+      &nbsp; &nbsp; 
+      {% endif %}
+      {% if post.venue %}
+      📜 <i>{{ post.venue }}</i> 
+      &nbsp; &nbsp; 
       {% endif %}
       {% if post.paperurl %}
-      &nbsp; &nbsp; 🔗 [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
+      🔗 [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
       {% endif %}
     </p>
     

@@ -37,13 +37,13 @@ layout: default
         <!--Authors-->
         {% if page.authors %}
           <p>
-            👥<strong> Authors:</strong>
             {% assign authorCount = page.authors | size %}
             {% if authorCount == 0 %}
               No author
             {% elsif authorCount == 1 %}
-              {{ page.authors | first }}
+              👤 {{ page.authors | first }}
             {% else %}
+              👥
               {% for authorid in page.authors %}
                 {% assign author = site.data.authors[authorid] %}
                 {% if forloop.first %}
@@ -58,25 +58,21 @@ layout: default
           </p>
         {% endif%}
         
-        <!---Venue, Date-->
-        {% if page.venue and page.date %}
-          <p class="page__date">
-            📜
-            <i>{{ page.venue }}</i>
-            &nbsp; 🗓
-            <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %Y" }}</time>
-          </p>
-        {% elsif page.date %}
-          <p class="page__date">🗓 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        <!--URL-->
-        {% if page.paperurl %}
-          <p>
-            🔗<strong> URLs: </strong>
-            [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
-          </p>
-        {% endif %}
+        <!---Date, Venue, URL-->
+        <p>
+          {% if page.date %}
+          🗓
+          <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
+          &nbsp; &nbsp; 
+          {% endif %}
+          {% if page.venue %}
+          📜 <i>{{ page.venue }}</i> 
+          &nbsp; &nbsp; 
+          {% endif %}
+          {% if page.paperurl %}
+          🔗 [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
+          {% endif %}
+        </p>
 
         {% if page.citation and page.paperurl %}
           <p>Citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
