@@ -7,7 +7,7 @@ authors:
     - me
     - CY
 venue: arXiv preprint
-award: <b>NAVER Outstanding Theory Paper Award</b> at KAIA-NAVER Joint Conference (2022 Fall)
+award: <b>NAVER Outstanding Theory Paper Award</b> at 2022 KAIA-NAVER Autumnal Joint Conference
 paperurl: 'https://arxiv.org/abs/2210.05995'
 categories: 
     - arXiv
