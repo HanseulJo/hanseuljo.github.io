@@ -54,4 +54,3 @@ Contact & Info
 
 📋 **Curriculum Vitae**: [Here](../files/Curriculum_Vitae__Hanseul_Cho.pdf)  
 📧 Email address: jhs4015 at kaist dot ac dot kr  
-👨🏻‍💻 Github: [HanseulJo](https://github.com/HanseulJo)
