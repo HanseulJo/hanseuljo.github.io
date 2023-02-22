@@ -84,7 +84,7 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 
 논문에서는 Trasformer의 이런저런 universal approximation 능력을 증명하려 하는데, 그 과정 중에 ‘(multi-head) self-attention layers가 contextual mapping을 잘 계산한다’는 것을 증명하는 게 정말 중요한 중간 과정이라고 한다. 이를 위해 논문에서는 contextual mapping의 개념을 아예 수식적으로 정의해버린 뒤에 이를 증명에 이용한다. 논문에서 주어진 정의는 다음과 같다.
 
-![transformer-formula.jpeg](/assets/img/papers/trasformer-formula.jpeg)
+![contextual-mapping.jpeg](/assets/img/papers/contextual-mapping.jpeg)
 
 즉 contextual mapping은 길이 $n$인 input sequence를 받아 $n$개의 값 (혹은 $n$차원 열벡터)를 내놓는 함수로 정의된다. 이때 한 문장(sequence) 안의 단어들은 서로 다른 역할을 하므로 각각 다른 context값(contextual mapping의 entry)이 매겨진다(1번 조건). 게다가, 같은 단어라도 다른 문장에서는 다른 의미로 해석된다는 의미에서, 서로 다른 두 input sequence(L, L’)에 대한 contextual mapping에 있는 모든 (총 2n개의) entry들은 전부 다르게 매겨진다(2번 조건).
 
@@ -109,7 +109,7 @@ Sequence의 순서를 뒤섞는 일을 함수에 대입하기 전에 하나 후�
 
 아래는 논문에서 사용한 transformer block에 대한 식이다.
 
-![contextual-mapping.jpeg](/assets/img/papers/contextual-mapping.jpeg)
+![transformer-formula.jpeg](/assets/img/papers/trasformer-formula.jpeg)
 
 잘 알려져 있듯, transformer encoder block은 multi-head self-attention layer(’Attn’)와 token-wise feed-forward layer(’FF’)라는 두 (sub-)layer로 나뉜다.
 
