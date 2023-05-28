@@ -46,12 +46,19 @@ layout: default
               👥
               {% for authorid in page.authors %}
                 {% assign author = site.data.authors[authorid] %}
-                {% if forloop.first %}
-                  <a href="{{ author.url }}">{{ author.name }}</a>
-                {% elsif forloop.last %}
-                  and <a href="{{ author.url }}">{{ author.name }}</a>
+                {% if forloop.last %}
+                  {% if author %}
+                    and <a href="{{ author.url }}">{{ author.name }}</a>
+                  {% else %}
+                    and {{ authorid }}
+                  {% endif %}
                 {% else %}
-                  , <a href="{{ author.url }}">{{ author.name }}</a>
+                  {% if author %}
+                    <a href="{{ author.url }}">{{ author.name }}</a>
+                  {% else %}
+                    {{ authorid }}
+                  {% endif %}
+                  {% if authorCount != 2 %},{% endif %}
                 {% endif %}
               {% endfor %}
             {% endif %}

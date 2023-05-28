@@ -4,6 +4,8 @@ me:
   name        : "<b>Hanseul Cho</b>"
   url         : "http://hanseuljo.github.io/"
 
+############## OptiML ##############
+
 CY:
   name        : "Chulhee Yun"
   url         : "http://chulheeyun.github.io/"
@@ -21,3 +23,33 @@ JC:
 
 DS:
   name: "Dongkuk Si"
+
+JwL:
+  name: "Jaewook Lee"
+  url: "https://id8198.github.io/"
+
+############## OSI ##############
+
+SY:
+  name: "Se-young Yun"
+  url: "https://fbsqkd.github.io"
+
+JoonkeeKim:
+  name: "Joonkee Kim"
+
+############## Etc ##############
+
+JaegulChoo:
+  name: "Jaegul Choo"
+  url: "https://sites.google.com/site/jaegulchoo/"
+
+HojoonLee:
+  name: "Hojoon Lee"
+
+HyunseungKim:
+  name: "Hyunseung Kim"
+
+DaehoonGwak:
+  name: "Daehoon Gwak"
+
+

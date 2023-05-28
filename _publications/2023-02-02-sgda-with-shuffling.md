@@ -2,11 +2,11 @@
 title: "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization"
 collection: publications
 permalink: /publication/sgda-with-shuffling
-date: 2022-10-12
+date: 2023-02-02
 authors:
-    - me
+    - <b>Hanseul Cho</b>
     - CY
-venue: ICLR 2023
+venue: <b>ICLR 2023</b>
 award: <b>NAVER Outstanding Theory Paper Award</b> at 2022 KAIA-NAVER Autumnal Joint Conference
 paperurl: 'https://openreview.net/forum?id=6xXtM8bFFJ'  # https://arxiv.org/abs/2210.05995
 categories: 

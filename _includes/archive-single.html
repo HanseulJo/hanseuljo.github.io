@@ -47,14 +47,27 @@
           No author
         {% elsif authorCount == 1 %}
           {% assign author = site.data.authors[post.authors.first] %}
-          <a href="{{ author.url }}">{{ author.name }}</a>
+          {% if author %}
+            <a href="{{ author.url }}">{{ author.name }}</a>
+          {% else %}
+            authorid
+          {% endif %}
         {% else %}
           {% for authorid in post.authors %}
             {% assign author = site.data.authors[authorid] %}
             {% if forloop.last %}
-              and <a href="{{ author.url }}">{{ author.name }}</a>
+              {% if author %}
+                and <a href="{{ author.url }}">{{ author.name }}</a>
+              {% else %}
+                and {{ authorid }}
+              {% endif %}
             {% else %}
-              <a href="{{ author.url }}">{{ author.name }}</a>{% if authorCount != 2 %},{% endif %}
+              {% if author %}
+                <a href="{{ author.url }}">{{ author.name }}</a>
+              {% else %}
+                {{ authorid }}
+              {% endif %}
+              {% if authorCount != 2 %},{% endif %}
             {% endif %}
           {% endfor %}
         {% endif %}
@@ -63,13 +76,13 @@
 
     <!---Venue, Date, URL-->
     <p>
+      {% if post.venue %}
+      📜 <i>{{ post.venue }}</i> 
+      &nbsp; &nbsp; 
+      {% endif %}
       {% if post.date %}
       🗓
       <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
-      &nbsp; &nbsp; 
-      {% endif %}
-      {% if post.venue %}
-      📜 <i>{{ post.venue }}</i> 
       &nbsp; &nbsp; 
       {% endif %}
       {% if post.paperurl %}
