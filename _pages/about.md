@@ -23,8 +23,7 @@ gray { color: gray; font-size: 75%;}
 }
 </style>
 
-My name is Hanseul Cho(조한슬). I am an M.Sc. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
-Previously, I finished my BSc in Mathematical Sciences (major) and Computing Sciences (minor) at KAIST.  
+My name is Hanseul Cho(조한슬). I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
 
 I am interested in optimization and machine learning, especially focusing on theoretical analysis of them.  
 
@@ -32,8 +31,9 @@ Education
 ---
 
 <ul class="nobull">
-  <li>🏫 M.Sc. in Artificial Intelligence <gray>KAIST, 2022 - Current</gray></li>
-  <li>🏫 B.Sc. in Mathematical Sciences <gray>KAIST,  2017 - 2022</gray></li>
+  <li>🏫 Ph.D. in Artificial Intelligence <gray>KAIST, Sept. 2023 - Current</gray></li>
+  <li>🏫 M.Sc. in Artificial Intelligence <gray>KAIST, Mar. 2022 - Aug. 2023</gray></li>
+  <li>🏫 B.Sc. in Mathematical Sciences <gray>KAIST, Mar. 2017 - Feb. 2022</gray></li>
     <ul class="nobull2" style="color:gray">
     <li>Minor in Computing Sciences / Summa Cum Laude</li>
     </ul>
