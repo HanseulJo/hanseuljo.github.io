@@ -5,21 +5,21 @@ var store = [{
         "url": "/posts/are-transformer-universal-approximators-of-sequence-to-sequence-functions/",
         "teaser": null
       },{
-        "title": "Fair Streaming Principal Component Analysis: Statistical and Algorithmic Viewpoint",
-        "excerpt":"Abstract   TBD   Keywords   TBD  ","categories": ["Submitted"],
-        "tags": [],
-        "url": "/publication/fair-streaming-pca",
-        "teaser": null
-      },{
-        "title": "Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning",
-        "excerpt":"Abstract   TBD   Keywords   TBD  ","categories": ["Submitted"],
-        "tags": [],
-        "url": "/publication/generalization-and-plasticity-in-rl",
-        "teaser": null
-      },{
         "title": "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization",
         "excerpt":"Abstract Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone setups....","categories": ["ICLR","KAIA"],
         "tags": ["minimax optimization","SGDA","without-replacement sampling","shuffling-based"],
         "url": "/publication/sgda-with-shuffling",
+        "teaser": null
+      },{
+        "title": "Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning",
+        "excerpt":"Abstract In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead to overfitting, which decreases the network’s ability to...","categories": ["Submitted"],
+        "tags": ["arXiv"],
+        "url": "/publication/generalization-and-plasticity-in-rl",
+        "teaser": null
+      },{
+        "title": "Fair Streaming Principal Component Analysis: Statistical and Algorithmic Viewpoint",
+        "excerpt":"Abstract   TBD   Keywords   TBD  ","categories": ["Submitted"],
+        "tags": [],
+        "url": "/publication/fair-streaming-pca",
         "teaser": null
       },]
