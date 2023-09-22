@@ -2,7 +2,7 @@
 title: "Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning"
 collection: publications
 permalink: /publication/generalization-and-plasticity-in-rl
-date: 2023-06-19
+date: 2023-09-22
 authors:
     - Hojoon Lee*
     - <b>Hanseul Cho</b>*
@@ -12,13 +12,17 @@ authors:
     - JaegulChoo
     - SY
     - CY
-venue: Submitted
+venue: <b>NeurIPS 2023</b>
 award: 
 paperurl: https://arxiv.org/abs/2306.10711
 categories: 
-    - Submitted
+    - NeurIPS
+    - KAIA
 tags:
-    - arXiv
+    - Reinforcement Learning
+    - Plasticity
+    - Sharpness-aware Minimization
+    - Reset Mechanism
 ---
 
 ## Abstract
@@ -27,4 +31,4 @@ In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particul
 
 ## Keywords
 
-Reinforcement Learning, Generalization, Plasticity, Sharpness-aware Minimization, Reset mechanism
+Reinforcement Learning, Plasticity, Sharpness-aware Minimization, Reset mechanism
