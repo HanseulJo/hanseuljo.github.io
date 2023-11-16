@@ -4,19 +4,20 @@ collection: publications
 permalink: /publication/fair-streaming-pca
 date: 2023-09-22
 authors:
-    - Junghyun Lee*
+    - <a href="https://nick-jhlee.netlify.app">Junghyun Lee</a>*
     - <b>Hanseul Cho</b>*
     - SY
     - CY
 venue: <b>NeurIPS 2023</b>
 award: 
-paperurl: 
+paperurl: https://arxiv.org/abs/2310.18593
 categories: 
     - NeurIPS
     - KAIA
 tags:
     - Fairness
-    - Streaming PCA
+    - Streaming
+    - Principal Component Analysis (PCA)
     - Unsupervised Learnability
 ---
 

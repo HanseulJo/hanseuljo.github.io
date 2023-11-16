@@ -19,7 +19,7 @@
 
 
 
-<title>Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning - Hanseul Cho</title>
+<title>PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning - Hanseul Cho</title>
 
 
 
@@ -29,11 +29,11 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Hanseul Cho">
-<meta property="og:title" content="Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning">
+<meta property="og:title" content="PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/generalization-and-plasticity-in-rl">
-  <meta property="og:url" content="http://localhost:4000/publication/generalization-and-plasticity-in-rl">
+  <link rel="canonical" href="http://localhost:4000/publication/PLASTIC">
+  <meta property="og:url" content="http://localhost:4000/publication/PLASTIC">
 
 
 
@@ -42,9 +42,9 @@
 
 
   <meta name="twitter:site" content="@hanseuljo">
-  <meta name="twitter:title" content="Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning">
+  <meta name="twitter:title" content="PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning">
   <meta name="twitter:description" content="Abstract">
-  <meta name="twitter:url" content="http://localhost:4000/publication/generalization-and-plasticity-in-rl">
+  <meta name="twitter:url" content="http://localhost:4000/publication/PLASTIC">
 
   
     <meta name="twitter:card" content="summary">
@@ -64,7 +64,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-06-19T00:00:00+09:00">
+  <meta property="article:published_time" content="2023-09-22T00:00:00+09:00">
 
 
 
@@ -247,15 +247,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning">
+    <meta itemprop="headline" content="PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning">
     <meta itemprop="description" content="Abstract">
-    <meta itemprop="datePublished" content="June 19, 2023">
+    <meta itemprop="datePublished" content="September 22, 2023">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning
+          <h1 class="page__title" itemprop="headline">PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning
 </h1>
           <!---->
         
@@ -318,7 +318,7 @@
                 
                 
                   
-                    <a href="https://fbsqkd.github.io">Se-young Yun</a>
+                    <a href="https://fbsqkd.github.io">Se-Young Yun</a>
                   
                   ,
                 
@@ -338,11 +338,11 @@
         <p>
           
           🗓
-          <time datetime="2023-06-19T00:00:00+09:00"> June 19, 2023</time> 
+          <time datetime="2023-09-22T00:00:00+09:00"> September 22, 2023</time> 
           &nbsp; &nbsp; 
           
           
-          📜 <i>Submitted</i> 
+          📜 <i><b>NeurIPS 2023</b></i> 
           &nbsp; &nbsp; 
           
           
@@ -376,7 +376,19 @@
     
       
       
-      <a href="http://localhost:4000/tags/#arxiv" class="page__taxonomy-item" rel="tag">arXiv      </a>
+      <a href="http://localhost:4000/tags/#plasticity" class="page__taxonomy-item" rel="tag">Plasticity</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#reinforcement-learning" class="page__taxonomy-item" rel="tag">Reinforcement Learning</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#reset-mechanism" class="page__taxonomy-item" rel="tag">Reset Mechanism      </a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#sharpness-aware-minimization" class="page__taxonomy-item" rel="tag">Sharpness-aware Minimization</a>
     
     </span>
   </p>
@@ -401,7 +413,11 @@
     
       
       
-      <a href="http://localhost:4000/categories/#submitted" class="page__taxonomy-item" rel="tag">Submitted</a>
+      <a href="http://localhost:4000/categories/#kaia" class="page__taxonomy-item" rel="tag">KAIA</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/categories/#neurips" class="page__taxonomy-item" rel="tag">NeurIPS</a>
     
     </span>
   </p>
@@ -412,11 +428,19 @@
       <section class="page__content" itemprop="text">
         <h2 id="abstract">Abstract</h2>
 
-<p>In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead to overfitting, which decreases the network’s ability to adapt to new data. We conduct an empirical analysis of this challenge and find that generalizability and plasticity constitute different roles in improving the model’s adaptability. In response, we propose a combined usage of Sharpness-Aware Minimization (SAM) and a reset mechanism. SAM seeks wide, smooth minima, improving generalization, while the reset mechanism, through periodic reinitialization of the last few layers, consistently injects plasticity into the model. Through extensive empirical studies, we demonstrate that this combined usage improves sample efficiency and computational cost on the Atari-100k and DeepMind Control Suite benchmarks.</p>
+<p>In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky.
+In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction.
+However, these multiple updates often lead the model to overfit to earlier interactions, which is referred to as the <em>loss of plasticity</em>.
+Our study investigates the underlying causes of this phenomenon by dividing plasticity into two aspects. <em>Input plasticity</em>, which denotes the model’s adaptability to changing input data, and <em>label plasticity</em>, which denotes the model’s adaptability to evolving input-output relationships.
+Synthetic experiments on the CIFAR-10 dataset reveal that finding smoother minima of loss landscape enhances input plasticity, whereas refined gradient propagation improves label plasticity.
+Leveraging these findings, we introduce the <strong>PLASTIC</strong> algorithm which harmoniously combines techniques to address both concerns.
+With minimal architectural modifications, PLASTIC achieves competitive performance on benchmarks including Atari-100k and Deepmind Control Suite.
+This result emphasizes the importance of preserving the model’s plasticity to elevate the sample efficiency in RL.
+The code is available at <a href="https://github.com/dojeon-ai/plastic">https://github.com/dojeon-ai/plastic</a>.</p>
 
 <h2 id="keywords">Keywords</h2>
 
-<p>Reinforcement Learning, Generalization, Plasticity, Sharpness-aware Minimization, Reset mechanism</p>
+<p>Reinforcement Learning, Plasticity, Sharpness-aware Minimization, Reset mechanism</p>
 
         
       </section>
@@ -428,11 +452,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/generalization-and-plasticity-in-rl" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/PLASTIC" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/generalization-and-plasticity-in-rl" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/PLASTIC" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/generalization-and-plasticity-in-rl" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/PLASTIC" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       

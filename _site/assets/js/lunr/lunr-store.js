@@ -11,15 +11,15 @@ var store = [{
         "url": "/publication/sgda-with-shuffling",
         "teaser": null
       },{
-        "title": "Enhancing Generalization and Plasticity for Sample Efficient Reinforcement Learning",
-        "excerpt":"Abstract In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead to overfitting, which decreases the network’s ability to...","categories": ["Submitted"],
-        "tags": ["arXiv"],
-        "url": "/publication/generalization-and-plasticity-in-rl",
+        "title": "PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning",
+        "excerpt":"Abstract In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead the model to overfit to earlier interactions, which...","categories": ["NeurIPS","KAIA"],
+        "tags": ["Reinforcement Learning","Plasticity","Sharpness-aware Minimization","Reset Mechanism"],
+        "url": "/publication/PLASTIC",
         "teaser": null
       },{
         "title": "Fair Streaming Principal Component Analysis: Statistical and Algorithmic Viewpoint",
-        "excerpt":"Abstract   TBD   Keywords   TBD  ","categories": ["Submitted"],
-        "tags": [],
+        "excerpt":"Abstract Fair Principal Component Analysis (PCA) is a problem setting where we aim to perform PCA while making the resulting representation fair in that the projected distributions, conditional on the sensitive attributes, match one another. However, existing approaches to fair PCA have two main problems: theoretically, there has been no...","categories": ["NeurIPS","KAIA"],
+        "tags": ["Fairness","Streaming","Principal Component Analysis (PCA)","Unsupervised Learnability"],
         "url": "/publication/fair-streaming-pca",
         "teaser": null
       },]

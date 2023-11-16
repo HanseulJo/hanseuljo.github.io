@@ -8,7 +8,7 @@ authors:
     - CY
 venue: <b>ICLR 2023</b>
 award: <b>NAVER Outstanding Theory Paper Award</b> at 2022 KAIA-NAVER Autumnal Joint Conference
-paperurl: 'https://openreview.net/forum?id=6xXtM8bFFJ'  # https://arxiv.org/abs/2210.05995
+paperurl: https://arxiv.org/abs/2210.05995
 categories: 
     - ICLR
     - KAIA
