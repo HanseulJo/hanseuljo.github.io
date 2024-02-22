@@ -49,8 +49,8 @@ News
 ---
 
 <ul class="nobull">
-  <li>📰 [Sep. '22] Two papers are accepted to NeurIPS 2023! 🎉 One is about <a href="https://arxiv.org/abs/2310.18593">Fair Streaming PCA</a> and another is about <a href="https://arxiv.org/abs/2306.10711">enhancing plasticity in RL</a>.</li>
-  <li>📰 [Jan. '22] Our <a href="https://openreview.net/forum?id=6xXtM8bFFJ">paper</a> about shuffling-based stochastic gradient descent-ascent got accepted to ICLR 2023! 🎉</li>
+  <li>📰 [Sep. '23] Two papers are accepted to NeurIPS 2023! 🎉 One is about <a href="https://arxiv.org/abs/2310.18593">Fair Streaming PCA</a> and another is about <a href="https://arxiv.org/abs/2306.10711">enhancing plasticity in RL</a>.</li>
+  <li>📰 [Jan. '23] Our <a href="https://openreview.net/forum?id=6xXtM8bFFJ">paper</a> about shuffling-based stochastic gradient descent-ascent got accepted to ICLR 2023! 🎉</li>
   <li>📰 [Nov. '22] Our <a href="https://arxiv.org/abs/2210.05995">paper</a> about shuffling-based stochastic gradient descent-ascent is accepted to 2022 <a href="http://aiassociation.kr">Korea AI Association</a> + <a href="https://www.navercorp.com/en">NAVER</a> Autumnal Joint Conference (JKAIA 2022) and selected as the <b>NAVER Outstanding Theory Paper</b>! </li>
   <li>📰 [Oct. '22] I am happy to announce that our very first <a href="https://arxiv.org/abs/2210.05995">preprint</a> is now on arXiv!  It is about convergence analysis of shuffling-based stochastic gradient descent-ascent. </li>
   <li>📰 [Feb. '22] Now I am part of <a href="https://chulheeyun.github.io">OptiML Lab</a> of KAIST AI. </li>
