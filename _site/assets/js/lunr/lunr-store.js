@@ -24,7 +24,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Fundamental Benefit of Alternating Updates in Minimax Optimization",
-        "excerpt":"Abstract The Gradient Descent-Ascent (GDA) algorithm, designed to solve minimax optimization problems, takes the descent and ascent steps either simultaneously (Sim-GDA) or alternately (Alt-GDA). While Alt-GDA is commonly observed to converge faster, the performance gap between the two is not yet well understood theoretically, especially in terms of global convergence...","categories": ["Arxiv"],
+        "excerpt":"Abstract The Gradient Descent-Ascent (GDA) algorithm, designed to solve minimax optimization problems, takes the descent and ascent steps either simultaneously (Sim-GDA) or alternately (Alt-GDA). While Alt-GDA is commonly observed to converge faster, the performance gap between the two is not yet well understood theoretically, especially in terms of global convergence...","categories": ["Arxiv","ICLR 2024 Workshop"],
         "tags": ["minimax optimization","Gradient Descent-Ascent (GDA)","Alex-GDA"],
         "url": "/publication/Alex-GDA",
         "teaser": null
