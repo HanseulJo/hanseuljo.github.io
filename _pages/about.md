@@ -49,6 +49,8 @@ News
 ---
 
 <ul class="nobull">
+  <li>📰 [May. '24] Our <a href="https://arxiv.org/abs/2405.20671">preprint</a> on improving length generalization of Transformers for arithmetic/algorithmic tasks is now available! We have both experimental and THEORETICAL results.</li>
+  <li>📰 [May. '24] A <a href="https://openreview.net/forum?id=s6ZAT8MLKU">paper</a> got accepted to ICML 2024! 🎉 We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization.</li>
   <li>📰 [Sep. '23] Two papers are accepted to NeurIPS 2023! 🎉 One is about <a href="https://arxiv.org/abs/2310.18593">Fair Streaming PCA</a> and another is about <a href="https://arxiv.org/abs/2306.10711">enhancing plasticity in RL</a>.</li>
   <li>📰 [Jan. '23] Our <a href="https://openreview.net/forum?id=6xXtM8bFFJ">paper</a> about shuffling-based stochastic gradient descent-ascent got accepted to ICLR 2023! 🎉</li>
   <li>📰 [Nov. '22] Our <a href="https://arxiv.org/abs/2210.05995">paper</a> about shuffling-based stochastic gradient descent-ascent is accepted to 2022 <a href="http://aiassociation.kr">Korea AI Association</a> + <a href="https://www.navercorp.com/en">NAVER</a> Autumnal Joint Conference (JKAIA 2022) and selected as the <b>NAVER Outstanding Theory Paper</b>! </li>
