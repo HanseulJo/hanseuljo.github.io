@@ -25,7 +25,7 @@ gray { color: gray; font-size: 75%;}
 
 My name is Hanseul Cho(조한슬). I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
 
-I am interested in a broad range of fields in optimization and machine learning (ML), especially theoretical analysis and/or empirically finding out "why." In particular, I am into hierarchical optimization (e.g., minimax/bi-level optimization), optimization with constraints (e.g., fairness in ML), and optimization under circumstance shifts (e.g., reinforcement learning and continual learning).  
+I am interested in a broad range of fields in optimization and machine learning (ML), especially theoretical analysis and/or empirically finding out "why." In particular, I am into hierarchical optimization (e.g., minimax optimization), optimization with constraints (e.g., fairness in ML), optimization under circumstance shifts (e.g., reinforcement learning and continual learning), and training Transformers.  
 
 Education
 ---
@@ -49,8 +49,8 @@ News
 ---
 
 <ul class="nobull">
-  <li>📰 [May. '24] Our <a href="https://arxiv.org/abs/2405.20671">preprint</a> on improving length generalization of Transformers for arithmetic/algorithmic tasks is now available! We have both experimental and THEORETICAL results.</li>
-  <li>📰 [May. '24] A <a href="https://openreview.net/forum?id=s6ZAT8MLKU">paper</a> got accepted to ICML 2024! 🎉 We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization.</li>
+  <li>📰 [Jun. '24] An early version of our <a href="https://arxiv.org/abs/2405.20671">paper</a> on length generalization of Transformers got accepted to the ICML 2024 Workshop on <a href="https://longcontextfm.github.io/">Long-Context Foundation Models</a>!</li>
+  <li>📰 [May. '24] A <a href="https://openreview.net/forum?id=s6ZAT8MLKU">paper</a> got accepted to ICML 2024 as a <b>spotlight paper</b> (top 3.5% among all submissions)! 🎉 We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization.</li>
   <li>📰 [Sep. '23] Two papers are accepted to NeurIPS 2023! 🎉 One is about <a href="https://arxiv.org/abs/2310.18593">Fair Streaming PCA</a> and another is about <a href="https://arxiv.org/abs/2306.10711">enhancing plasticity in RL</a>.</li>
   <li>📰 [Jan. '23] Our <a href="https://openreview.net/forum?id=6xXtM8bFFJ">paper</a> about shuffling-based stochastic gradient descent-ascent got accepted to ICLR 2023! 🎉</li>
   <li>📰 [Nov. '22] Our <a href="https://arxiv.org/abs/2210.05995">paper</a> about shuffling-based stochastic gradient descent-ascent is accepted to 2022 <a href="http://aiassociation.kr">Korea AI Association</a> + <a href="https://www.navercorp.com/en">NAVER</a> Autumnal Joint Conference (JKAIA 2022) and selected as the <b>NAVER Outstanding Theory Paper</b>! </li>

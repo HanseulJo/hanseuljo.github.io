@@ -10,11 +10,12 @@ authors:
     - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>
     - <a href="https://cs.nyu.edu/~anupamg/">Anupam Gupta</a>
     - CY
-venue: ArXiv
+venue: <b>ICML 2024 Workshop</b> on Long-Context Foundation Models (LCFM)
 award: 
 paperurl: https://arxiv.org/abs/2402.10475
 categories: 
     - Arxiv
+    - ICML Workshop
 tags:
     - Transformers
     - Length Generalization
