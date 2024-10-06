@@ -14,8 +14,16 @@ JO:
   name: "Junsoo Oh"
   url : "http://junsoo424.github.io/"
 
+JO*:
+  name: "Junsoo Oh*"
+  url : "http://junsoo424.github.io/"
+
 JL:
   name: "Junghyun Lee"
+  url: "https://nick-jhlee.netlify.app"
+
+JL*:
+  name: "Junghyun Lee*"
   url: "https://nick-jhlee.netlify.app"
 
 JC:
@@ -26,6 +34,10 @@ DS:
 
 JwL:
   name: "Jaewook Lee"
+  url: "https://id8198.github.io/"
+
+JwL*:
+  name: "Jaewook Lee*"
   url: "https://id8198.github.io/"
 
 ############## OSI ##############

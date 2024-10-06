@@ -2,7 +2,7 @@
 title: "Position Coupling: Leveraging Task Structure for Improved Length Generalization of Transformers"
 collection: publications
 permalink: /publication/Position-Coupling
-date: 2024-05-31
+date: 2024-09-26
 authors:
     - <b>Hanseul Cho</b>*
     - Jaeyoung Cha*
@@ -10,11 +10,12 @@ authors:
     - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>
     - <a href="https://cs.nyu.edu/~anupamg/">Anupam Gupta</a>
     - CY
-venue: <b>ICML 2024 Workshop</b> on Long-Context Foundation Models (LCFM)
+venue: <b>NeurIPS 2024</b> (Short version at <b>ICML 2024 Workshop</b> on Long-Context Foundation Models (LCFM))
 award: 
-paperurl: https://arxiv.org/abs/2402.10475
+paperurl: https://arxiv.org/abs/2405.20671
 categories: 
     - Arxiv
+    - NeurIPS
     - ICML Workshop
 tags:
     - Transformers
@@ -25,6 +26,13 @@ tags:
     - Arithmetic Tasks
     - Algorithmic Tasks
 ---
+
+
+![Position_Coupling1](../assets/img/position-coupling/Addition_EM_Method_Comparison.png)
+  
+![Position_Coupling2](../assets/img/position-coupling/Addition_EM_median_Large.png)
+  
+![Position_Coupling3](../assets/img/position-coupling/PositionCouplingForAddition.png)
 
 ## Abstract
 

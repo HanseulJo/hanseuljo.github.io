@@ -29,8 +29,14 @@ var store = [{
         "url": "/publication/Alex-GDA",
         "teaser": null
       },{
+        "title": "DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity",
+        "excerpt":"Abstract Warm-starting neural networks by initializing them with previously learned weights is appealing, as practical neural networks are often deployed under a continuous influx of new data. However, this often leads to a phenomenon known as loss of plasticity, where the network loses its ability to learn new information and...","categories": ["NeurIPS","ICML Workshop"],
+        "tags": ["Loss of Plasticity","Warm-Starting","Incremental Learning","Generalization","Direction-Aware SHrinking","DASH"],
+        "url": "/publication/DASH",
+        "teaser": null
+      },{
         "title": "Position Coupling: Leveraging Task Structure for Improved Length Generalization of Transformers",
-        "excerpt":"Abstract Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of...","categories": ["Arxiv","ICML Workshop"],
+        "excerpt":"Abstract Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of...","categories": ["Arxiv","NeurIPS","ICML Workshop"],
         "tags": ["Transformers","Length Generalization","Position Coupling","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks","Algorithmic Tasks"],
         "url": "/publication/Position-Coupling",
         "teaser": null
