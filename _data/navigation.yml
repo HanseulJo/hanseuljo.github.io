@@ -1,11 +1,11 @@
 # Navigation bar on the top of the page
 
 main:
-  - title: "About"
-    url: /about/
-
   - title: "Publications"
     url: /publications/
     
   - title: "Posts"
     url: /posts/
+
+  - title: "About"
+    url: /about/
