@@ -25,6 +25,8 @@ gray { color: gray; font-size: 75%;}
 
 My name is Hanseul Cho(조한슬). I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
 
+🚨<span style="color:ForestGreen">**I am Looking for Internship Opportunities**‼️</span>🚨
+
 I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both **mathematical/theoretical analysis** and **empirical improvements (usually based on theoretical understanding)**. Recently, I have been into **understanding and mitigating the fundamental limitations of modern language models** (e.g., length generalization and compositional generalization problems). Also, I am always interested in **hierarchical/multi-level optimization** (e.g., minimax optimization), **optimization with constraints** (e.g., fairness in ML), **optimization under circumstance shifts** (e.g., reinforcement learning and continual learning).
 
 News

@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Hanseul Cho"
 title_separator          : "-"
 name                     : &name "Hanseul Cho"
-description              : &description "MSc Student at OptiML Lab in KAIST AI."
+description              : &description "PhD Student at OptiML Lab in KAIST AI. Working on ML/DL/Opt+Theory and LMs."
 url                      : https://hanseuljo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HanseulJo/hanseuljo.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Hanseul Cho"
   avatar           : "me.jpeg"
-  bio              : "PhD Student at OptiML Lab in KAIST AI."
+  bio              : "PhD Student at OptiML Lab in KAIST AI. Working on ML/DL/Opt+Theory and LMs."
   location         : "Seoul, South Korea"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
