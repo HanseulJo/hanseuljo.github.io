@@ -40,4 +40,10 @@ var store = [{
         "tags": ["Transformers","Length Generalization","Position Coupling","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks","Algorithmic Tasks"],
         "url": "/publication/Position-Coupling",
         "teaser": null
+      },{
+        "title": "Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count",
+        "excerpt":"Abstract Transformers often struggle with length generalization, meaning they fail to generalize to sequences longer than those encountered during training. While arithmetic tasks are commonly used to study length generalization, certain tasks are considered notoriously difficult, e.g., multi-operand addition (requiring generalization over both the number of operands and their lengths)...","categories": ["Arxiv"],
+        "tags": ["Transformers","Length Generalization","Position Coupling","Scratchpad","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks"],
+        "url": "/publication/Position-Coupling-Scratchpad",
+        "teaser": null
       },]
