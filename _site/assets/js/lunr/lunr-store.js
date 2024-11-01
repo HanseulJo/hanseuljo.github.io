@@ -35,7 +35,7 @@ var store = [{
         "url": "/publication/DASH",
         "teaser": null
       },{
-        "title": "Position Coupling: Leveraging Task Structure for Improved Length Generalization of Transformers",
+        "title": "Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure",
         "excerpt":"Abstract Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of...","categories": ["Arxiv","NeurIPS","ICML Workshop"],
         "tags": ["Transformers","Length Generalization","Position Coupling","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks","Algorithmic Tasks"],
         "url": "/publication/Position-Coupling",
