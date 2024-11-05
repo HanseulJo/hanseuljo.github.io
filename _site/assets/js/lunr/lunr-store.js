@@ -29,8 +29,8 @@ var store = [{
         "url": "/publication/Alex-GDA",
         "teaser": null
       },{
-        "title": "DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity",
-        "excerpt":"Abstract Warm-starting neural networks by initializing them with previously learned weights is appealing, as practical neural networks are often deployed under a continuous influx of new data. However, this often leads to a phenomenon known as loss of plasticity, where the network loses its ability to learn new information and...","categories": ["NeurIPS","ICML Workshop"],
+        "title": "DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity",
+        "excerpt":"Abstract Warm-starting neural network training by initializing networks with previously learned weights is appealing, as practical neural networks are often deployed under a continuous influx of new data. However, it often leads to loss of plasticity, where the network loses its ability to learn new information, resulting in worse generalization...","categories": ["NeurIPS","ICML Workshop"],
         "tags": ["Loss of Plasticity","Warm-Starting","Incremental Learning","Generalization","Direction-Aware SHrinking","DASH"],
         "url": "/publication/DASH",
         "teaser": null

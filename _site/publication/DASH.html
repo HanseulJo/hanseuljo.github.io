@@ -19,7 +19,7 @@
 
 
 
-<title>DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity - Hanseul Cho</title>
+<title>DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity - Hanseul Cho</title>
 
 
 
@@ -29,7 +29,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Hanseul Cho">
-<meta property="og:title" content="DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity">
+<meta property="og:title" content="DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity">
 
 
   <link rel="canonical" href="http://localhost:4000/publication/DASH">
@@ -42,7 +42,7 @@
 
 
   <meta name="twitter:site" content="@hanseuljo">
-  <meta name="twitter:title" content="DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity">
+  <meta name="twitter:title" content="DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity">
   <meta name="twitter:description" content="">
   <meta name="twitter:url" content="http://localhost:4000/publication/DASH">
 
@@ -247,7 +247,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity">
+    <meta itemprop="headline" content="DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity">
     <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="September 26, 2024">
     
@@ -255,7 +255,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">DASH: Warm-Starting Neural Network Training Without Loss of Plasticity Under Stationarity
+          <h1 class="page__title" itemprop="headline">DASH: Warm-Starting Neural Network Training in Stationary Settings without Loss of Plasticity
 </h1>
           <!---->
         
@@ -406,7 +406,8 @@
 
 <h2 id="abstract">Abstract</h2>
 
-<p>Warm-starting neural networks by initializing them with previously learned weights is appealing, as practical neural networks are often deployed under a continuous influx of new data. However, this often leads to a phenomenon known as loss of plasticity, where the network loses its ability to learn new information and thereby shows worse generalization performance than those trained from scratch. While this issue has been actively studied in non-stationary data distributions (e.g., in reinforcement learning), it surprisingly occurs even when the data distribution remains stationary, and its underlying mechanism is poorly understood. To address this gap, we develop a learning framework that emulates real-world neural network training scenarios. Under this framework, we identify noise memorization as the primary cause of the loss of plasticity when warm-starting the neural networks in stationary data distributions. Motivated by this discovery, we propose an effective method called Direction-Aware SHrinking (DASH) to mitigate the loss of plasticity. DASH aims to selectively forget previously memorized noise while aiming to preserve learned features, based on the loss gradient computed from newly introduced data. We validate our approach in vision tasks using diverse datasets, models, and optimizers, demonstrating consistent improvements in test accuracy and training efficiency.</p>
+<p>Warm-starting neural network training by initializing networks with previously learned weights is appealing, as practical neural networks are often deployed under a continuous influx of new data. However, it often leads to loss of plasticity, where the network loses its ability to learn new information, resulting in worse generalization than training from scratch. This occurs even under stationary data distributions, and its underlying mechanism is poorly understood. We develop a framework emulating real-world neural network training and identify noise memorization as the primary cause of plasticity loss when warm-starting on stationary data. Motivated by this, we propose Direction-Aware SHrinking (DASH), a method aiming to mitigate plasticity loss by selectively forgetting memorized noise while preserving learned features. We validate our approach on vision tasks, demonstrating improvements in test accuracy and training efficiency.
+Our codebases are in <a href="github.com/baekrok/DASH">https://github.com/baekrok/DASH</a> (for NVIDIA CUDA) and <a href="github.com/NAVER-INTEL-Co-Lab/gaudi-dash">https://github.com/NAVER-INTEL-Co-Lab/gaudi-dash</a> (for Intel Gaudi).</p>
 
 <p><img src="../assets/img/dash/DASH_mainfig.png" alt="DASH_main" /></p>
 
