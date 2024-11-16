@@ -83,6 +83,7 @@ analytics:
 
 
 # Site Author
+# HS: This will affect the webpage's sidebar, whose template is in "/_includes/author-profile.html".
 author:
   name             : "Hanseul Cho"
   avatar           : "me.jpeg"

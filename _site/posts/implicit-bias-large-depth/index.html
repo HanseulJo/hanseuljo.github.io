@@ -1,0 +1,705 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions - Hanseul Cho</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Hanseul Cho">
+<meta property="og:title" content="[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions">
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/implicit-bias-large-depth/">
+  <meta property="og:url" content="http://localhost:4000/posts/implicit-bias-large-depth/">
+
+
+
+  <meta property="og:description" content="Presented in OptiML Group Meeting (Fall 2023)">
+
+
+
+  <meta name="twitter:site" content="@hanseuljo">
+  <meta name="twitter:title" content="[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions">
+  <meta name="twitter:description" content="Presented in OptiML Group Meeting (Fall 2023)">
+  <meta name="twitter:url" content="http://localhost:4000/posts/implicit-bias-large-depth/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2023-09-08T00:00:00+09:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Hanseul Cho",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Hanseul Cho Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/icon/apple-touch-icon.png"  color="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png"  color="#000000">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png"  color="#000000">
+<link rel="mask-icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/icon/favicon-32x32.png"  color="#000000">
+<link rel="mask-icon" type="image/png" sizes="16x16" href="http://localhost:4000/assets/icon/favicon-16x16.png"  color="#000000">
+<link rel="shortcut icon" href="http://localhost:4000/assets/icon/favicon.ico">
+<link rel="manifest" href="http://localhost:4000/assets/icon/site.webmanifest">
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Hanseul Cho</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/posts/">Posts</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/me.jpeg" class="author__avatar" alt="Hanseul Cho">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Hanseul Cho</h3>
+    <p class="author__bio">PhD Student at OptiML Lab in KAIST AI. Working on ML/DL/Opt+Theory and LMs.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li>📍 Seoul, South Korea</li>
+      
+      
+      
+        <li><a href="../files/Curriculum_Vitae__Hanseul_Cho.pdf">📝 CV</a></li>
+      
+      
+      
+      
+       
+      
+        <li><a href="https://twitter.com/hanseuljo"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/hanseul-cho"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/HanseulJo"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?user=IczOXwsAAAAJ"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions">
+    <meta itemprop="description" content="Presented in OptiML Group Meeting (Fall 2023)">
+    <meta itemprop="datePublished" content="September 08, 2023">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions
+</h1>
+          <!--
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+          -->
+        
+
+        <!--Authors-->
+        
+        
+        <!---Date, Venue, URL-->
+        <p>
+          
+          🗓
+          <time datetime="2023-09-08T00:00:00+09:00"> September 08, 2023</time> 
+          &nbsp; &nbsp; 
+          
+          
+          
+        </p>
+
+        
+
+        </header>
+      
+
+      <!-- Tag and Category -->
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#implicit-bias" class="page__taxonomy-item" rel="tag">implicit bias</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#low-rank" class="page__taxonomy-item" rel="tag">low rank      </a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/categories/#group-meeting" class="page__taxonomy-item" rel="tag">group meeting</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/categories/#paper-review" class="page__taxonomy-item" rel="tag">paper review</a>
+    
+    </span>
+  </p>
+
+
+      </footer>
+      
+      <section class="page__content" itemprop="text">
+        <p>Please visit the link to open the slide:  <a href="/files/group_meeting/GroupMeeting230908_HSCho_ImplicitBiasLargeDepth.pdf"><strong>View PDF</strong></a></p>
+
+<h2 id="main-references">Main References</h2>
+
+<ul>
+  <li>Arthur Jacot. <a href="https://openreview.net/forum?id=6iDHce-0B-a">Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.</a> ICLR 2023.</li>
+</ul>
+
+
+        
+      </section>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/posts/implicit-bias-large-depth/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/implicit-bias-large-depth/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/posts/implicit-bias-large-depth/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/posts/adversarial-training-danskin/" class="pagination--pager" title="[Paper Reading] Adversarial training descends without descent: Finding actual descent directions based on Danskin’s Theorem
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/posts/optimal-transport-model-fusion/" class="pagination--pager" title="[Coursework Report] An Overview on Optimal Transport and its Application to Model Fusion
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      
+        <h4 class="page__related-title">You May Also Enjoy</h4>
+      
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/log-depth-transformer/" rel="permalink">[Paper Reading] Viewing Log-Depth Transformers via the Lens of Distributed Computing
+</a>
+      
+    </h2>
+    
+    <!--
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+    -->
+
+    <!--Authors-->
+    
+
+    <!---Venue, Date, URL-->
+    <p>
+      
+      
+      🗓
+      <time datetime="2024-10-10T00:00:00+09:00"> October 10, 2024</time> 
+      &nbsp; &nbsp; 
+      
+      
+    </p>
+    
+
+    <!---Award-->
+    
+    
+    <!--Summary-->
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Presented in OptiML Group Meeting (Fall 2024)</p>
+</p>
+    
+
+    
+
+  </article>
+
+  
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/stable-ssm/" rel="permalink">[Paper Reading] StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization
+</a>
+      
+    </h2>
+    
+    <!--
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+    -->
+
+    <!--Authors-->
+    
+
+    <!---Venue, Date, URL-->
+    <p>
+      
+      
+      🗓
+      <time datetime="2024-07-16T00:00:00+09:00"> July 16, 2024</time> 
+      &nbsp; &nbsp; 
+      
+      
+    </p>
+    
+
+    <!---Award-->
+    
+    
+    <!--Summary-->
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Presented in OptiML Group Meeting (Summer 2024)</p>
+</p>
+    
+
+    
+
+  </article>
+
+  
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/generalized-smoothness/" rel="permalink">[Paper Reading] Convex and Non-convex Optimization under Generalized Smoothness
+</a>
+      
+    </h2>
+    
+    <!--
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+    -->
+
+    <!--Authors-->
+    
+
+    <!---Venue, Date, URL-->
+    <p>
+      
+      
+      🗓
+      <time datetime="2024-06-03T00:00:00+09:00"> June 03, 2024</time> 
+      &nbsp; &nbsp; 
+      
+      
+    </p>
+    
+
+    <!---Award-->
+    
+    
+    <!--Summary-->
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Presented in AI709 Advanced Deep Learning Theory (Spring 2024)</p>
+</p>
+    
+
+    
+
+  </article>
+
+  
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/edge-of-stability-gd/" rel="permalink">[Paper Reading] Understanding Gradient Descent on Edge of Stability in Deep Learning
+</a>
+      
+    </h2>
+    
+    <!--
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+    -->
+
+    <!--Authors-->
+    
+
+    <!---Venue, Date, URL-->
+    <p>
+      
+      
+      🗓
+      <time datetime="2024-03-20T00:00:00+09:00"> March 20, 2024</time> 
+      &nbsp; &nbsp; 
+      
+      
+    </p>
+    
+
+    <!---Award-->
+    
+    
+    <!--Summary-->
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Presented in AI709 Advanced Deep Learning Theory (Spring 2024)</p>
+</p>
+    
+
+    
+
+  </article>
+
+  
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<!-- <a href="/sitemap/">Sitemap</a> -->
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/hanseuljo"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://www.linkedin.com/in/hanseul-cho"><i class="fab fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+    
+    
+      <li><a href="http://github.com/HanseulJo"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <!--<li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>-->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Hanseul Cho. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <!-- start custom analytics snippet -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7J5W90008"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L7J5W90008');
+</script>
+<!-- end custom analytics snippet -->
+
+
+
+
+
+
+  </body>
+</html>
+

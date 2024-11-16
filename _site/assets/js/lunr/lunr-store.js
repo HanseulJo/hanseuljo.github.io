@@ -1,8 +1,74 @@
 var store = [{
-        "title": "[논문읽기] Are Transformers universal approximators of sequence-to-sequence functions?",
-        "excerpt":"Abstract Keywords &amp; Definitions 1. Sequence-to-sequence Function 2. Permutation Equivariant 3. Universal Approximation 4. Contextual Mapping Main Text 1. Universal Approximator임을 보이기 힘든 이유 2. 논문에서 본 Transformer 2.1. 기존 Transformer 논문과의 공통점 2.2. 기존 Transformer 논문과의 차이점 2.3. Positional encoding 3. 주요 결과 (2가지) 4. 어떻게 증명하나? 5. 몇...","categories": ["paper review"],
+        "title": "[Paper Reading] [KR only] Are Transformers universal approximators of sequence-to-sequence functions?",
+        "excerpt":"Main References Abstract Keywords &amp; Definitions 1. Sequence-to-sequence Function 2. Permutation Equivariant 3. Universal Approximation 4. Contextual Mapping Main Text 1. Universal Approximator임을 보이기 힘든 이유 2. 논문에서 본 Transformer 2.1. 기존 Transformer 논문과의 공통점 2.2. 기존 Transformer 논문과의 차이점 2.3. Positional encoding 3. 주요 결과 (2가지) 4. 어떻게 증명하나?...","categories": ["paper review"],
         "tags": ["transformer","sequence-to-sequence","approximation","expressive power","deep learning theory"],
         "url": "/posts/are-transformer-universal-approximators-of-sequence-to-sequence-functions/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] WGAN with an Inﬁnitely Wide Generator Has No Spurious Stationary Points",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Albert No, TaeHo Yoon, Sehyun Kwon, and Ernest K. Ryu. WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points. ICML 2021.   ","categories": ["paper review","group meeting"],
+        "tags": ["wasserstein gan","gan","no spurious stationarity"],
+        "url": "/posts/wgan-no-spurious-stationarity/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Offline Reinforcement Learning with Implicit Q Learning",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Ilya Kostrikov, Ashvin Nair, and Sergey Levine. Offline Reinforcement Learning with Implicit Q Learning. ICLR 2022.   ","categories": ["paper review","coursework"],
+        "tags": ["offline RL","implicit q learning"],
+        "url": "/posts/implicit-q-learning/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] On Learning Fairness and Accuracy on Multiple Subgroups",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Changjian Shui, Gezheng Xu, Qi CHEN, Jiaqi Li, Charles Ling, Tal Arbel, Boyu Wang, and Christian Gagné. On Learning Fairness and Accuracy on Multiple Subgroups. NeurIPS 2022.   ","categories": ["paper review","group meeting"],
+        "tags": ["fairness","multiple subgroup fairness"],
+        "url": "/posts/multi-group-fairness/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Adversarial training descends without descent: Finding actual descent directions based on Danskin's Theorem",
+        "excerpt":"Please visit the link to open the slide: View PDF Main References Fabian Latorre, Igor Krawczuk, Leello Tadesse Dadi, Thomas Pethick, and Volkan Cevher. Finding Actual Descent Directions for Adversarial Training. ICLR 2023. Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu Towards Deep Learning Models Resistant to...","categories": ["paper review","group meeting"],
+        "tags": ["adversarial training","danskin's lemma"],
+        "url": "/posts/adversarial-training-danskin/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Arthur Jacot. Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions. ICLR 2023.   ","categories": ["paper review","group meeting"],
+        "tags": ["implicit bias","low rank"],
+        "url": "/posts/implicit-bias-large-depth/",
+        "teaser": null
+      },{
+        "title": "[Coursework Report] An Overview on Optimal Transport and its Application to Model Fusion",
+        "excerpt":"Please visit the link to open the report: View PDF Abstract In this report, we briefly overview the theory of optimal transport (OT),entropically regularized OT and Sinkhorn algorithm, and their application to deep learning model fusion technique. For the theory of OT, we delve into the derivation of dual OT...","categories": ["coursework","report"],
+        "tags": ["optimal transport","duality","entropic regularization","model fusion"],
+        "url": "/posts/optimal-transport-model-fusion/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning",
+        "excerpt":"Please visit the link to open the slide: View PDF Main References Alicia Curth, Alan Jeffares, and Mihaela van der Schaar. A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning. NeurIPS 2023. Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal. Reconciling modern machine-learning practice and the classical...","categories": ["paper review","group meeting"],
+        "tags": ["double descent","machine learning"],
+        "url": "/posts/u-turn-double-descent/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Understanding Gradient Descent on Edge of Stability in Deep Learning",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Sanjeev Arora, Zhiyuan Li, and Abhishek Panigrahi. Understanding Gradient Descent on Edge of Stability in Deep Learning. ICML 2022.  ","categories": ["paper review","group meeting"],
+        "tags": ["edge of stability","normalized gradient descent"],
+        "url": "/posts/edge-of-stability-gd/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Convex and Non-convex Optimization under Generalized Smoothness",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Haochuan Li, Jian Qian, Yi Tian, Alexander Rakhlin, and Ali Jadbabaie. Convex and Non-convex Optimization under Generalized Smoothness. NeurIPS 2023.  ","categories": ["paper review","group meeting"],
+        "tags": ["generalized smoothness","optimization"],
+        "url": "/posts/generalized-smoothness/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization",
+        "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Shida Wang and Qianxiao Li. StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization. ICML 2024.   ","categories": ["paper review","group meeting"],
+        "tags": ["state space model","curse of memory","stable reparameterization"],
+        "url": "/posts/stable-ssm/",
+        "teaser": null
+      },{
+        "title": "[Paper Reading] Viewing Log-Depth Transformers via the Lens of Distributed Computing",
+        "excerpt":"Please visit the link to open the slide: View PDF Main References Clayton Sanford, Danial Hsu, and Matus Telgarsky. Transformers, Parallel Computation, and Logarithmic Depth. ICML 2024. Clayton Sanford, Bahare Fatemi, Ethan Hall, Anton Tsitsulin, Mehran Kazemi, Jonathan Halcrow, Bryan Perozzi, and Vahab Mirrokni. Understanding Transformer Reasoning Capabilities via Graph...","categories": ["paper review","group meeting"],
+        "tags": ["transformers","parallel computation","graph algorithms","distributed computing"],
+        "url": "/posts/log-depth-transformer/",
         "teaser": null
       },{
         "title": "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization",
