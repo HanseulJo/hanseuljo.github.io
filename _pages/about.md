@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "Hanseul Cho (조한슬) 👋"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -23,18 +23,27 @@ gray { color: gray; font-size: 75%;}
 }
 </style>
 
-My name is **Hanseul Cho**(조한슬). I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
+I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
+Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, Summa Cum Laude) at KAIST.
 
 <p style="text-align:center;font-weight:bold">
 🚨<span style="color:ForestGreen">I am Looking for Internship Opportunities‼️</span>🚨
 </p>
 
-I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both **mathematical/theoretical analysis** and **empirical improvements (usually based on theoretical understanding)**. Recently, I have been into **understanding and mitigating the fundamental limitations of modern language models** (e.g., length generalization and compositional generalization problems). Also, I am always interested in **hierarchical/multi-level optimization** (e.g., minimax optimization), **optimization with constraints** (e.g., fairness in ML), **optimization under circumstance shifts** (e.g., reinforcement learning and continual learning).
+I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both:
+* **Mathematical/Theoretical Analysis**, and
+* **Empirical Improvements (usually based on theoretical understanding)**.  
+
+Specifically, my research interests lie in the following subjects:
+* **Understanding and Mitigating the Fundamental Limitations of Modern Language Models** (e.g., Length Generalization and Compositional Generalization Problems of Transformers)
+* **Hierarchical/Multi-level Optimization** (e.g., Minimax Optimization, Saddle-point Optimization, Bi-level Optimization)
+* **Optimization under Circumstance Shifts** (e.g., Reinforcement Learning, Continual Learning, Maintaining Plasticity of Neural Networks)
+* **Optimization with Structured Constraints** (e.g., Fairness in ML)
 
 📰 Publications 📰
 ---
 
-Please click the ["Publication"](/publications/) tab above to look up the full list of my publications.  
+Please click the ["Publications"](/publications/) tab above to look up the full list of my publications.  
 You can also find my articles on my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile.
 
 ‼️News‼️
