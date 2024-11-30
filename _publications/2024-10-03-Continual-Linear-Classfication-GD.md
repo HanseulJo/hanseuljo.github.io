@@ -12,7 +12,7 @@ award: <b>Best Paper Award</b> at the 11th Joint Conference of Korean Artificial
 paperurl: # https://openreview.net/forum?id=DTqx3iqjkz
 arxiv: 
 categories: 
-    -
+    - KAIA
 tags:
     - Continual Learning
     - Sequential Learning
