@@ -22,7 +22,11 @@ tags:
     - Unsupervised Learnability
 ---
 
+## Main Figures
+
 ![fair_streaming_pca](../assets/img/fair-streaming-pca/main_fig_2.png)
+
+## Poster
   
 ![fair_streaing_pca_poster](../assets/img/fair-streaming-pca/3_neurips_poster_fairstreamingpca.png)
 
@@ -38,5 +42,7 @@ We verify our algorithm in the full-resolution, colored CelebA dataset; while th
 ## Keywords
 
 Fairness, Streaming PCA, Unsupervised Learnability
+
+## Slide
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/dvzoPGtBRk00d4" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>

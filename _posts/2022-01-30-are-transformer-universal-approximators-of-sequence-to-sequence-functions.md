@@ -18,9 +18,6 @@ tags:
 ---
 
 
-* TOC
-{:toc}
-
 ## Main References
 
 * [Chulhee Yun](https://chulheeyun.github.io), Srinadh Bhojanapalli, Ankit Singh Rawat, Sashank Reddi, and Sanjiv Kumar. [Are Transformers universal approximators of sequence-to-sequence functions?](https://openreview.net/forum?id=ByxRM0Ntvr) ICLR 2020.

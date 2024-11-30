@@ -25,6 +25,7 @@ tags:
     - Arithmetic Tasks
 ---
 
+## Main Figures
 
 ![Position_Coupling_Scratchpad](../assets/img/position-coupling-scratchpad/Poco_FIRE_NoPE_multiadd.png)
   

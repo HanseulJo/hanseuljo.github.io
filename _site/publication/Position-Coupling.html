@@ -37,13 +37,13 @@
 
 
 
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Main Figures">
 
 
 
   <meta name="twitter:site" content="@hanseuljo">
   <meta name="twitter:title" content="Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure">
-  <meta name="twitter:description" content="">
+  <meta name="twitter:description" content="Main Figures">
   <meta name="twitter:url" content="http://localhost:4000/publication/Position-Coupling">
 
   
@@ -249,7 +249,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="Main Figures">
     <meta itemprop="datePublished" content="September 26, 2024">
     
 
@@ -441,7 +441,10 @@
       </footer>
       
       <section class="page__content" itemprop="text">
-        <p><img src="../assets/img/position-coupling/Addition_EM_Method_Comparison.png" alt="Position_Coupling1" /></p>
+        
+        <h2 id="main-figures">Main Figures</h2>
+
+<p><img src="../assets/img/position-coupling/Addition_EM_Method_Comparison.png" alt="Position_Coupling1" /></p>
 
 <p><img src="../assets/img/position-coupling/Addition_EM_median_Large.png" alt="Position_Coupling2" /></p>
 
@@ -451,14 +454,18 @@
 
 <p>Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of a (decoder-only) Transformer. Taking a departure from the vanilla absolute position mechanism assigning unique position IDs to each of the tokens, we assign the same position IDs to two or more “relevant” tokens; for integer addition tasks, we regard digits of the same significance as in the same position. On the empirical side, we show that with the proposed position coupling, our models trained on 1 to 30-digit additions can generalize up to 200-digit additions (6.67x of the trained length). On the theoretical side, we prove that a 1-layer Transformer with coupled positions can solve the addition task involving exponentially many digits, whereas any 1-layer Transformer without positional information cannot entirely solve it. We also demonstrate that position coupling can be applied to other algorithmic tasks such as Nx2 multiplication and a two-dimensional task. Our code is available at <a href="https://github.com/HanseulJo/position-coupling">github.com/HanseulJo/position-coupling</a>.</p>
 
+<h2 id="poster">Poster</h2>
+
 <p><img src="../assets/img/position-coupling/Poster_PoCo_NeurIPS2024.png" alt="Position_Coupling4" /></p>
+
+<h2 id="slide">Slide</h2>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/iNEl39UaLR9HAF" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
 <div style="margin-bottom:5px"> </div>
 
         
       </section>
-
+      
       
 
 <section class="page__share">
