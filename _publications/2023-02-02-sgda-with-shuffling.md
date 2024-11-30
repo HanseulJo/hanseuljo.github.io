@@ -7,7 +7,7 @@ authors:
     - me
     - CY
 venue: <a href="https://iclr.cc/Conferences/2023"><b>ICLR 2023</b></a>
-award: <b>NAVER Outstanding Theory Paper Award</b> at the 7th Joint Conference of Korea Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20230901&CpPage=223#CONF">JKAIA 2023</a>)
+award: <b>NAVER Outstanding Theory Paper Award</b> at the 7th Joint Conference of Korea Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20221001&CpPage=167#CONF">JKAIA 2022</a>)
 paperurl: https://openreview.net/forum?id=6xXtM8bFFJ
 arxiv: https://arxiv.org/abs/2210.05995
 categories: 
