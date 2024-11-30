@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning",
-        "excerpt":"Abstract In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead the model to overfit to earlier interactions, which...","categories": ["NeurIPS","KAIA"],
+        "excerpt":"Abstract In Reinforcement Learning (RL), enhancing sample efficiency is crucial, particularly in scenarios when data acquisition is costly and risky. In principle, off-policy RL algorithms can improve sample efficiency by allowing multiple updates per environment interaction. However, these multiple updates often lead the model to overfit to earlier interactions, which...","categories": ["NeurIPS"],
         "tags": ["Reinforcement Learning","Plasticity","Sharpness-aware Minimization","Reset Mechanism"],
         "url": "/publication/PLASTIC",
         "teaser": null
@@ -90,7 +90,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Fundamental Benefit of Alternating Updates in Minimax Optimization",
-        "excerpt":"Abstract The Gradient Descent-Ascent (GDA) algorithm, designed to solve minimax optimization problems, takes the descent and ascent steps either simultaneously (Sim-GDA) or alternately (Alt-GDA). While Alt-GDA is commonly observed to converge faster, the performance gap between the two is not yet well understood theoretically, especially in terms of global convergence...","categories": ["Arxiv","KAIA","ICLR Workshop","ICML"],
+        "excerpt":"Abstract The Gradient Descent-Ascent (GDA) algorithm, designed to solve minimax optimization problems, takes the descent and ascent steps either simultaneously (Sim-GDA) or alternately (Alt-GDA). While Alt-GDA is commonly observed to converge faster, the performance gap between the two is not yet well understood theoretically, especially in terms of global convergence...","categories": ["ICLR Workshop","ICML"],
         "tags": ["minimax optimization","Gradient Descent-Ascent (GDA)","Alex-GDA"],
         "url": "/publication/Alex-GDA",
         "teaser": null
