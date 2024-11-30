@@ -3,6 +3,8 @@ title: "Convergence and Implicit Bias of Gradient Descent on Continual Linear Cl
 collection: publications
 permalink: /publication/Continual-Linear-Classfication-GD
 date: 2024-11-16
+toc: true
+toc_sticky: true
 authors:
     - Hyunji Jung*
     - me*

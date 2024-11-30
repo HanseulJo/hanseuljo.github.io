@@ -3,6 +3,8 @@ title: "Position Coupling: Improving Length Generalization of Arithmetic Transfo
 collection: publications
 permalink: /publication/Position-Coupling
 date: 2024-09-26
+toc: true
+toc_sticky: true
 authors:
     - me*
     - Jaeyoung Cha*

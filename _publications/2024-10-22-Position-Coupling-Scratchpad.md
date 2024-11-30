@@ -3,6 +3,8 @@ title: "Arithmetic Transformers Can Length-Generalize in Both Operand Length and
 collection: publications
 permalink: /publication/Position-Coupling-Scratchpad
 date: 2024-10-22
+toc: true
+toc_sticky: true
 authors:
     - me*
     - Jaeyoung Cha*

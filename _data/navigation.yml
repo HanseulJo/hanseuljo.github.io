@@ -3,8 +3,13 @@
 main:
   - title: "Publications"
     url: /publications/
+    children:
+    - title: "Group by Venues"
+      url: /categories/
+    - title: "Group by Topics"
+      url: /tags/
     
-  - title: "Posts"
+  - title: "Blog Posts"
     url: /posts/
 
   # - title: "About"

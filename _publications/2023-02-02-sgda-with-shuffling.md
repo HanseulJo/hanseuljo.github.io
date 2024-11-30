@@ -3,6 +3,8 @@ title: "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimi
 collection: publications
 permalink: /publication/sgda-with-shuffling
 date: 2023-02-02
+toc: true
+toc_sticky: true
 authors:
     - me
     - CY

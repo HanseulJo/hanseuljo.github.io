@@ -3,9 +3,13 @@ permalink: /
 title: "Hanseul Cho (조한슬) 👋"
 excerpt: "About me"
 author_profile: true
+toc: true
+toc_sticky: true
 redirect_from: 
   - /about/
   - /about.html
+sidebar:
+  nav: "main"
 ---
 
 <style>
@@ -40,14 +44,12 @@ Specifically, my research interests lie in the following subjects:
 * **Optimization under Circumstance Shifts** (e.g., Reinforcement Learning, Continual Learning, Maintaining Plasticity of Neural Networks)
 * **Optimization with Structured Constraints** (e.g., Fairness in ML)
 
-📰 Publications 📰
----
+## 📰 Publications 📰
 
 Please click the ["Publications"](/publications/) tab above to look up the full list of my publications.  
 You can also find my articles on my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile.
 
-‼️News‼️
----
+## ‼️News‼️
 
 <ul class="nobull">
   <li>🗞️ [Nov. '24] Our paper on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b>! 🎉 (See Publications for more details)</li>
@@ -62,8 +64,7 @@ You can also find my articles on my <a href="{{ site.author.googlescholar }}">Go
   <li>🗞️ [Feb. '22] Now I am part of <a href="https://chulheeyun.github.io">OptiML Lab</a> of KAIST AI. </li>
 </ul>
 
-Education
----
+## Education
 
 <ul class="nobull">
   <li>🏫 Ph.D. in Artificial Intelligence  <gray>KAIST, Sept. 2023 – Current</gray></li>
@@ -74,8 +75,7 @@ Education
     </ul>
 </ul>
 
-Contact & Info
----
+## Contact & Info
 
 📋 **Curriculum Vitae (CV)**: [Here](/files/Curriculum_Vitae__Hanseul_Cho.pdf)  
 📧 Email: jhs4015 at kaist dot ac dot kr

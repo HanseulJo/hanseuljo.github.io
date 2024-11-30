@@ -3,6 +3,8 @@ title: "Fair Streaming Principal Component Analysis: Statistical and Algorithmic
 collection: publications
 permalink: /publication/fair-streaming-pca
 date: 2023-09-22
+toc: true
+toc_sticky: true
 authors:
     - JL*
     - me*
