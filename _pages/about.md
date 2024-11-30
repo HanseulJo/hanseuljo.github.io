@@ -8,8 +8,6 @@ toc_sticky: true
 redirect_from: 
   - /about/
   - /about.html
-sidebar:
-  nav: "main"
 ---
 
 <style>
