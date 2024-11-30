@@ -4,13 +4,15 @@ collection: publications
 permalink: /publication/Position-Coupling-Scratchpad
 date: 2024-10-22
 authors:
-    - <b>Hanseul Cho</b>*
+    - me*
     - Jaeyoung Cha*
-    - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>
+    - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>*
     - CY
-venue: Arxiv Preprint
+venue: Arxiv Preprint # <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
 award: 
-paperurl: https://arxiv.org/pdf/2410.15787
+paperurl: # https://openreview.net/forum?id=eIgGesYKLG
+arxiv: https://arxiv.org/pdf/2410.15787
+code: https://github.com/HanseulJo/position-coupling
 categories: 
     - Arxiv
 tags:

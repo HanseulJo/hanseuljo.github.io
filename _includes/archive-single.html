@@ -41,11 +41,11 @@
     <!--Authors-->
     {% if post.authors %}
       <p>
-        👥
         {% assign authorCount = post.authors | size %}
         {% if authorCount == 0 %}
-          No author
+          🫥 No author
         {% elsif authorCount == 1 %}
+          👤
           {% assign author = site.data.authors[post.authors.first] %}
           {% if author %}
             <a href="{{ author.url }}">{{ author.name }}</a>
@@ -53,21 +53,24 @@
             authorid
           {% endif %}
         {% else %}
+          👥
           {% for authorid in post.authors %}
-            {% assign author = site.data.authors[authorid] %}
+            {% assign authorid_ = authorid %}
+            {% assign authoridEnd = authorid | slice: -1, 1 %}
+            {% assign authorStar = '' %}
+            {% if authoridEnd == '*' %}
+                {% assign authorid_ = authorid | replace: '*', '' %}
+                {% assign authorStar = '*' %}
+              {% endif %}
+            {% assign author = site.data.authors[authorid_] %}
             {% if forloop.last %}
               {% if author %}
-                and <a href="{{ author.url }}">{{ author.name }}</a>
+                and <a href="{{ author.url }}">{{ author.name }}</a>{{ authorStar }}
               {% else %}
                 and {{ authorid }}
               {% endif %}
             {% else %}
-              {% if author %}
-                <a href="{{ author.url }}">{{ author.name }}</a>
-              {% else %}
-                {{ authorid }}
-              {% endif %}
-              {% if authorCount != 2 %},{% endif %}
+              {% if author %}<a href="{{ author.url }}">{{ author.name }}</a>{{ authorStar }}{% else %}{{ authorid }}{% endif %}{% if authorCount != 2 %},{% endif %}
             {% endif %}
           {% endfor %}
         {% endif %}
@@ -77,16 +80,25 @@
     <!---Venue, Date, URL-->
     <p>
       {% if post.venue %}
-      📜 <i>{{ post.venue }}</i> 
-      &nbsp; &nbsp; 
+        📰 {{ post.venue }}
+        &nbsp; &nbsp; 
       {% endif %}
       {% if post.date %}
-      🗓
-      <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
-      &nbsp; &nbsp; 
+        🗓
+        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
+        &nbsp; &nbsp; 
+      {% endif %}
+      {% if post.paperurl or post.arxiv or post.code %}
+        🔗
       {% endif %}
       {% if post.paperurl %}
-      🔗 [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
+        [<a href=" {{ post.paperurl }} "><u>paper</u></a>]
+      {% endif %}
+      {% if post.arxiv %}
+        [<a href=" {{ post.arxiv }} "><u>arxiv</u></a>]
+      {% endif %}
+      {% if post.code %}
+        [<a href=" {{ post.code }} "><u>code</u></a>]
       {% endif %}
     </p>
     

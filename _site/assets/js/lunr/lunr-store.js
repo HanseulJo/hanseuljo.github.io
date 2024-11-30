@@ -84,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Fair Streaming Principal Component Analysis: Statistical and Algorithmic Viewpoint",
-        "excerpt":"Abstract Fair Principal Component Analysis (PCA) is a problem setting where we aim to perform PCA while making the resulting representation fair in that the projected distributions, conditional on the sensitive attributes, match one another. However, existing approaches to fair PCA have two main problems: theoretically, there has been no...","categories": ["NeurIPS","KAIA"],
+        "excerpt":"Abstract Fair Principal Component Analysis (PCA) is a problem setting where we aim to perform PCA while making the resulting representation fair in that the projected distributions, conditional on the sensitive attributes, match one another. However, existing approaches to fair PCA have two main problems: theoretically, there has been no...","categories": ["NeurIPS"],
         "tags": ["Fairness","Streaming","Principal Component Analysis (PCA)","Unsupervised Learnability"],
         "url": "/publication/fair-streaming-pca",
         "teaser": null
@@ -102,7 +102,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure",
-        "excerpt":"Abstract Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of...","categories": ["Arxiv","NeurIPS","ICML Workshop"],
+        "excerpt":"Abstract Even for simple arithmetic tasks like integer addition, it is challenging for Transformers to generalize to longer sequences than those encountered during training. To tackle this problem, we propose position coupling, a simple yet effective method that directly embeds the structure of the tasks into the positional encoding of...","categories": ["NeurIPS","ICML Workshop"],
         "tags": ["Transformers","Length Generalization","Position Coupling","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks","Algorithmic Tasks"],
         "url": "/publication/Position-Coupling",
         "teaser": null

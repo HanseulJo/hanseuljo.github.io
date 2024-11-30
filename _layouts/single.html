@@ -39,26 +39,34 @@ layout: default
           <p>
             {% assign authorCount = page.authors | size %}
             {% if authorCount == 0 %}
-              No author
+              🫥 No author
             {% elsif authorCount == 1 %}
-              👤 {{ page.authors | first }}
+              👤
+              {% assign author = site.data.authors[page.authors.first] %}
+              {% if author %}
+                <a href="{{ author.url }}">{{ author.name }}</a>
+              {% else %}
+                {{ authorid }}
+              {% endif %}
             {% else %}
               👥
               {% for authorid in page.authors %}
-                {% assign author = site.data.authors[authorid] %}
+                {% assign authorid_ = authorid %}
+                {% assign authoridEnd = authorid | slice: -1, 1 %}
+                {% assign authorStar = '' %}
+                {% if authoridEnd == '*' %}
+                    {% assign authorid_ = authorid | replace: '*', '' %}
+                    {% assign authorStar = '*' %}
+                  {% endif %}
+                {% assign author = site.data.authors[authorid_] %}
                 {% if forloop.last %}
                   {% if author %}
-                    and <a href="{{ author.url }}">{{ author.name }}</a>
+                    and <a href="{{ author.url }}">{{ author.name }}</a>{{ authorStar }}
                   {% else %}
                     and {{ authorid }}
                   {% endif %}
                 {% else %}
-                  {% if author %}
-                    <a href="{{ author.url }}">{{ author.name }}</a>
-                  {% else %}
-                    {{ authorid }}
-                  {% endif %}
-                  {% if authorCount != 2 %},{% endif %}
+                  {% if author %}<a href="{{ author.url }}">{{ author.name }}</a>{{ authorStar }}{% else %}{{ authorid }}{% endif %}{% if authorCount != 2 %},{% endif %}
                 {% endif %}
               {% endfor %}
             {% endif %}
@@ -68,16 +76,25 @@ layout: default
         <!---Date, Venue, URL-->
         <p>
           {% if page.date %}
-          🗓
-          <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
-          &nbsp; &nbsp; 
+            🗓
+            <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
+            &nbsp; &nbsp; 
           {% endif %}
           {% if page.venue %}
-          📜 <i>{{ page.venue }}</i> 
-          &nbsp; &nbsp; 
+            📰 {{ page.venue }}
+            &nbsp; &nbsp; 
+          {% endif %}
+          {% if page.paperurl or page.arxiv or page.code %}
+           🔗
           {% endif %}
           {% if page.paperurl %}
-          🔗 [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
+            [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
+          {% endif %}
+          {% if page.arxiv %}
+            [<a href=" {{ page.arxiv }} "><u>arxiv</u></a>]
+          {% endif %}
+          {% if page.code %}
+            [<a href=" {{ page.code }} "><u>code</u></a>]
           {% endif %}
         </p>
 
