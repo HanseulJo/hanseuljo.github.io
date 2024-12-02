@@ -71,7 +71,7 @@ var store = [{
         "url": "/posts/log-depth-transformer/",
         "teaser": null
       },{
-        "title": "SGDA with shuffling: faster convergence for nonconvex-PŁ minimax optimization",
+        "title": "SGDA with Shuffling: Faster Convergence For Nonconvex-PŁ Minimax Optimization",
         "excerpt":"Poster Abstract Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone...","categories": ["ICLR","KAIA"],
         "tags": ["minimax optimization","SGDA","without-replacement sampling","shuffling-based"],
         "url": "/publication/sgda-with-shuffling",
