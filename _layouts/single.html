@@ -88,13 +88,14 @@ layout: default
            🔗
           {% endif %}
           {% if page.paperurl %}
-            [<a href=" {{ page.paperurl }} "><u>paper</u></a>]
+            [<a href="{{ page.paperurl }}"><u>paper</u></a>]
           {% endif %}
           {% if page.arxiv %}
-            [<a href=" {{ page.arxiv }} "><u>arxiv</u></a>]
+            [<a href="{{ page.arxiv }}"><u>arxiv</u></a>]
           {% endif %}
           {% if page.code %}
-            [<a href=" {{ page.code }} "><u>code</u></a>]
+            [<a href="https://github.com/{{ page.code }}"><u>code</u></a>]
+            <a href="https://github.com/{{ page.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ page.code }}" style="max-width: 100%;"></a>
           {% endif %}
         </p>
 

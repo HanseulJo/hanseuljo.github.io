@@ -14,7 +14,7 @@ venue: <a href="https://neurips.cc/Conferences/2023"><b>NeurIPS 2023</b></a>
 award: 
 paperurl: https://openreview.net/forum?id=TW3ipYdDQG
 arxiv: https://arxiv.org/abs/2310.18593
-cod: https://github.com/HanseulJo/fair-streaming-pca
+code: HanseulJo/fair-streaming-pca
 categories: 
     - NeurIPS
 tags:

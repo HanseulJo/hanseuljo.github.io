@@ -16,7 +16,7 @@ venue: <a href="https://neurips.cc/Conferences/2024"><b>NeurIPS 2024</b></a> (Sh
 award: 
 paperurl: https://openreview.net/forum?id=5cIRdGM1uG
 arxiv: https://arxiv.org/abs/2405.20671
-code: https://github.com/HanseulJo/position-coupling
+code: HanseulJo/position-coupling
 categories: 
     - NeurIPS
     - ICML Workshop

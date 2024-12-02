@@ -14,7 +14,7 @@ venue: Arxiv Preprint # <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025<
 award: 
 paperurl: # https://openreview.net/forum?id=eIgGesYKLG
 arxiv: https://arxiv.org/pdf/2410.15787
-code: https://github.com/HanseulJo/position-coupling
+code: HanseulJo/position-coupling
 categories: 
     - Arxiv
 tags:
