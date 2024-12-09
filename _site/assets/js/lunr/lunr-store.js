@@ -11,6 +11,12 @@ var store = [{
         "url": "/posts/wgan-no-spurious-stationarity/",
         "teaser": null
       },{
+        "title": "[Design] The Very First Draft of OptiML Lab's Logo",
+        "excerpt":"      ","categories": ["design"],
+        "tags": ["logo"],
+        "url": "/posts/first-optiml-logo/",
+        "teaser": null
+      },{
         "title": "[Paper Reading] Offline Reinforcement Learning with Implicit Q Learning",
         "excerpt":"Please visit the link to open the slide:  View PDF   Main References      Ilya Kostrikov, Ashvin Nair, and Sergey Levine. Offline Reinforcement Learning with Implicit Q Learning. ICLR 2022.   ","categories": ["paper review","coursework"],
         "tags": ["offline RL","implicit q learning"],
