@@ -33,14 +33,15 @@ Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, Summa 
 </p>
 
 I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both:
+
 * **Mathematical/Theoretical Analysis**, and
 * **Empirical Improvements (usually based on theoretical understanding)**.  
 
 Specifically, my research interests lie in the following subjects:
-* **Understanding and Mitigating the Fundamental Limitations of Modern Language Models** (e.g., Length Generalization and Compositional Generalization Problems of Transformers)
-* **Hierarchical/Multi-level Optimization** (e.g., Minimax Optimization, Saddle-point Optimization, Bi-level Optimization)
-* **Optimization under Circumstance Shifts** (e.g., Reinforcement Learning, Continual Learning, Maintaining Plasticity of Neural Networks)
-* **Optimization with Structured Constraints** (e.g., Fairness in ML)
+
+* **Understanding and mitigating the fundamental limitations of modern (large) language models** (e.g., length generalization and compositional generalization of Transformer architectures)
+* **Online learning & optimization under circumstance shifts** (e.g., continual learning, maintaining plasticity of neural networks, reinforcement learning, streaming PCA)
+* **Structured/constrained/multi‑level optimization** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
 
 ## 📰 Publications 📰
 
