@@ -28,9 +28,9 @@ gray { color: gray; font-size: 75%;}
 I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
 Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, Summa Cum Laude) at KAIST.
 
-<p style="text-align:center;font-weight:bold">
+<!-- <p style="text-align:center;font-weight:bold">
 🚨<span style="color:ForestGreen">I am Looking for Internship Opportunities‼️</span>🚨
-</p>
+</p> -->
 
 I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both:
 
