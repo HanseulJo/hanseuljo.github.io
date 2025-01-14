@@ -7,10 +7,10 @@ toc: true
 toc_sticky: true
 authors:
     - me*
-    - Jaeyoung Cha*
-    - <a href="https://scholar.google.com/citations?user=MDfW21AAAAAJ&hl=en">Pranjal Awasthi</a>
-    - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>
-    - <a href="https://cs.nyu.edu/~anupamg/">Anupam Gupta</a>
+    - JC*
+    - PranjalA
+    - SrinadhB
+    - AnupamG
     - CY
 venue: <a href="https://neurips.cc/Conferences/2024"><b>NeurIPS 2024</b></a> (Short version at ICML 2024 Workshop on <a href="https://longcontextfm.github.io"> Long-Context Foundation Models (LCFM)</a>)
 award: 

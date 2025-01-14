@@ -7,8 +7,8 @@ toc: true
 toc_sticky: true
 authors:
     - me*
-    - Jaeyoung Cha*
-    - <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>*
+    - JC*
+    - SrinadhB
     - CY
 venue: Arxiv Preprint # <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
 award: 

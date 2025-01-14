@@ -1,14 +1,14 @@
 # Authors
 
 me:
-  name        : "<b>Hanseul Cho</b>"
-  url         : "http://hanseuljo.github.io/"
+  name: "<b>Hanseul Cho</b>"
+  url : "http://hanseuljo.github.io/"
 
 ############## OptiML ##############
 
 CY:
-  name        : "Chulhee Yun"
-  url         : "http://chulheeyun.github.io/"
+  name: "Chulhee Yun"
+  url : "http://chulheeyun.github.io/"
 
 JO:
   name: "Junsoo Oh"
@@ -16,42 +16,60 @@ JO:
 
 JL:
   name: "Junghyun Lee"
-  url: "https://nick-jhlee.github.io"
+  url : "https://nick-jhlee.github.io"
 
 JC:
   name: "Jaeyoung Cha"
+  url : "https://jaeyoungcha.github.io"
 
 DS:
   name: "Dongkuk Si"
+  url : "https://dongkuksi.notion.site/Dongkuk-Si-826580ca76a04aab8c2722a22ca00741"
 
 JwL:
   name: "Jaewook Lee"
-  url: "https://id8198.github.io/"
+  url : "https://id8198.github.io/"
 
 ############## OSI ##############
 
 SY:
   name: "Se-Young Yun"
-  url: "https://fbsqkd.github.io"
+  url : "https://fbsqkd.github.io"
 
 JoonkeeKim:
   name: "Joonkee Kim"
+
+############## Google ##############
+
+SrinadhB:
+  name: "Srinadh Bhojanapalli"
+  url : "https://bsrinadh.github.io"
+
+PranjalA:
+  name: "Pranjal Awasthi"
+  url : "https://scholar.google.com/citations?user=MDfW21AAAAAJ&hl=en"
+
+AnupamG:
+  name: "Anupam Gupta"
+  url : "https://cs.nyu.edu/~anupamg/"
 
 ############## Etc ##############
 
 JaegulChoo:
   name: "Jaegul Choo"
-  url: "https://sites.google.com/site/jaegulchoo/"
+  url : "https://sites.google.com/site/jaegulchoo/"
 
 HojoonLee:
   name: "Hojoon Lee"
-  url: "https://joonleesky.github.io"
+  url : "https://joonleesky.github.io"
 
 HyunseungKim:
   name: "Hyunseung Kim"
-  url: "https://mynsng.github.io"
+  url : "https://mynsng.github.io"
 
 DaehoonGwak:
   name: "Daehoon Gwak"
+
+
 
 
