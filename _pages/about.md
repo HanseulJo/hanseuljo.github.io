@@ -32,16 +32,16 @@ Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, Summa 
 🚨<span style="color:ForestGreen">I am Looking for Internship Opportunities‼️</span>🚨
 </p> -->
 
-I am interested in a broad range of fields in optimization, machine learning (ML), and deep learning (DL), especially focusing on both:
+I am interested in a broad range of fields in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both:
 
-* **Mathematical/Theoretical Analysis**, and
-* **Empirical Improvements (usually based on theoretical understanding)**.  
+* **Mathematical/theoretical analysis**, and
+* **Empirical improvements (usually based on theoretical understanding)**.  
 
-Specifically, my research interests lie in the following subjects:
+During my journey to Ph.D., I aim to **rigorously understand and practically overcome** the following three critical obstacles in ML/DL:
 
-* **Understanding and mitigating the fundamental limitations of modern (large) language models** (e.g., length generalization and compositional generalization of Transformer architectures)
-* **Online learning & optimization under circumstance shifts** (e.g., continual learning, maintaining plasticity of neural networks, reinforcement learning, streaming PCA)
-* **Structured/constrained/multi‑level optimization** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
+* <span style="color:FireBrick">**[Generalizability]**</span>  **Failures in out-of-distibution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformer architectures)
+* <span style="color:FireBrick">**[Adaptability]**</span>  **Difficulties in training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, reinforcement learning)
+* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
 
 ## 📰 Publications 📰
 
