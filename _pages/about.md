@@ -37,11 +37,11 @@ I am interested in a broad range of fields in **optimization, machine learning (
 * **Mathematical/theoretical analysis**, and
 * **Empirical improvements (usually based on theoretical understanding)**.  
 
-During my journey to Ph.D., I aim to **rigorously understand and practically overcome** the following three critical obstacles in ML/DL:
+During my journey to Ph.D., I aim to **rigorously understand and practically overcome** the following **three critical obstacles** in ML/DL (see my [Thesis Proposal](/files/PhD_thesis_research_proposal.pdf) for details):
 
 * <span style="color:FireBrick">**[Generalizability]**</span>  **Failures in out-of-distibution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformer architectures)
 * <span style="color:FireBrick">**[Adaptability]**</span>  **Difficulties in training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, reinforcement learning)
-* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
+* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting & orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
 
 ## 📰 Publications 📰
 
