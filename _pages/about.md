@@ -25,23 +25,20 @@ gray { color: gray; font-size: 75%;}
 }
 </style>
 
-I am a Ph.D. student in the [Optimization & Machine Learning (OptiML) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. Chulhee Yun](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (KAIST AI).
-Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, Summa Cum Laude) at KAIST.
+I am a Ph.D. student in the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**).
+Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
 
 <!-- <p style="text-align:center;font-weight:bold">
 🚨<span style="color:ForestGreen">I am Looking for Internship Opportunities‼️</span>🚨
 </p> -->
 
-I am interested in a broad range of fields in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both:
+I am interested in a broad range of fields in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
 
-* **Mathematical/theoretical analysis**, and
-* **Empirical improvements (usually based on theoretical understanding)**.  
+During my journey to a **Ph.D.**👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <span style="color:FireBrick">challenges</span> in ML/DL** (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) if interested):
+* <span style="color:FireBrick">**[Generalizability]**</span>  **Out-of-distribution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformers)
 
-During my journey to a Ph.D., I aim to **rigorously understand and practically overcome** the following **three critical obstacles** in ML/DL (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) for those interested):
-
-* <span style="color:FireBrick">**[Generalizability]**</span>  **Failures in out-of-distibution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformer architectures)
-* <span style="color:FireBrick">**[Adaptability]**</span>  **Difficulties in training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, reinforcement learning)
-* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting & orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
+* <span style="color:FireBrick">**[Adaptability]**</span>  **Training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, sample-efficient reinforcement learning)
+* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting and/or orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
 
 ## 📰 Publications 📰
 
