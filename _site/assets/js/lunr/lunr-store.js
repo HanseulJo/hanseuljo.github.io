@@ -113,15 +113,15 @@ var store = [{
         "url": "/publication/Position-Coupling",
         "teaser": null
       },{
-        "title": "Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count",
-        "excerpt":"Main Figures Abstract Transformers often struggle with length generalization, meaning they fail to generalize to sequences longer than those encountered during training. While arithmetic tasks are commonly used to study length generalization, certain tasks are considered notoriously difficult, e.g., multi-operand addition (requiring generalization over both the number of operands and...","categories": ["Arxiv"],
-        "tags": ["Transformers","Length Generalization","Position Coupling","Scratchpad","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks"],
-        "url": "/publication/Position-Coupling-Scratchpad",
-        "teaser": null
-      },{
         "title": "Convergence and Implicit Bias of Gradient Descent on Continual Linear Classification",
-        "excerpt":"Abstract We study continual learning on multiple linear classification tasks by sequentially running gradient descent (GD) for a fixed budget of iterations per each given task. When all tasks are jointly linearly separable and are presented in a cyclic/random order, we show the directional convergence of the trained linear classifier...","categories": ["KAIA"],
+        "excerpt":"Abstract We study continual learning on multiple linear classification tasks by sequentially running gradient descent (GD) for a fixed budget of iterations per each given task. When all tasks are jointly linearly separable and are presented in a cyclic/random order, we show the directional convergence of the trained linear classifier...","categories": ["ICLR","KAIA"],
         "tags": ["Continual Learning","Sequential Learning","Gradient Descent","Linear Classification","Convergence","Implicit Bias"],
         "url": "/publication/Continual-Linear-Classfication-GD",
+        "teaser": null
+      },{
+        "title": "Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count",
+        "excerpt":"Main Figures Abstract Transformers often struggle with length generalization, meaning they fail to generalize to sequences longer than those encountered during training. While arithmetic tasks are commonly used to study length generalization, certain tasks are considered notoriously difficult, e.g., multi-operand addition (requiring generalization over both the number of operands and...","categories": ["ICLR","Arxiv"],
+        "tags": ["Transformers","Length Generalization","Position Coupling","Scratchpad","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks"],
+        "url": "/publication/Position-Coupling-Scratchpad",
         "teaser": null
       },]

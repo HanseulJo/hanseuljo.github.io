@@ -2,7 +2,7 @@
 title: "Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count"
 collection: publications
 permalink: /publication/Position-Coupling-Scratchpad
-date: 2024-10-22
+date: 2025-01-23
 toc: true
 toc_sticky: true
 authors:
@@ -10,12 +10,13 @@ authors:
     - JC*
     - SrinadhB
     - CY
-venue: Arxiv Preprint # <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
+venue: <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
 award: 
-paperurl: # https://openreview.net/forum?id=eIgGesYKLG
+paperurl: https://openreview.net/forum?id=eIgGesYKLG
 arxiv: https://arxiv.org/pdf/2410.15787
 code: HanseulJo/position-coupling
 categories: 
+    - ICLR
     - Arxiv
 tags:
     - Transformers
