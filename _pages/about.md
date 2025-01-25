@@ -35,10 +35,10 @@ Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa
 I am interested in a broad range of fields in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
 
 During my journey to a **Ph.D.**👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <span style="color:FireBrick">challenges</span> in ML/DL** (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) if interested):
-* <span style="color:FireBrick">**[Generalizability]**</span>  **Out-of-distribution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformers)
+* <span style="color:FireBrick"><i class="fa fa-sitemap"></i> **[Generalizability]**</span>  **Out-of-distribution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformers)
 
-* <span style="color:FireBrick">**[Adaptability]**</span>  **Training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, sample-efficient reinforcement learning)
-* <span style="color:FireBrick">**[Multifacetedness]**</span> **Learning with multiple (possibly conflicting and/or orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
+* <span style="color:FireBrick"><i class="fa fa-flask"></i> **[Adaptability]**</span>  **Training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, sample-efficient reinforcement learning)
+* <span style="color:FireBrick"><i class="fa fa-cubes"></i> **[Multifacetedness]**</span> **Learning with multiple (possibly conflicting and/or orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
 
 ## 📰 Publications 📰
 
@@ -48,6 +48,7 @@ You can also find my articles on my <a href="{{ site.author.googlescholar }}">Go
 ## ‼️News‼️
 
 <ul class="nobull">
+  <li>🗞️ [Jan. '25] <span style="color:FireBrick"><b>(NEW)</b></span> Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
   <li>🗞️ [Jan. '25] <span style="color:FireBrick"><b>(NEW)</b></span> Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Tampines, Singapore🇸🇬!</li>
   <li>🗞️ [Nov. '24] An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)! 🎉</li>
   <li>🗞️ [Nov. '24] I'm selected as one of the <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Reviewers (top 8.6%: 1,304 of 15,160 reviewers)</a> at NeurIPS 2024! (+ Free registration! 😎) </li>
