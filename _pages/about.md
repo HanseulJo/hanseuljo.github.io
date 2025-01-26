@@ -13,6 +13,9 @@ redirect_from:
 <style>
 gray { color: gray; font-size: 75%;}
 red { color: #DC3522}
+.highlighted { 
+    background-color: #FFFD90; 
+}
 .nobull {
   margin:0px; padding:0px;
   list-style: none;
@@ -29,21 +32,17 @@ red { color: #DC3522}
 I am a Ph.D. student in the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**).
 Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
 
-<!-- <p style="text-align:center;font-weight:bold">
-🚨<span style="color:ForestGreen">I am Looking for Internship Opportunities‼️</span>🚨
-</p> -->
+🤗 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
 
-I am interested in a broad range of fields in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
+## 🔬 Research Interests 🔭
 
-During my journey to a **Ph.D.**👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) if interested):
+My primary research interests lie in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
+
+During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) if interested):
+
 * <red><i class="fa fa-sitemap"></i> <b>[Generalizability]</b></red> **Out-of-distribution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformers)
-* <red><i class="fa fa-flask"></i> <b>[Adaptability]</b></red> **Training adaptable models under an evolving environment** (e.g., continual learning, maintaining plasticity of neural networks, sample-efficient reinforcement learning)
+* <red><i class="fa fa-flask"></i> <b>[Adaptability]</b></red> **Training adaptable models under evolving environments** (e.g., continual learning, maintaining the plasticity of neural networks, sample-efficient reinforcement learning)
 * <red><i class="fa fa-cubes"></i> <b>[Multifacetedness]</b></red> **Learning with multiple (possibly conflicting and/or orthogonal) goals** (e.g., minimax optimization, bi‑level optimization, fairness in ML)
-
-## 📰 Publications 📰
-
-Please click the ["Publications"](/publications/) tab above to look up the full list of my publications.  
-You can also find my articles on my <a href="{{ site.author.googlescholar }}">Google Scholar</a> profile.
 
 ## ‼️News‼️
 
@@ -75,5 +74,5 @@ You can also find my articles on my <a href="{{ site.author.googlescholar }}">Go
 
 ## Contact & Info
 
-📋 **Curriculum Vitae (CV)**: [Here](/files/Curriculum_Vitae__Hanseul_Cho.pdf)  
-📧 Email: jhs4015 at kaist dot ac dot kr
+📋 **Curriculum Vitae (CV)**: [[PDF]](/files/Curriculum_Vitae__Hanseul_Cho.pdf) | [[Overleaf-ReadOnly]](https://www.overleaf.com/read/pmkhfyywpjnt#3ad9b9)  
+📧 E-mail: jhs4015 at kaist dot ac dot kr
