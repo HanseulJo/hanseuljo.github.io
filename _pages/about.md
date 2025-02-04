@@ -29,8 +29,11 @@ red { color: #DC3522}
 }
 </style>
 
-I am a Ph.D. student in the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), where I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**).
+I'm a Ph.D. student in the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), where I'm fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**).
 Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
+*Here is my [CV](/files/Curriculum_Vitae__Hanseul_Cho.pdf)*.
+
+I'll work as a Google Student Researcher in New York for Spring 2025 (05/05--07/25), collaborating with [Srinadh Bhojanapalli](https://bsrinadh.github.io).
 
 🤗 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
 
@@ -47,6 +50,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
 ## ‼️News‼️
 
 <ul class="nobull">
+  <li>🗞️ [Feb. '25] <red><b>(NEW)</b></red> I'll work as a <b>Google Student Researcher</b> in New York🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>) </li>
   <li>🗞️ [Jan. '25] <red><b>(NEW)</b></red> Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
   <li>🗞️ [Jan. '25] <red><b>(NEW)</b></red> Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Tampines, Singapore🇸🇬!</li>
   <li>🗞️ [Nov. '24] An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)! 🎉</li>
