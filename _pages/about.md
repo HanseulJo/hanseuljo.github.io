@@ -65,7 +65,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
   <li>🗞️ [Feb. '22] Now I am part of <a href="https://chulheeyun.github.io">OptiML Lab</a> of KAIST AI. </li>
 </ul>
 
-## Education
+<!-- ## Education
 
 <ul class="nobull">
   <li>🏫 Ph.D. in Artificial Intelligence  <gray>KAIST, Sept. 2023 – Current</gray></li>
@@ -74,7 +74,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
     <ul class="nobull2" style="color:gray">
     <li>Minor in Computing Sciences / <b>Summa Cum Laude</b></li>
     </ul>
-</ul>
+</ul> -->
 
 ## Contact & Info
 
