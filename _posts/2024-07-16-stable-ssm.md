@@ -16,9 +16,8 @@ tags:
     - stable reparameterization
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/group_meeting/GroupMeeting240716_HanseulCho_StableSSM.pdf)
+<object data="/files/group_meeting/GroupMeeting240716_HanseulCho_StableSSM.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 
 * Shida Wang and Qianxiao Li. [StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization.](https://arxiv.org/abs/2311.14495) ICML 2024.
-

@@ -15,9 +15,8 @@ tags:
     - implicit q learning
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/courseworks/AI611presentation_HCho_IQL.pdf)
+<object data="/files/courseworks/AI611presentation_HCho_IQL.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 
 * Ilya Kostrikov, Ashvin Nair, and Sergey Levine. [Offline Reinforcement Learning with Implicit Q Learning.](https://openreview.net/forum?id=68n2s9ZJWF8) ICLR 2022.
-

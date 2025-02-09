@@ -16,6 +16,7 @@ venue: <a href="https://neurips.cc/Conferences/2024"><b>NeurIPS 2024</b></a> (Sh
 award: 
 paperurl: https://openreview.net/forum?id=5cIRdGM1uG
 arxiv: https://arxiv.org/abs/2405.20671
+pdf: https://openreview.net/pdf?id=5cIRdGM1uG
 code: HanseulJo/position-coupling
 categories: 
     - NeurIPS
@@ -49,3 +50,7 @@ Even for simple arithmetic tasks like integer addition, it is challenging for Tr
 ## Slide
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/iNEl39UaLR9HAF" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>
+
+## Read Full Paper
+
+<object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>

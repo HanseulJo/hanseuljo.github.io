@@ -15,10 +15,9 @@ tags:
     - danskin's lemma
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/group_meeting/GroupMeeting230201_HSCho_AdversarialTraining.pdf)
+<object data="/files/group_meeting/GroupMeeting230201_HSCho_AdversarialTraining.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 
 * Fabian Latorre, Igor Krawczuk, Leello Tadesse Dadi, Thomas Pethick, and Volkan Cevher. [Finding Actual Descent Directions for Adversarial Training.](https://openreview.net/forum?id=I3HCE7Ro78H) ICLR 2023.
 * Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu [Towards Deep Learning Models Resistant to Adversarial Attacks.](https://openreview.net/forum?id=rJzIBfZAb) ICLR 2018.
-

@@ -14,6 +14,7 @@ venue: <a href="https://neurips.cc/Conferences/2023"><b>NeurIPS 2023</b></a>
 award: 
 paperurl: https://openreview.net/forum?id=TW3ipYdDQG
 arxiv: https://arxiv.org/abs/2310.18593
+pdf: https://openreview.net/pdf?id=TW3ipYdDQG
 code: HanseulJo/fair-streaming-pca
 categories: 
     - NeurIPS
@@ -48,3 +49,7 @@ Fairness, Streaming PCA, Unsupervised Learnability
 ## Slide
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/dvzoPGtBRk00d4" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>
+
+## Read Full Paper
+
+<object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>

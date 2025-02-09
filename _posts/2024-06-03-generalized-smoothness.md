@@ -15,7 +15,7 @@ tags:
     - optimization
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/courseworks/AI709presentation-HanseulCho-GeneralizedSmoothness.pdf)
+<object data="/files/courseworks/AI709presentation-HanseulCho-GeneralizedSmoothness.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 

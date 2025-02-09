@@ -41,7 +41,7 @@ I'll work as a Google Student Researcher in New York for Spring 2025 (05/05--07/
 
 My primary research interests lie in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
 
-During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/files/PhD_thesis_research_proposal.pdf) if interested):
+During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/posts/phd-thesis-proposal/) if interested):
 
 * <red><i class="fa fa-sitemap"></i> <b>[Generalizability]</b></red> **Out-of-distribution generalization of (large) language models** (e.g., length generalization and compositional generalization of Transformers)
 * <red><i class="fa fa-flask"></i> <b>[Adaptability]</b></red> **Training adaptable models under evolving environments** (e.g., continual learning, maintaining the plasticity of neural networks, sample-efficient reinforcement learning)

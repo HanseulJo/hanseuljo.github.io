@@ -16,9 +16,8 @@ tags:
     - no spurious stationarity
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/group_meeting/GroupMeeting220408_HanseulCho_WGANnoSpuriousStationarity.pdf)
+<object data="/files/group_meeting/GroupMeeting220408_HanseulCho_WGANnoSpuriousStationarity.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 
-* Albert No, TaeHo Yoon, Sehyun Kwon, and Ernest K. Ryu. [WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points.](https://arxiv.org/abs/2102.07541) ICML 2021.
-
+* Albert No, Taeho Yoon, Sehyun Kwon, and Ernest K. Ryu. [WGAN with an Infinitely Wide Generator Has No Spurious Stationary Points.](https://arxiv.org/abs/2102.07541) ICML 2021.

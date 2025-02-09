@@ -16,4 +16,3 @@ tags:
 ![logo1](/assets/img/optiml-logo/optiml1.jpg)
 
 ![logo2](/assets/img/optiml-logo/optiml2.jpg)
-

@@ -15,9 +15,8 @@ tags:
     - low rank
 ---
 
-Please visit the link to open the slide:  [**View PDF**](/files/group_meeting/GroupMeeting230908_HSCho_ImplicitBiasLargeDepth.pdf)
+<object data="/files/group_meeting/GroupMeeting230908_HSCho_ImplicitBiasLargeDepth.pdf" width="960" height="540" type='application/pdf'></object>
 
 ## Main References
 
 * Arthur Jacot. [Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions.](https://openreview.net/forum?id=6iDHce-0B-a) ICLR 2023.
-

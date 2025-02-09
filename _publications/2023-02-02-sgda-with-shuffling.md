@@ -12,6 +12,7 @@ venue: <a href="https://iclr.cc/Conferences/2023"><b>ICLR 2023</b></a>
 award: <b>NAVER Outstanding Theory Paper Award</b> at the 7th Joint Conference of Korea Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20221001&CpPage=167#CONF">JKAIA 2022</a>)
 paperurl: https://openreview.net/forum?id=6xXtM8bFFJ
 arxiv: https://arxiv.org/abs/2210.05995
+pdf: https://openreview.net/pdf?id=6xXtM8bFFJ
 categories: 
     - ICLR
     - KAIA
@@ -37,3 +38,7 @@ Stochastic gradient descent-ascent(SGDA), without-replacement sampling, Random r
 ## Slide
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/4Cis8oNxKBvoq3" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>
+
+## Read Full Paper
+
+<object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>
