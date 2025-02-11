@@ -18,6 +18,7 @@ tags:
 ---
 
 <object data="/files/courseworks/Optimal_Transport_Final_Essay.pdf" width="960" height="1000" type='application/pdf'></object>
+For mobile: [**View PDF**](/files/courseworks/Optimal_Transport_Final_Essay.pdf)
 
 ## Abstract
 

@@ -16,6 +16,7 @@ tags:
 ---
 
 <object data="/files/courseworks/AI709presentation-HanseulCho-GeneralizedSmoothness.pdf" width="960" height="540" type='application/pdf'></object>
+For mobile: [**View PDF**](/files/courseworks/AI709presentation-HanseulCho-GeneralizedSmoothness.pdf)
 
 ## Main References
 

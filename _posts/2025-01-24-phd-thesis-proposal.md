@@ -17,6 +17,6 @@ tags:
     - PhD
 ---
 
-## Read the Full Document
+## Read the Full Document (PC recommended)
 
 <object data="/files/pdf_thesis_proposal.pdf" width="960" height="1000" type='application/pdf'></object>

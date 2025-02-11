@@ -16,6 +16,7 @@ tags:
 ---
 
 <object data="/files/group_meeting/GroupMeeting230201_HSCho_AdversarialTraining.pdf" width="960" height="540" type='application/pdf'></object>
+For mobile: [**View PDF**](/files/group_meeting/GroupMeeting230201_HSCho_AdversarialTraining.pdf)
 
 ## Main References
 
