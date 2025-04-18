@@ -13,7 +13,7 @@ authors:
 venue: <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
 award: 
 paperurl: https://openreview.net/forum?id=eIgGesYKLG
-arxiv: https://arxiv.org/pdf/2410.15787
+arxiv: https://arxiv.org/abs/2410.15787
 pdf: https://openreview.net/pdf?id=eIgGesYKLG
 code: HanseulJo/position-coupling
 categories: 

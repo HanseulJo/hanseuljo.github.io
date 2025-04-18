@@ -120,7 +120,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Convergence and Implicit Bias of Gradient Descent on Continual Linear Classification",
-        "excerpt":"Abstract We study continual learning on multiple linear classification tasks by sequentially running gradient descent (GD) for a fixed budget of iterations per each given task. When all tasks are jointly linearly separable and are presented in a cyclic/random order, we show the directional convergence of the trained linear classifier...","categories": ["ICLR","KAIA"],
+        "excerpt":"Abstract We study continual learning on multiple linear classification tasks by sequentially running gradient descent (GD) for a fixed budget of iterations per each given task. When all tasks are jointly linearly separable and are presented in a cyclic/random order, we show the directional convergence of the trained linear classifier...","categories": ["ICLR","Arxiv","KAIA"],
         "tags": ["Continual Learning","Sequential Learning","Gradient Descent","Linear Classification","Convergence","Implicit Bias"],
         "url": "/publication/Continual-Linear-Classfication-GD",
         "teaser": null
