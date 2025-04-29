@@ -83,6 +83,12 @@ var store = [{
         "url": "/posts/phd-thesis-proposal/",
         "teaser": null
       },{
+        "title": "[Paper Reading] PENCIL: Long Thoughts with Short Memory",
+        "excerpt":"For mobile: View PDF Main References Chenxiao Yang, Nathan Srebro, David McAllester, and Zhiyuan Li. PENCIL: Long Thoughts with Short Memory. arXiv preprint, 2025. Supplementary References: Maxwell Nye et al. Show Your Work: Scratchpads for Intermediate Computation with Language Models. arXiv preprint, 2021. Jason Wei et al. Chain-of-Thought Prompting Elicits...","categories": ["paper review","group meeting"],
+        "tags": ["transformers","pencil","chain of thought","reasoning"],
+        "url": "/posts/pencil-erasable-cot/",
+        "teaser": null
+      },{
         "title": "SGDA with Shuffling: Faster Convergence For Nonconvex-PŁ Minimax Optimization",
         "excerpt":"Poster Abstract Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone...","categories": ["ICLR","KAIA"],
         "tags": ["minimax optimization","SGDA","without-replacement sampling","shuffling-based"],

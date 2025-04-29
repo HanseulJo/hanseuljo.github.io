@@ -72,6 +72,12 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>http://localhost:4000/posts/pencil-erasable-cot/</loc>
+        <lastmod>2025-04-04T00:00:00+09:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>http://localhost:4000/posts/phd-thesis-proposal/</loc>
         <lastmod>2025-01-24T00:00:00+09:00</lastmod>
         
