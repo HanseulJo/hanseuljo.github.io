@@ -24,7 +24,8 @@ For mobile: [**View PDF**](/files/group_meeting/GroupMeeting250404_HanseulCho_PE
 
 * Chenxiao Yang, Nathan Srebro, David McAllester, and Zhiyuan Li. [PENCIL: Long Thoughts with Short Memory.](https://arxiv.org/abs/2503.14337) arXiv preprint, 2025.
 
-## Supplementary References:
+## Supplementary References
+
 * Maxwell Nye et al. [Show Your Work: Scratchpads for Intermediate Computation with Language Models.](https://arxiv.org/abs/2112.00114) arXiv preprint, 2021.
 * Jason Wei et al. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.](https://arxiv.org/pdf/2201.11903) NeurIPS 2022.
 * William Merrill and Ashish Sabharwal, [The Parallelism Tradeoff: Limitations of Log-Precision Transformers.](https://arxiv.org/abs/2207.00729) TACL 2023.

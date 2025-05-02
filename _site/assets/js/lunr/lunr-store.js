@@ -84,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Paper Reading] PENCIL: Long Thoughts with Short Memory",
-        "excerpt":"For mobile: View PDF Main References Chenxiao Yang, Nathan Srebro, David McAllester, and Zhiyuan Li. PENCIL: Long Thoughts with Short Memory. arXiv preprint, 2025. Supplementary References: Maxwell Nye et al. Show Your Work: Scratchpads for Intermediate Computation with Language Models. arXiv preprint, 2021. Jason Wei et al. Chain-of-Thought Prompting Elicits...","categories": ["paper review","group meeting"],
+        "excerpt":"For mobile: View PDF Main References Chenxiao Yang, Nathan Srebro, David McAllester, and Zhiyuan Li. PENCIL: Long Thoughts with Short Memory. arXiv preprint, 2025. Supplementary References Maxwell Nye et al. Show Your Work: Scratchpads for Intermediate Computation with Language Models. arXiv preprint, 2021. Jason Wei et al. Chain-of-Thought Prompting Elicits...","categories": ["paper review","group meeting"],
         "tags": ["transformers","pencil","chain of thought","reasoning"],
         "url": "/posts/pencil-erasable-cot/",
         "teaser": null
