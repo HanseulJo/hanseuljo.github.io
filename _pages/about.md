@@ -29,13 +29,16 @@ red { color: #DC3522}
 }
 </style>
 
-I'm a Ph.D. student in the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), where I'm fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**).
-Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
-*Here is my [CV](/files/Curriculum_Vitae__Hanseul_Cho.pdf)*.
+I am a Ph.D. student at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**) (08/2023--08/2027 (expected)). I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) of the [Optimization & Machine Learning (**OptiML**) Laboratory](https://chulheeyun.github.io), KAIST AI.
+Previously, I completed my M.Sc. (in AI, 02/2022--08/2023) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
 
-I'll work as a Google Student Researcher in New York for Spring 2025 (05/05--07/25), collaborating with [Srinadh Bhojanapalli](https://bsrinadh.github.io).
+Currently, I am a Student Researcher at [**Google**](https://research.google) in New York City🇺🇸 (05/05/2025--07/25/2025), working for [Srinadh Bhojanapalli](https://bsrinadh.github.io). Also, I'll be in NYC from 05/02/2025 to 08/21/2025, exploiting the grace periods before & after my J-1 visa program.
 
-🤗 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
+Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
+
+📋 **Curriculum Vitae (CV)**: [[PDF]](/files/Curriculum_Vitae__Hanseul_Cho.pdf) | [[Overleaf-ReadOnly]](https://www.overleaf.com/read/pmkhfyywpjnt#3ad9b9)  
+📧 **Primary E-mail**: jhs4015 at kaist dot ac dot kr  
+📧 **Googler E-mail**: {firstname}{lastname} at google dot com
 
 ## 🔬 Research Interests 🔭
 
@@ -50,14 +53,15 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
 ## ‼️News‼️
 
 <ul class="nobull">
-  <li>🗞️ [Feb. '25] <red><b>(NEW)</b></red> I'll work as a <b>Google Student Researcher</b> in New York🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>) </li>
-  <li>🗞️ [Jan. '25] <red><b>(NEW)</b></red> Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
-  <li>🗞️ [Jan. '25] <red><b>(NEW)</b></red> Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Tampines, Singapore🇸🇬!</li>
+  <li>🗞️ [May '25] <red><b>(NEW)</b></red> I visit NYC🇺🇸 from 2025-05-02 to 2025-08-21 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
+  <li>🗞️ [Feb. '25] I'll work as a <b>Student Researcher</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>) </li>
+  <li>🗞️ [Jan. '25] Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
+  <li>🗞️ [Jan. '25] Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Singapore🇸🇬!</li>
   <li>🗞️ [Nov. '24] An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)! 🎉</li>
   <li>🗞️ [Nov. '24] I'm selected as one of the <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Reviewers (top 8.6%: 1,304 of 15,160 reviewers)</a> at NeurIPS 2024! (+ Free registration! 😎) </li>
   <li>🗞️ [Sep. '24] Two papers got accepted to <b>NeurIPS 2024</b>! 🎉 <a href="/publication/Position-Coupling">One</a> is about length generalization of arithmetic Transfomers, and <a href="/publication/DASH-Direction-Aware-SHrinking">another</a> is about mitigating loss of plasticity in incremental neural net training. See you in Vancouver, Canada🇨🇦!</li>
   <li>🗞️ [Jun. '24] An early version of our <a href="/publication/Position-Coupling">paper</a> on length generalization of Transformers got accepted to the ICML 2024 Workshop on <a href="https://longcontextfm.github.io/">Long-Context Foundation Models</a>!</li>
-  <li>🗞️ [May. '24] A <a href="/publication/Alex-GDA">paper</a> got accepted to <b>ICML 2024</b> as a <b>spotlight paper</b> (top 3.5% among all submissions)! 🎉 We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization. See you in Vienna, Austria🇦🇹!</li>
+  <li>🗞️ [May '24] A <a href="/publication/Alex-GDA">paper</a> got accepted to <b>ICML 2024</b> as a <b>spotlight paper</b> (top 3.5% among all submissions)! 🎉 We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization. See you in Vienna, Austria🇦🇹!</li>
   <li>🗞️ [Sep. '23] Two papers are accepted to <b>NeurIPS 2023</b>! 🎉 One is about <a href="/publication/fair-streaming-pca">Fair Streaming PCA</a> and another is about <a href="/publication/PLASTIC">enhancing plasticity in RL</a>. See you in New Orleans, USA🇺🇸!</li>
   <li>🗞️ [Jan. '23] Our <a href="/publication/sgda-with-shuffling">paper</a> about shuffling-based stochastic gradient descent-ascent got accepted to <b>ICLR 2023</b>! </li>
   <li>🗞️ [Nov. '22] An early version of our <a href="/publication/sgda-with-shuffling">paper</a> about shuffling-based stochastic gradient descent-ascent is accepted to 2022 <a href="http://aiassociation.kr">Korea AI Association</a> + <a href="https://www.navercorp.com/en">NAVER</a> Autumnal Joint Conference (JKAIA 2022) and selected as the <b>NAVER Outstanding Theory Paper</b> (top 3 papers)! </li>
@@ -76,7 +80,3 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
     </ul>
 </ul> -->
 
-## Contact & Info
-
-📋 **Curriculum Vitae (CV)**: [[PDF]](/files/Curriculum_Vitae__Hanseul_Cho.pdf) | [[Overleaf-ReadOnly]](https://www.overleaf.com/read/pmkhfyywpjnt#3ad9b9)  
-📧 E-mail: jhs4015 at kaist dot ac dot kr
