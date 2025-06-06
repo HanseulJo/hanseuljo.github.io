@@ -53,7 +53,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
 ## ‼️News‼️
 
 <ul class="nobull">
-  <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICM 2025! </li>
+  <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
   <li>🗞️ [May '25] <red><b>(NEW)</b></red> I visit NYC🇺🇸 from 2025-05-02 to 2025-08-21 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
   <li>🗞️ [Feb. '25] I'll work as a <b>Student Researcher</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>) </li>
   <li>🗞️ [Jan. '25] Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
