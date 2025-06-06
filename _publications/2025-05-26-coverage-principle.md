@@ -1,44 +1,42 @@
 ---
-title: "SGDA with Shuffling: Faster Convergence For Nonconvex-PŁ Minimax Optimization"
+title: "The Coverage Principle: A Framework for Understanding Compositional Generalization"
 collection: publications
-permalink: /publication/sgda-with-shuffling
-date: 2023-02-02
+permalink: /publication/coverage-principle
+date: 2025-05-26
 toc: true
 toc_sticky: true
 authors:
+    - <a href="https://duemoo.github.io/about/">Hoyeon Chang</a>*
+    - <a href="https://jinhopark-ai.github.io/">Jinho Park</a>*
     - me
-    - CY
-venue: <a href="https://iclr.cc/Conferences/2023"><b>ICLR 2023</b></a>
-award: <b>NAVER Outstanding Theory Paper Award</b> at the 7th Joint Conference of Korea Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20221001&CpPage=167#CONF">JKAIA 2022</a>)
-paperurl: https://openreview.net/forum?id=6xXtM8bFFJ
-arxiv: https://arxiv.org/abs/2210.05995
-pdf: https://openreview.net/pdf?id=6xXtM8bFFJ
+    - <a href="https://soheeyang.github.io/">Sohee Yang</a>
+    - <a href="https://miyoungko.github.io/">Miyoung Ko</a>
+    - <a href="https://hbin0701.github.io/">Hyeonbin Hwang</a>
+    - <a href="https://scholar.google.com/citations?user=d7-TUHkAAAAJ&hl=en&oi=sra">Seungpil Won</a>
+    - <a href="https://scholar.google.com/citations?user=8OqV_8sAAAAJ&hl=en&oi=sra">Dohaeng Lee</a>
+    - Youbin Ahn
+    - <a href="https://seominjoon.github.io/">Minjoon Seo</a>
+venue: Under Review
+award: 
+paperurl: 
+arxiv: https://arxiv.org/abs/2505.20278
+pdf: https://arxiv.org/pdf/2505.20278
 code:
 categories: 
-    - ICLR
-    - KAIA
+    - arXiv
 tags:
-    - minimax optimization
-    - SGDA
-    - without-replacement sampling
-    - shuffling-based
+    - compositional generalization
+    - coverage principle
 ---
 
-## Poster
-
-![sgda_poster](../assets/img/sgda-with-shuffling/poster_iclr_horizontal_90_135.png)
 
 ## Abstract
 
-Stochastic gradient descent-ascent (SGDA) is one of the main workhorses for solving finite-sum minimax optimization problems. Most practical implementations of SGDA randomly reshuffle components and sequentially use them (i.e., without-replacement sampling); however, there are few theoretical results on this approach for minimax algorithms, especially outside the easier-to-analyze (strongly-)monotone setups. To narrow this gap, we study the convergence bounds of SGDA with random reshuffling (SGDA-RR) for smooth nonconvex-nonconcave objectives with Polyak-{\L}ojasiewicz (P{\L}) geometry. We analyze both simultaneous and alternating SGDA-RR for nonconvex-P{\L} and primal-P{\L}-P{\L} objectives, and obtain convergence rates faster than with-replacement SGDA. Our rates extend to mini-batch SGDA-RR, recovering known rates for full-batch gradient descent-ascent (GDA). Lastly, we present a comprehensive lower bound for GDA with an arbitrary step-size ratio, which matches the full-batch upper bound for the primal-P{\L}-P{\L} case.
+Large language models excel at pattern matching, yet often fall short in systematic compositional generalization. We propose the coverage principle: a data-centric framework showing that models relying primarily on pattern matching for compositional tasks cannot reliably generalize beyond substituting fragments that yield identical results when used in the same contexts. We demonstrate that this framework has a strong predictive power for the generalization capabilities of Transformers. First, we derive and empirically confirm that the training data required for two-hop generalization grows at least quadratically with the token set size, and the training data efficiency does not improve with 20x parameter scaling. Second, for compositional tasks with path ambiguity where one variable affects the output through multiple computational paths, we show that Transformers learn context-dependent state representations that undermine both performance and interoperability. Third, Chain-of-Thought supervision improves training data efficiency for multi-hop tasks but still struggles with path ambiguity. Finally, we outline a \emph{mechanism-based} taxonomy that distinguishes three ways neural networks can generalize: structure-based (bounded by coverage), property-based (leveraging algebraic invariances), and shared-operator (through function reuse). This conceptual lens contextualizes our results and highlights where new architectural ideas are needed to achieve systematic compositionally. Overall, the coverage principle provides a unified lens for understanding compositional reasoning, and underscores the need for fundamental architectural or training innovations to achieve truly systematic compositionality.
 
 ## Keywords
 
-Stochastic gradient descent-ascent(SGDA), without-replacement sampling, Random reshuffling (RR), SGDA-RR, finite-sum optimization, minimax optimization, nonconvex-PŁ, primal-PŁ-PŁ, convergence analysis
-
-## Slide
-
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/4Cis8oNxKBvoq3" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>
+TODO
 
 ## Read Full Paper
 
