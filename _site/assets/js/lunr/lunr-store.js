@@ -136,4 +136,16 @@ var store = [{
         "tags": ["Transformers","Length Generalization","Position Coupling","Scratchpad","Positional Encoding","Out-of-distribution Generalization","Arithmetic Tasks"],
         "url": "/publication/Position-Coupling-Scratchpad",
         "teaser": null
+      },{
+        "title": "The Coverage Principle: A Framework for Understanding Compositional Generalization",
+        "excerpt":"Abstract Large language models excel at pattern matching, yet often fall short in systematic compositional generalization. We propose the coverage principle: a data-centric framework showing that models relying primarily on pattern matching for compositional tasks cannot reliably generalize beyond substituting fragments that yield identical results when used in the same...","categories": ["arXiv"],
+        "tags": ["compositional generalization","coverage principle"],
+        "url": "/publication/coverage-principle",
+        "teaser": null
+      },{
+        "title": "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environment",
+        "excerpt":"Korean Title 항공기 AESA 레이다 운용 환경에 효과적인 재머 파라미터 탐색을 위한 심층 모델 기반 최적화 기법 Abstract (KOR/ENG) 본 연구는 심층 신경망을 이용한 모델 기반 최적화 기법의 일종인 RoMA를 활용해 항공기 AESA 레이다 운용 환경에 효과적인 재머 파라미터를 찾는 알고리즘을 제안한다. 이는 레이다·재머 파라미터와 재밍 효과도 사이 함수를 안정적으로...","categories": ["Journal"],
+        "tags": ["Deep Model-Based Optimization","Jammer","Korean-only"],
+        "url": "/publication/deep-model-based-jammer-optimization",
+        "teaser": null
       },]
