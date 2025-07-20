@@ -32,7 +32,7 @@ red { color: #DC3522}
 I am a Ph.D. student at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**) (08/2023--08/2027 (expected)). I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) of the Optimization & Machine Learning (**OptiML**) Laboratory, KAIST AI.
 Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
 
-Currently, I am a Student Researcher at [**Google**](https://research.google) in New York City🇺🇸 (05/05/2025--08/22/2025), working for [Srinadh Bhojanapalli](https://bsrinadh.github.io).
+Currently, I am an **Intern (Student Researcher) at [Google](https://research.google)** in New York City🇺🇸 (05/05/2025--08/22/2025), working for [Srinadh Bhojanapalli](https://bsrinadh.github.io).
 
 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
 
@@ -56,7 +56,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
   <li>🗞️ [Jun. '25] <red><b>(NEW)</b></red> My Internship at Google has been extended to 08/22/2025. </li>
   <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
   <li>🗞️ [May '25] I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
-  <li>🗞️ [Feb. '25] I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>) </li>
+  <li>🗞️ [Feb. '25] I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>)  </li>
   <li>🗞️ [Jan. '25] Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
   <li>🗞️ [Jan. '25] Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Singapore🇸🇬!</li>
   <li>🗞️ [Nov. '24] An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)! 🎉</li>
