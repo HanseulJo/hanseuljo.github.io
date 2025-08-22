@@ -30,15 +30,13 @@ red { color: #DC3522}
 </style>
 
 I am a Ph.D. student at [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr), [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/) (**KAIST AI**) (08/2023--08/2027 (expected)). I am fortunate to be advised by [Prof. **Chulhee "Charlie" Yun**](https://chulheeyun.github.io) of the Optimization & Machine Learning (**OptiML**) Laboratory, KAIST AI.
-Previously, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
-
-Currently, I am an **Intern (Student Researcher) at [Google](https://research.google)** in New York City🇺🇸 (05/05/2025--08/22/2025), working for [Srinadh Bhojanapalli](https://bsrinadh.github.io).
+Previously, I was an intern (Student Researcher) at [Google](https://research.google) NYC🇺🇸, working for [Srinadh Bhojanapalli](https://bsrinadh.github.io). Also, I completed my M.Sc. (in AI) and B.Sc. (in Math, minor in CS, *Summa Cum Laude*) at KAIST.
 
 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
 
 📋 **Curriculum Vitae (CV)**: [[PDF]](/files/Curriculum_Vitae__Hanseul_Cho.pdf) | [[Overleaf-ReadOnly]](https://www.overleaf.com/read/pmkhfyywpjnt#3ad9b9)  
 📧 **Primary E-mail**: jhs4015 at kaist dot ac dot kr  
-📧 **Googler E-mail**: {firstname}{lastname} at google dot com
+<!-- 📧 **Googler E-mail**: {firstname}{lastname} at google dot com -->
 
 ## 🔬 Research Interests 🔭
 
