@@ -20,7 +20,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">My Info👋</button>
+    <button class="btn btn--inverse">Click me🤗</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li>📍 {{ author.location }}</li>
@@ -29,7 +29,7 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv }}">📝 CV</a></li>
+        <li><a href="{{ author.cv }}">📝 <b>CV</b> 👈👈</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="https://{{ author.uri }}">🔗 {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li> <!-- <i class="fas fa-fw fa-link" aria-hidden="true"></i> -->
