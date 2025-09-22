@@ -17,6 +17,7 @@ tags:
     - reasoning
 ---
 
+<!-- markdownlint-disable MD033 -->
 <object data="/files/group_meeting/GroupMeeting250404_HanseulCho_PENCIL.pdf" width="960" height="600" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/group_meeting/GroupMeeting250404_HanseulCho_PENCIL.pdf)
 

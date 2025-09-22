@@ -23,6 +23,7 @@ tags:
     - without-replacement sampling
     - shuffling-based
 ---
+<!-- markdownlint-disable MD033 -->
 
 ## Poster
 

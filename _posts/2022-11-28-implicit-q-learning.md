@@ -15,6 +15,7 @@ tags:
     - implicit q learning
 ---
 
+<!-- markdownlint-disable MD033 -->
 <object data="/files/courseworks/AI611presentation_HCho_IQL.pdf" width="960" height="540" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/courseworks/AI611presentation_HCho_IQL.pdf)
 

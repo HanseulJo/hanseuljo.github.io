@@ -16,7 +16,7 @@ tags:
     - no spurious stationarity
 ---
 
-
+<!-- markdownlint-disable MD033 -->
 <object data="/files/group_meeting/GroupMeeting220408_HanseulCho_WGANnoSpuriousStationarity.pdf" width="960" height="540" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/group_meeting/GroupMeeting220408_HanseulCho_WGANnoSpuriousStationarity.pdf)
 

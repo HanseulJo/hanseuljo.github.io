@@ -28,7 +28,7 @@ tags:
     - compositional generalization
     - coverage principle
 ---
-
+<!-- markdownlint-disable MD033 -->
 
 ## Abstract
 

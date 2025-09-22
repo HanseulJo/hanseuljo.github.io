@@ -12,6 +12,9 @@ categories:
 tags:
     - logo
 ---
+<!-- markdownlint-disable MD033 -->
+
+The first draft below is devised by myself; after that, [Jaewook](https://jwlee-primal.com) refined it into a more fancy logo.
 
 ![logo1](/assets/img/optiml-logo/optiml1.jpg)
 

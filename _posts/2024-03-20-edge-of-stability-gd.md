@@ -15,6 +15,7 @@ tags:
     - normalized gradient descent
 ---
 
+<!-- markdownlint-disable MD033 -->
 <object data="/files/courseworks/AI709presentation-HanseulCho-GDonEoS.pdf" width="960" height="540" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/courseworks/AI709presentation-HanseulCho-GDonEoS.pdf)
 

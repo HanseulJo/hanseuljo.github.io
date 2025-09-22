@@ -9,12 +9,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- markdownlint-disable MD033 -->
 
 <style>
 gray { color: gray; font-size: 75%;}
 red { color: #DC3522}
-.highlighted { 
-    background-color: #FFFD90; 
+.highlighted {
+    background-color: #FFFD90;
 }
 .nobull {
   margin:0px; padding:0px;
@@ -50,7 +51,6 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
 
 ## ‼️News‼️
 
-<!-- Use this to mark a new News: `<red><b>(NEW)</b></red>` -->
 <ul class="nobull">
   <li>🗞️ [Jun. '25] My Internship at Google has been extended to 08/22/2025. </li>
   <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
@@ -80,4 +80,3 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
     <li>Minor in Computing Sciences / <b>Summa Cum Laude</b></li>
     </ul>
 </ul> -->
-

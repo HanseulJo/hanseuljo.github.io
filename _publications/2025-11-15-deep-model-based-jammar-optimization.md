@@ -26,6 +26,7 @@ tags:
     - Jammer
     - Korean-only
 ---
+<!-- markdownlint-disable MD033 -->
 
 ## Korean Title
 

@@ -17,12 +17,13 @@ tags:
     - model fusion
 ---
 
+<!-- markdownlint-disable MD033 -->
 <object data="/files/courseworks/Optimal_Transport_Final_Essay.pdf" width="960" height="1000" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/courseworks/Optimal_Transport_Final_Essay.pdf)
 
 ## Abstract
 
-In this report, we briefly overview the theory of optimal transport (OT),entropically regularized OT and Sinkhorn algorithm, and their application to deep learning model fusion technique. For the theory of OT, we delve into the derivation of dual OT problem and the proof of no duality gap result (i.e., strong duality). Through the lens of duality, we can analyze the entropic OT and its dual problem, and derive Sinkhorn algorithm. We then provide a short survey of convergence results of Sinkhorn algorithm and its variants. Lastly, we turn our attention to model fusion, which combine the power of several differently trained deep learning models (i.e., neural networks) into a single powerful model. We illustrate OTfusion, a method of aggregating several neural networks via optimal transport, and we offer a short discussion of further application of it.
+In this report, we briefly overview the theory of optimal transport (OT), entropically regularized OT, and the Sinkhorn algorithm, and their application to the deep learning model fusion technique. For the theory of OT, we delve into the derivation of the dual OT problem and the proof of the no-duality-gap result (i.e., strong duality). Through the lens of duality, we can analyze the entropic OT and its dual problem, and derive the Sinkhorn algorithm. We then provide a short survey of convergence results of the Sinkhorn algorithm and its variants. Lastly, we turn our attention to model fusion, which combines the power of several differently trained deep learning models (i.e., neural networks) into a single powerful model. We illustrate OTfusion [Singh and Jaggi, 2020], a method of aggregating several neural networks via optimal transport, and we offer a short discussion of further applications of it.
 
 ## Main References
 

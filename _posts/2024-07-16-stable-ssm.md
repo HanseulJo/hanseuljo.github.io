@@ -16,6 +16,7 @@ tags:
     - stable reparameterization
 ---
 
+<!-- markdownlint-disable MD033 -->
 <object data="/files/group_meeting/GroupMeeting240716_HanseulCho_StableSSM.pdf" width="960" height="540" type='application/pdf'></object>
 For mobile: [**View PDF**](/files/group_meeting/GroupMeeting240716_HanseulCho_StableSSM.pdf)
 

@@ -183,11 +183,11 @@ $$
 
 Theorem 2와 Theorem 3의 증명은 매우 유사하며, 본문에서는 Theorem 2의 증명과정을 요약하여 설명한다. 세 단계로 나누어 임의의 continuous, permutation equivariant, sequence-to-sequence function $f$ with compact support를 적절한 Transformer network로 근사한다. 그 로드맵은 다음과 같다.
 
-**4.1) $f$를 piece-wise 상수함수로 근사하기**
+#### 4.1) $f$를 piece-wise 상수함수로 근사하기
 
 상수함수라고 해서 f가 갑자기 real-valued가 되는 것이 아니다. 여기서의 상수함수 역시 행렬을 받아 행렬을 내뱉는 함수인데, 함숫값으로서의 행렬이 고정되어 있으면 상수함수인 것이다.
 
-**4.2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기**
+#### 4.2) Piece-wise 상수함수를 ‘modified’ Transformer network로 근사하기
 
 ‘Modified’ Transformer란, 기존의 Transformer에서 쓰이던 (column-wise) softmax 함수($\sigma$)는 column-wise hardmax($\sigma_H$)로 대체하고, FF의 activation function으로 쓰이던 ReLU는 또다른 특이한 함수($\phi \in \Phi$, 자세한 정의는 아래에)로 대체한 것이다.
 
@@ -200,7 +200,7 @@ The set of all piece-wise linear functions with at most three pieces, where at l
 
 ❓ Modified Transformer network의 layer 순서를 뒤바꾸어 같은 종류의 layer만 이어붙일 수 있는 이유가 구체적으로 무엇일까? 여기에 skip connection은 어떤 역할을 할까?
 
-**4.3) Modified Transformer network를 Transformer network로 근사하기**
+#### 4.3) Modified Transformer network를 Transformer network로 근사하기
 
 앞에서 대체했던 softmax와 ReLU를 원래대로 돌려놓는 작업이라고 보면 될 것 같다.
 

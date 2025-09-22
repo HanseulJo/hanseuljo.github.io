@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<!-- markdownlint-disable MD033 -->
 
 {% include base_path %}
 

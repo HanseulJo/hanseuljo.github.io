@@ -24,6 +24,7 @@ tags:
     - Principal Component Analysis (PCA)
     - Unsupervised Learnability
 ---
+<!-- markdownlint-disable MD033 -->
 
 ## Main Figures
 

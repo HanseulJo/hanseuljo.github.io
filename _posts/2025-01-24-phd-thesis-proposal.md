@@ -16,6 +16,7 @@ tags:
     - Ph.D.
     - PhD
 ---
+<!-- markdownlint-disable MD033 -->
 
 ## Read the Full Document (PC recommended)
 

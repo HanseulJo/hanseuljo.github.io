@@ -28,7 +28,7 @@ DS:
 
 JwL:
   name: "Jaewook Lee"
-  url : "https://id8198.github.io/"
+  url : "https://jwlee-primal.com"  # previously "https://id8198.github.io/"
 
 ############## OSI ##############
 
@@ -38,6 +38,7 @@ SY:
 
 JoonkeeKim:
   name: "Joonkee Kim"
+  url: "https://scholar.google.com/citations?user=LL9Yj54AAAAJ&hl=en"
 
 ############## Google ##############
 
@@ -69,6 +70,7 @@ HyunseungKim:
 
 DaehoonGwak:
   name: "Daehoon Gwak"
+  url : "https://scholar.google.com/citations?user=xxEMV54AAAAJ&hl=en"
 
 
 
