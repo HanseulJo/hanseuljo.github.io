@@ -20,4 +20,24 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<script defer>
+  // ** JavaScript to fetch and update view count **
+  // Ref: https://github.com/kananinirav/page-views-counter/
+  // 1. Bring the URL of the current page
+  var currentPageUrl = window.location.href;
+
+  // 2. Send a request to the view count API
+  fetch("https://page-views-counter.netlify.app/page_view?page=" + encodeURIComponent(currentPageUrl), {
+    method: "GET",
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      var viewCount = data.data.view_count;
+      // 3. Update the view count in the HTML
+      document.getElementById("viewCountText").textContent = viewCount;
+      document.getElementById("currentPageUrlText").textContent = currentPageUrl;
+    })
+    .catch((error) => console.error("Error fetching view count:", error));
+</script>
+
 <!-- end custom head snippets -->
