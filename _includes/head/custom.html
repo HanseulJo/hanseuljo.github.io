@@ -9,7 +9,6 @@
 <link rel="shortcut icon" href="{{ base_path }}/assets/icon/favicon.ico">
 <link rel="manifest" href="{{ base_path }}/assets/icon/site.webmanifest">
 
-{% raw %}
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -19,10 +18,9 @@
     }
   });
 </script>
-{% endraw %}
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<script defer>
+<!-- <script defer>
   document.addEventListener("DOMContentLoaded", function() {
     // ** JavaScript to fetch and update view count **
     // Ref: https://github.com/kananinirav/page-views-counter/
@@ -49,6 +47,6 @@
       })
       .catch((error) => console.error("Error fetching view count:", error));
   });
-</script>
+</script> -->
 
 <!-- end custom head snippets -->
