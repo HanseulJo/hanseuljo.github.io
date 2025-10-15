@@ -3,7 +3,7 @@ title: '[Paper Reading] A U-turn on Double Descent: Rethinking Parameter Countin
 excerpt: 'Presented in OptiML Group Meeting (Spring 2024)'
 collections: posts
 date: 2024-03-07
-permalink: /posts/u-turn-double-descent/
+permalink: /posts/u-turn-double-descent
 use_math: true
 toc:      true
 toc_sticky: true

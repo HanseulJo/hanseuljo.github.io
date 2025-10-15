@@ -3,7 +3,7 @@ title: '[Paper Reading] StableSSM: Alleviating the Curse of Memory in State-spac
 excerpt: 'Presented in OptiML Group Meeting (Summer 2024)'
 collections: posts
 date: 2024-07-16
-permalink: /posts/stable-ssm/
+permalink: /posts/stable-ssm
 use_math: true
 toc:      true
 toc_sticky: true

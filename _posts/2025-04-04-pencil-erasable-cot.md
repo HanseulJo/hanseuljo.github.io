@@ -3,7 +3,7 @@ title: '[Paper Reading] PENCIL: Long Thoughts with Short Memory'
 excerpt: 'Presented in OptiML Group Meeting (Spring 2025)'
 collections: posts
 date: 2025-04-04
-permalink: /posts/pencil-erasable-cot/
+permalink: /posts/pencil-erasable-cot
 use_math: true
 toc:      true
 toc_sticky: true

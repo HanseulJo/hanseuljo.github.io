@@ -124,11 +124,11 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-      <li><a href="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}">
+      <li><a href="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' }}">
         <img
           alt="Hits"
           style="border: 0px; margin: 0px; width: 75%;"
-          src="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}.svg?view=today-total&style=plastic&label=Visitors&color=407348&labelColor=0D0D0D"
+          src="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' }}.svg?view=today-total&style=plastic&label=Visitors&color=407348&labelColor=0D0D0D"
         />
       </a></li>
       <!-- <li><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhanseuljo.github.io&count_bg=%230DA825&title_bg=%232F5936&title=Hits (TDY/ALL)&edge_flat=false"/></a></li> -->

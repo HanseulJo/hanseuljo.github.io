@@ -3,7 +3,7 @@ title: '[Paper Reading] Understanding Gradient Descent on Edge of Stability in D
 excerpt: 'Presented in AI709 Advanced Deep Learning Theory (Spring 2024)'
 collections: posts
 date: 2024-03-20
-permalink: /posts/edge-of-stability-gd/
+permalink: /posts/edge-of-stability-gd
 use_math: true
 toc:      true
 toc_sticky: true

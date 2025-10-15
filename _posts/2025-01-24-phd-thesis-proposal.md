@@ -5,7 +5,7 @@ authors:
     - me
 collections: posts
 date: 2025-01-24
-permalink: /posts/phd-thesis-proposal/
+permalink: /posts/phd-thesis-proposal
 use_math: true
 toc:      true
 toc_sticky: true

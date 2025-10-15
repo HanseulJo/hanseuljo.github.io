@@ -3,7 +3,7 @@ title: '[Paper Reading] WGAN with an Inﬁnitely Wide Generator Has No Spurious 
 excerpt: 'Presented in OptiML Group Meeting (Spring 2022)'
 collections: posts
 date: 2022-04-08
-permalink: /posts/wgan-no-spurious-stationarity/
+permalink: /posts/wgan-no-spurious-stationarity
 use_math: true
 toc:      true
 toc_sticky: true

@@ -3,7 +3,7 @@ title: '[Paper Reading] [KR only] Are Transformers universal approximators of se
 excerpt: "Summary: <b>The first paper quantified Transformer's expressive power</b>"
 collections: posts
 date: 2022-01-30
-permalink: /posts/are-transformer-universal-approximators-of-sequence-to-sequence-functions/
+permalink: /posts/are-transformer-universal-approximators-of-sequence-to-sequence-functions
 use_math: true
 toc:      true
 toc_sticky: true

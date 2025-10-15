@@ -3,7 +3,7 @@ title: "[Paper Reading] Adversarial training descends without descent: Finding a
 excerpt: 'Presented in OptiML Group Meeting (Spring 2023)'
 collections: posts
 date: 2023-03-17
-permalink: /posts/adversarial-training-danskin/
+permalink: /posts/adversarial-training-danskin
 use_math: true
 toc:      true
 toc_sticky: true

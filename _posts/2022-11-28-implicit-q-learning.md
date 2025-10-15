@@ -3,7 +3,7 @@ title: '[Paper Reading] Offline Reinforcement Learning with Implicit Q Learning'
 excerpt: 'Presented in AI611 Deep Reinforcement Learning (Fall 2022)'
 collections: posts
 date: 2022-11-28
-permalink: /posts/implicit-q-learning/
+permalink: /posts/implicit-q-learning
 use_math: true
 toc:      true
 toc_sticky: true

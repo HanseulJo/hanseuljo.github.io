@@ -3,7 +3,7 @@ title: '[Paper Reading] Viewing Log-Depth Transformers via the Lens of Distribut
 excerpt: 'Presented in OptiML Group Meeting (Fall 2024)'
 collections: posts
 date: 2024-10-10
-permalink: /posts/log-depth-transformer/
+permalink: /posts/log-depth-transformer
 use_math: true
 toc:      true
 toc_sticky: true

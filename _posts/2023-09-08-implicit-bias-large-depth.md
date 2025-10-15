@@ -3,7 +3,7 @@ title: '[Paper Reading] Implicit Bias of Large Depth Networks: a Notion of Rank 
 excerpt: 'Presented in OptiML Group Meeting (Fall 2023)'
 collections: posts
 date: 2023-09-08
-permalink: /posts/implicit-bias-large-depth/
+permalink: /posts/implicit-bias-large-depth
 use_math: true
 toc:      true
 toc_sticky: true

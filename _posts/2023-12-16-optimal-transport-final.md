@@ -3,7 +3,7 @@ title: '[Coursework Report] An Overview on Optimal Transport and its Application
 excerpt: 'Final report for the coursework "Optimal Transport + Gradient Flow"'
 collections: posts
 date: 2023-12-16
-permalink: /posts/optimal-transport-model-fusion/
+permalink: /posts/optimal-transport-model-fusion
 use_math: true
 toc:      true
 toc_sticky: true

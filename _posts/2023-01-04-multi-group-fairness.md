@@ -3,7 +3,7 @@ title: '[Paper Reading] On Learning Fairness and Accuracy on Multiple Subgroups'
 excerpt: 'Presented in OptiML Group Meeting (Spring 2023)'
 collections: posts
 date: 2023-01-04
-permalink: /posts/multi-group-fairness/
+permalink: /posts/multi-group-fairness
 use_math: true
 toc:      true
 toc_sticky: true

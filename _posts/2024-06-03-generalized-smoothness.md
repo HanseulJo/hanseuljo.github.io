@@ -3,7 +3,7 @@ title: '[Paper Reading] Convex and Non-convex Optimization under Generalized Smo
 excerpt: 'Presented in AI709 Advanced Deep Learning Theory (Spring 2024)'
 collections: posts
 date: 2024-06-03
-permalink: /posts/generalized-smoothness/
+permalink: /posts/generalized-smoothness
 use_math: true
 toc:      true
 toc_sticky: true
