@@ -44,7 +44,7 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-square-x-twitter" aria-hidden="true"></i> X (Twitter)</a></li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
@@ -107,25 +107,31 @@
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw"></i> Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.semanticscholar %}
-        <li><a href="https://www.semanticscholar.org/author/{{ author.semanticscholar }}"><i class="ai ai-semantic-scholar ai-fw"></i> Semantic Scholar</a></li>
+        <li><a href="https://www.semanticscholar.org/author/{{ author.semanticscholar }}"><i class="ai ai-semantic-scholar ai-fw" aria-hidden="true"></i> Semantic Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
-        <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
+        <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw" aria-hidden="true"></i> PubMed</a></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
       {% endif %}
       {% if author.impactstory %}
-        <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
+        <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw" aria-hidden="true"></i> Impactstory</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-        <!-- <li>👁️‍🗨️ ViewCount: <span id="viewCountText">0</span> (<span id="currentPageUrlText">loading...</span>)</li>  -->
-        <!-- <li><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhanseuljo.github.io&count_bg=%230DA825&title_bg=%232F5936&title=Hits (TDY/ALL)&edge_flat=false"/></a></li> -->
+      <!-- <li>👀 <a href="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}">
+        <img
+          alt="Hits"
+          style="border: 0px; margin: 0px;"
+          src="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}.svg?view=today-total&style=plastic&label=Visitors&color=407348&labelColor=0D0D0D"
+        />
+      </a></li> -->
+      <!-- <li><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhanseuljo.github.io&count_bg=%230DA825&title_bg=%232F5936&title=Hits (TDY/ALL)&edge_flat=false"/></a></li> -->
     </ul>
   </div>
 </div>

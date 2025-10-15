@@ -73,17 +73,19 @@ layout: default
           </p>
         {% endif%}
         
-        <!---Date, Venue, URL-->
         <p>
+          <!---Date-->
           {% if page.date %}
             🗓
             <time datetime="{{ page.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
             &nbsp; &nbsp; 
           {% endif %}
+          <!---Venue-->
           {% if page.venue %}
             📰 {{ page.venue }}
             &nbsp; &nbsp; 
           {% endif %}
+          <!---URLs-->
           {% if page.paperurl or page.arxiv or page.code %}
            🔗
           {% endif %}
@@ -97,6 +99,14 @@ layout: default
             [<a href="https://github.com/{{ page.code }}"><u>code</u></a>]
             <a href="https://github.com/{{ page.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ page.code }}" style="max-width: 100%;"></a>
           {% endif %}
+          <!---Visitors-->
+          <!-- 👀 <a href="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}">
+            <img
+              alt="Hits"
+              style="border: 0px; margin: 0px;"
+              src="https://hits.sh/{{ site.url | remove_first: 'http://' | remove_first: 'https://' | append: page.url }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
+            />
+          </a> -->
         </p>
 
         {% if page.citation and page.paperurl %}

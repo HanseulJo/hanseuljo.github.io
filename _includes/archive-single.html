@@ -12,6 +12,8 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% assign postUrl = site.url | remove_first: 'http://' | remove_first: 'https://' | append: post.url %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -77,17 +79,19 @@
       </p>
     {% endif%}
 
-    <!---Venue, Date, URL-->
     <p>
+      <!---Venue-->
       {% if post.venue %}
         📰 {{ post.venue }}
         &nbsp; &nbsp; 
       {% endif %}
+      <!---Date-->
       {% if post.date %}
         🗓
         <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
         &nbsp; &nbsp; 
       {% endif %}
+      <!---URLs-->
       {% if post.paperurl or post.arxiv or post.code %}
         🔗
       {% endif %}
@@ -101,6 +105,14 @@
         [<a href="https://github.com/{{ post.code }}"><u>code</u></a>]
         <a href="https://github.com/{{ post.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.code }}" style="max-width: 100%;"></a>
       {% endif %}
+      <!---Visitors-->
+      <!-- 👀 <a href="https://hits.sh/{{ postUrl }}">
+        <img
+          alt="Hits"
+          style="border: 0px; margin: 0px;"
+          src="https://hits.sh/{{ postUrl }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
+        />
+      </a> -->
     </p>
     
 
