@@ -83,16 +83,16 @@
       <!---Venue-->
       {% if post.venue %}
         📰 {{ post.venue }}
-        &nbsp; &nbsp; 
       {% endif %}
       <!---Date-->
       {% if post.date %}
+        &nbsp; &nbsp; 
         🗓
         <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
-        &nbsp; &nbsp; 
       {% endif %}
       <!---URLs-->
       {% if post.paperurl or post.arxiv or post.code %}
+        &nbsp; &nbsp; 
         🔗
       {% endif %}
       {% if post.paperurl %}
@@ -106,13 +106,17 @@
         <a href="https://github.com/{{ post.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.code }}" style="max-width: 100%;"></a>
       {% endif %}
       <!---Visitors-->
-      <!-- 👀 <a href="https://hits.sh/{{ postUrl }}">
-        <img
-          alt="Hits"
-          style="border: 0px; margin: 0px;"
-          src="https://hits.sh/{{ postUrl }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
-        />
-      </a> -->
+      <!-- {% if postUrl %}
+        &nbsp; &nbsp; 
+        👀
+        <a href="https://hits.sh/{{ postUrl }}">
+          <img
+            alt="Hits"
+            style="border: 0px; margin: 0px;"
+            src="https://hits.sh/{{ postUrl }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
+          />
+        </a>
+      {% endif %} -->
     </p>
     
 

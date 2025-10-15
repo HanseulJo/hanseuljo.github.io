@@ -42,10 +42,10 @@ Transformers often struggle with *length generalization*, meaning they fail to g
 
 ![Position_Coupling5](../assets/img/position-coupling-scratchpad/Poster_PoCo_ICLR2025.png)
 
-## Slide
+## Slides
 
 <iframe src="https://iclr.cc/media/iclr-2025/Slides/28933.pdf" width="960" height="540" style="max-width: 100%;"> </iframe>
 
-## Read Full Paper
+## Read the Full Paper
 
 <object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>

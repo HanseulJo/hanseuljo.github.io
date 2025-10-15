@@ -38,6 +38,6 @@ Large language models excel at pattern matching, yet often fall short in systema
 
 TODO
 
-## Read Full Paper
+## Read the Full Paper
 
 <object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>
