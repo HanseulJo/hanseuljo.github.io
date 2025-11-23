@@ -1,5 +1,5 @@
 ---
-title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environment"
+title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environments"
 collection: publications
 permalink: /publication/deep-model-based-jammer-optimization
 date: 2025-11-15
@@ -15,15 +15,15 @@ authors:
     - CY
 venue: <a href="https://journal.kics.or.kr"><b>J-KICS</b></a>
 award: 
-paperurl: 
+paperurl: https://journal.kics.or.kr/digital-library/103567
 arxiv: 
-pdf: 
+pdf: https://journal.kics.or.kr/digital-library/manuscript/file/103567/01%20조한슬202505-111-A-RU.pdf
 code:
 categories: 
-    - Journal
+    - The Journal of Korean Institute of Communications and Information Sciences
 tags:
     - Deep Model-Based Optimization
-    - Jammer
+    - Radar Jamming
     - Korean-only
 ---
 <!-- markdownlint-disable MD033 -->
