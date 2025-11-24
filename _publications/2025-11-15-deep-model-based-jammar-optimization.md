@@ -8,7 +8,7 @@ toc_sticky: true
 authors:
     - me
     - Baekrok Shin
-    - Chaewon Moon
+    - CM
     - Sang-Geun Hong
     - U-Ju Byeon
     - Jin-Yong Sung
