@@ -83,7 +83,6 @@ Obviously, this isn't the right way...😫 it applies distinct footnote marks fo
 
 ...
 
-
 👺 **Failure 2:** How about manually adjusting the horizontal spaces?
 
 ```latex
