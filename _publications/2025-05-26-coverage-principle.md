@@ -2,7 +2,7 @@
 title: "Characterizing Pattern Matching and Its Limits on Compositional Task Structures"
 collection: publications
 permalink: /publication/coverage-principle
-date: 2025-05-26
+date: 2025-11-26
 toc: true
 toc_sticky: true
 authors:
@@ -21,7 +21,7 @@ award:
 paperurl: 
 arxiv: https://arxiv.org/abs/2505.20278
 pdf: https://arxiv.org/pdf/2505.20278
-code: https://github.com/kaistAI/coverage-principle
+code: kaistAI/coverage-principle
 categories: 
     - arXiv
 tags:
