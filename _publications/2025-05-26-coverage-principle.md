@@ -8,7 +8,7 @@ toc_sticky: true
 authors:
     - <a href="https://duemoo.github.io/about/">Hoyeon Chang</a>*
     - <a href="https://jinhopark-ai.github.io/">Jinho Park</a>*
-    - me
+    - me*
     - <a href="https://soheeyang.github.io/">Sohee Yang</a>
     - <a href="https://miyoungko.github.io/">Miyoung Ko</a>
     - <a href="https://hbin0701.github.io/">Hyeonbin Hwang</a>
