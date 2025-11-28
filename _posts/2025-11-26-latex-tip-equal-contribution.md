@@ -1,5 +1,5 @@
 ---
-title: '[LaTeX] The Most Elegant Way (Maybe) to Indicate Equally-Contributed Authors Separated with Commas'
+title: '[LaTeX Tips] The Most Elegant Way (Maybe) to Indicate Equally-Contributed Authors Separated with Commas'
 excerpt: 'LaTeX Tips & Tricks #1: Co-first author list with commas.'
 collections: posts
 date: 2025-11-26
