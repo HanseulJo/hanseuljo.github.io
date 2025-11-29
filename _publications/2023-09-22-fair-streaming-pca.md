@@ -28,11 +28,11 @@ tags:
 
 ## Main Figures
 
-![fair_streaming_pca](../assets/img/fair-streaming-pca/main_fig_2.png)
+![fair_streaming_pca](/assets/img/fair-streaming-pca/main_fig_2.png)
 
 ## Poster
   
-![fair_streaing_pca_poster](../assets/img/fair-streaming-pca/3_neurips_poster_fairstreamingpca.png)
+![fair_streaing_pca_poster](/assets/img/fair-streaming-pca/3_neurips_poster_fairstreamingpca.png)
 
 ## Abstract
 

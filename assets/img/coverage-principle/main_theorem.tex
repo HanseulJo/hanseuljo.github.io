@@ -1,0 +1,17 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage{times}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\usepackage[right=3.7cm, left=3.7cm]{geometry}
+
+% Brought from math_commands.tex
+\usepackage{amsfonts,bm,bbm,pifont,mathtools,mathdots}
+\begin{document}
+\noindent\textbf{Theorem 6.1} (Informal; Corollaries \textcolor[rgb]{0.600000,0.000000,0.000000}{\textit{F.9}} and \textcolor[rgb]{0.600000,0.000000,0.000000}{\textit{F.17}})\textbf{.}~
+\textit{
+Consider a \textsc{2-Hop} task with a token set of size~$n$. For a uniformly randomly sampled train dataset $D$ of size $N$, consider a learner that generalizes within the $k$-coverage of $D$. Then, for large enough $n$, the learner achieves perfect ID generalization with high probability if $N \!\gtrsim\! n^c$ with $c = 2.5 -\frac{0.5}{k}$. In contrast, the learner (with $k\!\ge\!2$) does \underline{not} achieve perfect ID generalization with high probability for some \textsc{2-Hop} task if $n^2 \!\lesssim\! N \!\lesssim\! n^c$. Here, we ignore the polylogarithmic factors in $n$.
+}
+\end{document}

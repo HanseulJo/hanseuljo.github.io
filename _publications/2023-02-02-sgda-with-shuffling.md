@@ -27,7 +27,7 @@ tags:
 
 ## Poster
 
-![sgda_poster](../assets/img/sgda-with-shuffling/poster_iclr_horizontal_90_135.png)
+![sgda_poster](/assets/img/sgda-with-shuffling/poster_iclr_horizontal_90_135.png)
 
 ## Abstract
 

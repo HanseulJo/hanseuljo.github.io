@@ -6,7 +6,7 @@ date: 2025-11-26
 toc: true
 toc_sticky: true
 authors:
-    - <a href="https://duemoo.github.io/about/">Hoyeon Chang</a>*
+    - <a href="https://hoyeonchang.github.io">Hoyeon Chang</a>*
     - <a href="https://jinhopark-ai.github.io/">Jinho Park</a>*
     - me*
     - <a href="https://soheeyang.github.io/">Sohee Yang</a>
@@ -19,8 +19,8 @@ authors:
 venue: Arxiv Preprint
 award: 
 paperurl: 
-arxiv: https://arxiv.org/abs/2505.20278
-pdf: https://arxiv.org/pdf/2505.20278
+arxiv: https://arxiv.org/abs/2505.20278v2
+pdf: https://arxiv.org/pdf/2505.20278v2
 code: kaistAI/coverage-principle
 categories: 
     - arXiv
@@ -32,6 +32,14 @@ tags:
     - random intersection graph
 ---
 <!-- markdownlint-disable MD033 -->
+
+## Main Figure
+
+![Main Figure](/assets/img/coverage-principle/main_figure.pdf)
+
+## Main Theorem (which I mostly contributed to)
+
+![Main Theorem](/assets/img/coverage-principle/main_theorem.pdf)
 
 ## Abstract
 

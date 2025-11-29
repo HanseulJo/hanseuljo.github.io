@@ -30,9 +30,12 @@ tags:
 ---
 <!-- markdownlint-disable MD033 -->
 
+<br>
+📌 TL;DR: [Position Coupling](/_publications/2024-09-26-Position-Coupling.md) + Scratchpad: Unlocked length-generalizability of Transformers on more complex arithmetic tasks.
+
 ## Main Figures
 
-![Position_Coupling_Scratchpad](../assets/img/position-coupling-scratchpad/Poco_FIRE_NoPE_multiadd.png)
+![Position_Coupling_Scratchpad](/assets/img/position-coupling-scratchpad/Poco_FIRE_NoPE_multiadd.png)
   
 ## Abstract
 
@@ -40,7 +43,7 @@ Transformers often struggle with *length generalization*, meaning they fail to g
 
 ## Poster
 
-![Position_Coupling5](../assets/img/position-coupling-scratchpad/Poster_PoCo_ICLR2025.png)
+![Position_Coupling5](/assets/img/position-coupling-scratchpad/Poster_PoCo_ICLR2025.png)
 
 ## Slides
 

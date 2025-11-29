@@ -35,7 +35,7 @@ We study continual learning on multiple linear classification tasks by sequentia
 
 ## Poster
 
-![Continual_GD](../assets/img/continual-linear-classification-gd/Poster_ICLR2025_CL.png)
+![Continual_GD](/assets/img/continual-linear-classification-gd/Poster_ICLR2025_CL.png)
 
 ## Slides
 

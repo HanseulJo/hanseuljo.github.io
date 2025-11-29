@@ -34,11 +34,11 @@ tags:
 
 ## Main Figures
 
-![Position_Coupling1](../assets/img/position-coupling/Addition_EM_Method_Comparison.png)
+![Position_Coupling1](/assets/img/position-coupling/Addition_EM_Method_Comparison.png)
   
-![Position_Coupling2](../assets/img/position-coupling/Addition_EM_median_Large.png)
+![Position_Coupling2](/assets/img/position-coupling/Addition_EM_median_Large.png)
   
-![Position_Coupling3](../assets/img/position-coupling/PositionCouplingForAddition.png)
+![Position_Coupling3](/assets/img/position-coupling/PositionCouplingForAddition.png)
 
 ## Abstract
 
@@ -46,7 +46,7 @@ Even for simple arithmetic tasks like integer addition, it is challenging for Tr
 
 ## Poster
 
-![Position_Coupling4](../assets/img/position-coupling/Poster_PoCo_NeurIPS2024.png)
+![Position_Coupling4](/assets/img/position-coupling/Poster_PoCo_NeurIPS2024.png)
 
 ## Slides
 
