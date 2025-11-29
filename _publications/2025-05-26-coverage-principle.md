@@ -12,9 +12,9 @@ authors:
     - <a href="https://soheeyang.github.io/">Sohee Yang</a>
     - <a href="https://miyoungko.github.io/">Miyoung Ko</a>
     - <a href="https://hbin0701.github.io/">Hyeonbin Hwang</a>
-    - <a href="https://scholar.google.com/citations?user=d7-TUHkAAAAJ&hl=en&oi=sra">Seungpil Won</a>
-    - <a href="https://scholar.google.com/citations?user=8OqV_8sAAAAJ&hl=en&oi=sra">Dohaeng Lee</a>
-    - Youbin Ahn
+    - <a href="https://scholar.google.com/citations?user=d7-TUHkAAAAJ">Seungpil Won</a>
+    - <a href="https://scholar.google.com/citations?user=8OqV_8sAAAAJ">Dohaeng Lee</a>
+    - <a href="https://scholar.google.com/citations?user=8OqV_8sAAAAJ">Youbin Ahn</a>
     - <a href="https://seominjoon.github.io/">Minjoon Seo</a>
 venue: Arxiv Preprint
 award: 
