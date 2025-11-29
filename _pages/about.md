@@ -80,11 +80,6 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
   </ul>
 </details>
 
-
-
-
-
-
 <!-- ## Education
 
 <ul class="nobull">
@@ -95,3 +90,16 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
     <li>Minor in Computing Sciences / <b>Summa Cum Laude</b></li>
     </ul>
 </ul> -->
+
+## 👀
+
+{% assign URL = site.url | remove_first: 'http://' | remove_first: 'https://' %}
+{% if URL %}
+  <a href="https://hits.sh/{{ URL }}">
+    <img
+      alt="Hits"
+      style="border: 0px; margin: 0px; width: 200px"
+      src="https://hits.sh/{{ URL }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
+    />
+  </a>
+{% endif %}
