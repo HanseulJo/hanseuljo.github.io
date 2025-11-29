@@ -93,9 +93,9 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
 
 ## 👀
 
-{% assign URL = site.url | remove_first: 'http://' | remove_first: 'https://' | append: '/' %}
+{% assign URL = site.url | remove_first: 'http://' | remove_first: 'https://' %}
 {% if URL %}
-  <a href="https://hits.sh/{{ URL }}">
+  <a href="https://hits.sh/{{ URL }}/">
     <img
       alt="Hits"
       style="border: 0px; margin: 0px; width: 200px"
