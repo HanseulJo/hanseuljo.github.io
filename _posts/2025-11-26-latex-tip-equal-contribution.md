@@ -21,9 +21,10 @@ tags:
 
 ## TL;DR
 
-📌 **Use the command** `\rlap{$^*$}` when you list multiple equally contributed authors' names, separated by commas (e.g., ICLR template). For example:
+📌 **Use the command** `\rlap{$^*$}` when you list multiple equally contributed authors' names, separated by commas (e.g., ICLR template).
 
 ```latex
+% For example:
 [1stAuthor1]\thanks{Equal Contribution.},~~[1stAuthor2]\rlap{$^*$},~~[1stAuthor3]\rlap{$^*$},~~[2ndAuthor],...
 ```
 

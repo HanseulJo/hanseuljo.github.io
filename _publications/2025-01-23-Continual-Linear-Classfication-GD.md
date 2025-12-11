@@ -40,6 +40,7 @@ We study continual learning on multiple linear classification tasks by sequentia
 ## Slides
 
 <iframe src="https://iclr.cc/media/iclr-2025/Slides/30455.pdf" width="960" height="540" style="max-width: 100%;"> </iframe>
+For mobile: [**View PDF**](https://iclr.cc/media/iclr-2025/Slides/30455.pdf)
 
 ## Read the Full Paper
 

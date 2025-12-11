@@ -48,6 +48,7 @@ Transformers often struggle with *length generalization*, meaning they fail to g
 ## Slides
 
 <iframe src="https://iclr.cc/media/iclr-2025/Slides/28933.pdf" width="960" height="540" style="max-width: 100%;"> </iframe>
+For mobile: [**View PDF**](https://iclr.cc/media/iclr-2025/Slides/28933.pdf)
 
 ## Read the Full Paper
 
