@@ -16,6 +16,7 @@ paperurl: https://openreview.net/forum?id=TW3ipYdDQG
 arxiv: https://arxiv.org/abs/2310.18593
 pdf: https://openreview.net/pdf?id=TW3ipYdDQG
 code: HanseulJo/fair-streaming-pca
+doi: "10.48550/arXiv.2310.18593"
 categories: 
     - NeurIPS
 tags:

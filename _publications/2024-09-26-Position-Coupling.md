@@ -18,6 +18,7 @@ paperurl: https://openreview.net/forum?id=5cIRdGM1uG
 arxiv: https://arxiv.org/abs/2405.20671
 pdf: https://openreview.net/pdf?id=5cIRdGM1uG
 code: HanseulJo/position-coupling
+doi: "10.48550/arXiv.2405.20671"
 categories: 
     - NeurIPS
     - ICML Workshop

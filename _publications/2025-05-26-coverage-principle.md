@@ -22,6 +22,7 @@ paperurl:
 arxiv: https://arxiv.org/abs/2505.20278v2
 pdf: https://arxiv.org/pdf/2505.20278v2
 code: kaistAI/coverage-principle
+doi: "10.48550/arXiv.2505.20278"
 categories: 
     - arXiv
 tags:

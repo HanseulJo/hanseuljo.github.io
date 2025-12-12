@@ -115,6 +115,12 @@ layout: default
               />
             </a>
           {% endif %}
+          {% if page.doi %} <!-- https://juleskreuer.eu/projects/citation-badge -->
+            &nbsp;
+            <a href="https://doi.org/{{ page.doi }}">
+              <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D{{ page.doi }}&logo=google-scholar&label=Citations&labelColor=gray&color=blue" alt="Google Scholar Citations">
+            </a>
+          {% endif %}
         </p>
 
         {% if page.citation and page.paperurl %}

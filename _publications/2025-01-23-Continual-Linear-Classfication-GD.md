@@ -15,6 +15,7 @@ paperurl: https://openreview.net/forum?id=DTqx3iqjkz
 arxiv: https://arxiv.org/abs/2504.12712
 pdf: https://openreview.net/pdf?id=DTqx3iqjkz
 code:
+doi: "10.48550/arXiv.2504.12712"
 categories: 
     - ICLR
     - Arxiv

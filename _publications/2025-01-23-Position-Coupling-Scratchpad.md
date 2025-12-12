@@ -16,6 +16,7 @@ paperurl: https://openreview.net/forum?id=eIgGesYKLG
 arxiv: https://arxiv.org/abs/2410.15787
 pdf: https://openreview.net/pdf?id=eIgGesYKLG
 code: HanseulJo/position-coupling
+doi: "10.48550/arXiv.2410.15787"
 categories: 
     - ICLR
     - Arxiv

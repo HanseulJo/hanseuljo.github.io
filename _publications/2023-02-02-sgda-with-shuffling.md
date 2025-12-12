@@ -14,6 +14,7 @@ paperurl: https://openreview.net/forum?id=6xXtM8bFFJ
 arxiv: https://arxiv.org/abs/2210.05995
 pdf: https://openreview.net/pdf?id=6xXtM8bFFJ
 code:
+doi: "10.48550/arXiv.2210.05995"
 categories: 
     - ICLR
     - KAIA
