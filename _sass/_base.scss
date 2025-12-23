@@ -137,7 +137,8 @@ a {
     color: $link-color-visited;
   }
 
-  &:hover {
+  &:hover,
+  &:active {
     color: $link-color-hover;
     outline: 0;
   }
@@ -161,6 +162,26 @@ pre {
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  color: #eaeaea;
+  font-size: $type-size-7;
+  background: $code-background-color-dark;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  &:before, &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
 }
 
 /* horizontal rule */

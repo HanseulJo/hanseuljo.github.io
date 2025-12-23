@@ -98,7 +98,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **r
   <a href="https://hits.sh/{{ URL }}/">
     <img
       alt="Hits"
-      style="border: 0px; margin: 0px; width: 200px"
+      style="border: 0px; margin: 0px; width: 30%"
       src="https://hits.sh/{{ URL }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
     />
   </a>

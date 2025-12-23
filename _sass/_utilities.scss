@@ -244,7 +244,7 @@ $text-alignments: left, right, start, end, center, justify;
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: $primary-color;
+  background: $navicon-link-color-hover;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -256,7 +256,7 @@ $text-alignments: left, right, start, end, center, justify;
     inset-inline-start: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $primary-color;
+    background: $navicon-link-color-hover;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -278,8 +278,8 @@ $text-alignments: left, right, start, end, center, justify;
   &:before,
   &:after {
     -webkit-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
     top: 0;
     width: $navicon-width;
   }
