@@ -18,12 +18,14 @@ tags:
 ---
 
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD031 -->
 
 ## TL;DR
 
 📌 **Use the command** `\rlap{$^*$}` when you list multiple equally contributed authors' names, separated by commas (e.g., ICLR template).
 
-```latex
+{% include code_header.html name="" %}
+```latex  
 % For example:
 [1stAuthor1]\thanks{Equal Contribution.},~~[1stAuthor2]\rlap{$^*$},~~[1stAuthor3]\rlap{$^*$},~~[2ndAuthor],...
 ```
@@ -44,6 +46,7 @@ But how should *we* mark the same footnote symbol (e,g. asterisk(`*`), ...) to m
 
 For example, one of the simplest line of code would be ...
 
+{% include code_header.html name="" %}
 ```latex
 \author{
 % Please be aware that the default template for ICLR main conference papers recommends us putting commas to delimit the author names.
@@ -70,6 +73,7 @@ What should we do to match the lengths of the gaps? 🤔
 
 👺 **Failure 1:** If the command `\thanks` is the only answer, how about using the same command several times?:
 
+{% include code_header.html name="" %}
 ```latex
 ...
 Hanseul Cho\thanks{Equal Contribution.},~~Chahun Seol\thanks{Equal Contribution.},~~Sanchul Heo\thanks{Equal Contribution.},~~Honseul Cha \\ % author names
@@ -86,6 +90,7 @@ Obviously, this isn't the right way...😫 it applies distinct footnote marks fo
 
 👺 **Failure 2:** How about manually adjusting the horizontal spaces?
 
+{% include code_header.html name="" %}
 ```latex
 ...
 Hanseul Cho\thanks{Equal Contribution.},~~Chahun Seol$^*$\hspace{-1.6mm},~~Sanchul Heo$^*$\hspace{-1.6mm},~~Honseul Cha \\ % author names
@@ -105,6 +110,7 @@ Not only is it not elegant, but it's also practically undesirable, especially wh
 To figure out an elegant & practical solution, I probed the ICLR template style file (`iclr2026_conference.sty`), with the keyword 'thanks'.
 And I found the following code lines...
 
+{% include code_header.html name="" %}
 ```latex
 \def\maketitle{\par
 \begingroup
@@ -146,6 +152,7 @@ So, my conjecture is: Since the style file contains `\hbox to 0pt{$^{\@thefnmark
 
 Therefore, my FINAL TRIAL is as follows:
 
+{% include code_header.html name="" %}
 ```latex
 ...
 Hanseul Cho\thanks{Equal Contribution.},~~Chahun Seol\rlap{$^*$},~~Sanchul Heo\rlap{$^*$},~~Honseul Cha \\ % author names
@@ -161,4 +168,4 @@ TADA! An elegant code (without laborious decision of numerics) and visually sati
 ## Conclusion
 
 I hope this document help some researchers who are still novice in LaTeX writing (like me).
-Lastly, say goodbye to my awesome "colleagues", *Chahun Seol*, *Sanchul Heo*, and *Honseul Cha*! 👋
+Lastly, say goodbye to my awesome imaginary colleagues, *Chahun Seol*, *Sanchul Heo*, and *Honseul Cha*! 👋
