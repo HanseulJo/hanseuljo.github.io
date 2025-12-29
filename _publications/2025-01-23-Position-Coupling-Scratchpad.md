@@ -16,6 +16,8 @@ paperurl: https://openreview.net/forum?id=eIgGesYKLG
 arxiv: https://arxiv.org/abs/2410.15787
 pdf: https://openreview.net/pdf?id=eIgGesYKLG
 code: HanseulJo/position-coupling
+x: https://x.com/hanseuljo/status/1896208153131528220
+linkedin: https://www.linkedin.com/posts/hanseul-cho_recent-llms-like-o3-deepseek-r1-struggle-activity-7302114846903320576-P4HG
 doi: "10.48550/arXiv.2410.15787"
 categories: 
     - ICLR

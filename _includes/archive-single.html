@@ -90,9 +90,10 @@
         🗓
         <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}"> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time> 
       {% endif %}
+    </p>
+    <p>
       <!---URLs-->
-      {% if post.paperurl or post.arxiv or post.code %}
-        &nbsp; &nbsp; 
+      {% if post.paperurl or post.arxiv or post.code or post.x or post.linkedin or post.doi %}
         🔗
       {% endif %}
       {% if post.paperurl %}
@@ -100,6 +101,12 @@
       {% endif %}
       {% if post.arxiv %}
         [<a href=" {{ post.arxiv }} "><u>arxiv</u></a>]
+      {% endif %}
+      {% if post.x %}
+        [<a href="{{ post.x }}"><u>X (Twitter)</u></a>]
+      {% endif %}
+      {% if post.linkedin %}
+        [<a href="{{ post.linkedin }}"><u>LinkedIn</u></a>]
       {% endif %}
       {% if post.code %}
         [<a href="https://github.com/{{ post.code }}"><u>code</u></a>]

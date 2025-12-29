@@ -89,8 +89,9 @@ layout: default
             📰 {{ page.venue }}
           {% endif %}
           <!---URLs-->
-          {% if page.paperurl or page.arxiv or page.code %}
-            &nbsp; &nbsp; 
+        </p>
+        <p>
+          {% if page.paperurl or page.arxiv or page.code or page.x or page.linkedin or page.doi %}
             🔗
           {% endif %}
           {% if page.paperurl %}
@@ -99,9 +100,21 @@ layout: default
           {% if page.arxiv %}
             [<a href="{{ page.arxiv }}"><u>arxiv</u></a>]
           {% endif %}
+          {% if page.x %}
+            [<a href="{{ page.x }}"><u>X (Twitter)</u></a>]
+          {% endif %}
+          {% if page.linkedin %}
+            [<a href="{{ page.linkedin }}"><u>LinkedIn</u></a>]
+          {% endif %}
           {% if page.code %}
             [<a href="https://github.com/{{ page.code }}"><u>code</u></a>]
             <a href="https://github.com/{{ page.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ page.code }}" style="max-width: 100%;"></a>
+          {% endif %}
+          {% if page.doi %} <!-- https://juleskreuer.eu/projects/citation-badge -->
+            &nbsp;
+            <a href="https://doi.org/{{ page.doi }}">
+              <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D{{ page.doi }}&logo=google-scholar&label=Citations&labelColor=gray&color=blue" alt="Google Scholar Citations">
+            </a>
           {% endif %}
           <!---Visitors-->
           {% if pageUrl %}
@@ -113,12 +126,6 @@ layout: default
                 style="border: 0px; margin: 0px;"
                 src="https://hits.sh/{{ pageUrl }}.svg?view=today-total&style=plastic&label=Views&color=407348&labelColor=0D0D0D"
               />
-            </a>
-          {% endif %}
-          {% if page.doi %} <!-- https://juleskreuer.eu/projects/citation-badge -->
-            &nbsp;
-            <a href="https://doi.org/{{ page.doi }}">
-              <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D{{ page.doi }}&logo=google-scholar&label=Citations&labelColor=gray&color=blue" alt="Google Scholar Citations">
             </a>
           {% endif %}
         </p>
