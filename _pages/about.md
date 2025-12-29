@@ -46,11 +46,11 @@ My primary research interests lie in **optimization, machine learning (ML), and 
 During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/posts/phd-thesis-proposal/) if interested):
 
 * <red><i class="fa fa-sitemap"></i> <b>Generalizability</b></red> **Generalization capability of modern language models.**  
-  [(PositionCoupling)](../_publications/2024-09-26-Position-Coupling.md) [(PositionCoupling+Scratchpad)](../_publications/2025-01-23-Position-Coupling-Scratchpad.md) [(CoverageFramework)](../_publications/2025-05-26-coverage-principle.md)
+  [(PositionCoupling)](../_publications/2024-09-26-Position-Coupling.md) [(PositionCoupling+Scratchpad)](../_publications/2025-01-23-Position-Coupling-Scratchpad.md) [(CoverageFramework_Composition)](../_publications/2025-05-26-coverage-principle.md)
 * <red><i class="fa fa-flask"></i> <b>Adaptability</b></red> **Training adaptable models under evolving environments.**  
-  [(PLASTIC)](../_publications/2023-09-22-PLASTIC.md) [(GD_for_ContinualLinClf)](../_publications/2025-01-23-Continual-Linear-Classfication-GD.md) [(DASH)](../_publications/2024-09-26-DASH.md)
+  [(PLASTIC)](../_publications/2023-09-22-PLASTIC.md) [(GD_for_Continual_Linear_Classifier)](../_publications/2025-01-23-Continual-Linear-Classfication-GD.md) [(DASH)](../_publications/2024-09-26-DASH.md)
 * <red><i class="fa fa-cubes"></i> <b>Multifacetedness</b></red> **Learning with multiple (possibly conflicting) goals.**  
-  [(SGDAwShuffling)](../_publications/2023-02-02-sgda-with-shuffling.md) [(SimGDA<AltGDA<AlexGDA)](../_publications/2024-05-02-Alex-GDA.md) [(FairStreamingPCA)](../_publications/2023-09-22-fair-streaming-pca.md)
+  [(SGDAwithShuffling)](../_publications/2023-02-02-sgda-with-shuffling.md) [(SimGDA<AltGDA<AlexGDA)](../_publications/2024-05-02-Alex-GDA.md) [(FairStreamingPCA)](../_publications/2023-09-22-fair-streaming-pca.md)
 
 ## ‼️News‼️
 
