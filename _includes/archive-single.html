@@ -109,14 +109,12 @@
         [<a href="{{ post.linkedin }}"><u>LinkedIn</u></a>]
       {% endif %}
       {% if post.code %}
-        [<a href="https://github.com/{{ post.code }}"><u>code</u></a>]
+        <!-- [<a href="https://github.com/{{ post.code }}"><u>code</u></a>] -->
         <a href="https://github.com/{{ post.code }}"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.code }}" style="max-width: 100%;"></a>
       {% endif %}
       {% if post.doi %} <!-- https://juleskreuer.eu/projects/citation-badge -->
         &nbsp;
-        <a href="https://doi.org/{{ post.doi }}">
-          <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D{{ post.doi }}&logo=google-scholar&label=Citations&labelColor=gray&color=blue" alt="Google Scholar Citations">
-        </a>
+        <a href="https://doi.org/{{ post.doi }}"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D{{ post.doi }}&logo=google-scholar&label=Citations&labelColor=gray&color=blue" alt="Google Scholar Citations"></a>
       {% endif %}
     </p>
     
