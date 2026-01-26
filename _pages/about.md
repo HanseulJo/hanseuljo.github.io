@@ -43,30 +43,40 @@ Please don't hesitate to reach out for questions, discussions, and collaboration
 
 My primary research interests lie in **optimization, machine learning (ML), and deep learning (DL)**, especially focusing on both mathematical/theoretical analysis and empirical improvements (usually based on theoretical understanding).
 
-During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to **rigorously understand and practically overcome** the following **three critical <red>challenges</red> in ML/DL** (see my [Thesis Proposal🔗📰](/posts/phd-thesis-proposal/) if interested):
+<details>
+<summary style="text-decoration: underline;"><b>🔮 Check This Out: 🔮</b></summary>
+  <!-- The text below will be hidden/shown -->
+During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>rigorously understand and practically overcome</b> the following <b>three critical <red>challenges</red> in ML/DL</b> (see my <a href="/posts/phd-thesis-proposal/">Thesis Proposal🔗📰</a> if interested):
 
-* <red><i class="fa fa-sitemap"></i> <b>Generalizability</b></red> **Generalization capability of modern language models.**  
-  [(PositionCoupling)](../_publications/2024-09-26-Position-Coupling.md) [(PositionCoupling+Scratchpad)](../_publications/2025-01-23-Position-Coupling-Scratchpad.md) [(CoverageFramework_Composition)](../_publications/2025-05-26-coverage-principle.md)
-* <red><i class="fa fa-flask"></i> <b>Adaptability</b></red> **Training adaptable models under evolving environments.**  
-  [(PLASTIC)](../_publications/2023-09-22-PLASTIC.md) [(GD_for_Continual_Linear_Classifier)](../_publications/2025-01-23-Continual-Linear-Classfication-GD.md) [(DASH)](../_publications/2024-09-26-DASH.md)
-* <red><i class="fa fa-cubes"></i> <b>Multifacetedness</b></red> **Learning with multiple (possibly conflicting) goals.**  
-  [(SGDAwithShuffling)](../_publications/2023-02-02-sgda-with-shuffling.md) [(SimGDA<AltGDA<AlexGDA)](../_publications/2024-05-02-Alex-GDA.md) [(FairStreamingPCA)](../_publications/2023-09-22-fair-streaming-pca.md)
+<ul>
+<li> <red><i class="fa fa-sitemap"></i> <b>Generalizability</b></red><br>
+  <b>Generalization capability of modern language models.</b><br>
+  <a href="../_publications/2024-09-26-Position-Coupling.md">(PositionCoupling)</a> <a href="../_publications/2025-01-23-Position-Coupling-Scratchpad.md">(PositionCoupling+Scratchpad)</a> <a href="../_publications/2025-05-26-coverage-principle.md">(CoverageFramework_Composition)</a></li>
+<li> <red><i class="fa fa-flask"></i> <b>Adaptability</b></red><br>
+  <b>Training adaptable models under evolving environments.</b><br>
+  <a href="../_publications/2023-09-22-PLASTIC.md">(PLASTIC)</a> <a href="../_publications/2025-01-23-Continual-Linear-Classfication-GD.md">(GD_for_Continual_Linear_Classifier)</a> <a href="../_publications/2024-09-26-DASH.md">(DASH)</a></li>
+<li> <red><i class="fa fa-cubes"></i> <b>Multifacetedness</b></red><br>
+  <b>Learning with multiple (possibly conflicting) goals.</b><br>
+  <a href="../_publications/2023-02-02-sgda-with-shuffling.md">(SGDAwithShuffling)</a> <a href="../_publications/2024-05-02-Alex-GDA.md">(SimGDA&le;AltGDA&le;AlexGDA)</a> <a href="../_publications/2023-09-22-fair-streaming-pca.md">(FairStreamingPCA)</a></li>
+</ul>
+</details>
 
 ## ‼️News‼️
 
 <ul class="nobull">
+  <li>🗞️ [Jan. '26] One <a href="/publication/coverage-principle">paper</a> is accepted to <b>ICLR 2026</b>! 🎉 It provides a formal framework (and empirically/theoretically validates it) to study pattern-matching behavior of LLMs on compositional tasks (e.g., multi-hop). </li>
   <li>🗞️ [Jun. '25] My Internship at Google has been extended to 08/22/2025. </li>
   <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
   <li>🗞️ [May '25] I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
   <li>🗞️ [Feb. '25] I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>)  </li>
-  <li>🗞️ [Jan. '25] Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
-  <li>🗞️ [Jan. '25] Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Singapore🇸🇬!</li>
 </ul>
 
 <details>
-  <summary>[Past News]</summary>
+  <summary style="text-decoration: underline;">🕰️ Past News 🕰️</summary>
   <!-- The text below will be hidden/shown -->
   <ul class="nobull">
+    <li>🗞️ [Jan. '25] Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
+    <li>🗞️ [Jan. '25] Two papers got accepted to <b>ICLR 2025</b>! 🎉 <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Singapore🇸🇬!</li>
     <li>🗞️ [Nov. '24] An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)! 🎉</li>
     <li>🗞️ [Nov. '24] I was selected as one of the <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Reviewers (top 8.60%: 1,304 of 15,160 reviewers)</a> at NeurIPS 2024! (+ Free registration! 😎) </li>
     <li>🗞️ [Sep. '24] Two papers got accepted to <b>NeurIPS 2024</b>! 🎉 <a href="/publication/Position-Coupling">One</a> is about length generalization of arithmetic Transfomers, and <a href="/publication/DASH-Direction-Aware-SHrinking">another</a> is about mitigating loss of plasticity in incremental neural net training. See you in Vancouver, Canada🇨🇦!</li>

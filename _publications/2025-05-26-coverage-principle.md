@@ -2,7 +2,7 @@
 title: "Characterizing Pattern Matching and Its Limits on Compositional Task Structures"
 collection: publications
 permalink: /publication/coverage-principle
-date: 2025-11-26
+date: 2026-01-26
 toc: true
 toc_sticky: true
 authors:
@@ -16,22 +16,22 @@ authors:
     - <a href="https://openreview.net/profile?id=~Dohaeng_Lee1">Dohaeng Lee</a>
     - <a href="https://scholar.google.com/citations?user=8OqV_8sAAAAJ">Youbin Ahn</a>
     - <a href="https://seominjoon.github.io/">Minjoon Seo</a>
-venue: Arxiv Preprint
+venue: ICLR 2026
 award: 
-paperurl: 
+paperurl: https://openreview.net/forum?id=VCjlm003WL
 arxiv: https://arxiv.org/abs/2505.20278v2
-pdf: https://arxiv.org/pdf/2505.20278v2
+pdf: https://openreview.net/pdf?id=VCjlm003WL
 code: kaistAI/coverage-principle
 x: https://x.com/hoyeon_chang/status/1927363218420228225
 linkedin:
 doi: "10.48550/arXiv.2505.20278"
 categories: 
-    - arXiv
+    - ICLR
 tags:
     - compositional generalization
     - coverage
     - pattern matching
-    - Poisonization
+    - Poissonization
     - random intersection graph
 ---
 <!-- markdownlint-disable MD033 -->
