@@ -64,7 +64,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>
 ## ‼️News‼️
 
 <ul class="nobull">
-  <li>🗞️ [Jan. '26] One <a href="/publication/coverage-principle">paper</a> is accepted to <b>ICLR 2026</b>! 🎉 We provide a formal framework (and empirically/theoretically validates it) to study pattern-matching behavior of LLMs on compositional tasks (e.g., multi-hop). See you in Rio de Janeiro, Brazil🇧🇷!</li>
+  <li>🗞️ [Jan. '26] A <a href="/publication/coverage-principle">paper</a> is accepted to <b>ICLR 2026</b>! 🎉 We provide a formal framework (and empirically/theoretically validate it) to study the pattern-matching behavior of LLMs on compositional tasks (e.g., multi-hop). See you in Rio de Janeiro, Brazil🇧🇷!</li>
   <li>🗞️ [Jun. '25] My Internship at Google has been extended to 08/22/2025. </li>
   <li>🗞️ [Jun. '25] I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
   <li>🗞️ [May '25] I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
