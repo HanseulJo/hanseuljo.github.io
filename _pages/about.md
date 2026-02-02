@@ -46,18 +46,18 @@ My primary research interests lie in **optimization, machine learning (ML), and 
 <details>
 <summary style="text-decoration: underline;"><b>🔮 Check This Out: 🔮</b></summary>
   <!-- The text below will be hidden/shown -->
-During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>rigorously understand and practically overcome</b> the following <b>three critical <red>challenges</red> in ML/DL</b> (see my <a href="/posts/phd-thesis-proposal/">Thesis Proposal🔗📰</a> if interested):
+During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>rigorously understand and practically overcome</b> the following <b>three critical <red>challenges</red> in ML/DL</b> (see my <a href="/posts/phd-thesis-proposal">Thesis Proposal🔗📰</a> if interested):
 
 <ul>
 <li> <red><i class="fa fa-sitemap"></i> <b>Generalizability</b></red><br>
   <b>Generalization capability of modern language models.</b><br>
-  <a href="../_publications/2024-09-26-Position-Coupling.md">(PositionCoupling)</a> <a href="../_publications/2025-01-23-Position-Coupling-Scratchpad.md">(PositionCoupling+Scratchpad)</a> <a href="../_publications/2025-05-26-coverage-principle.md">(CoverageFramework_Composition)</a></li>
+  <a href="/publication/Position-Coupling">(PositionCoupling)</a> <a href="/publication/Position-Coupling-Scratchpad">(PositionCoupling+Scratchpad)</a> <a href="/publication/coverage-principle">(CoverageFramework_Composition)</a></li>
 <li> <red><i class="fa fa-flask"></i> <b>Adaptability</b></red><br>
   <b>Training adaptable models under evolving environments.</b><br>
-  <a href="../_publications/2023-09-22-PLASTIC.md">(PLASTIC)</a> <a href="../_publications/2025-01-23-Continual-Linear-Classfication-GD.md">(GD_for_Continual_Linear_Classifier)</a> <a href="../_publications/2024-09-26-DASH.md">(DASH)</a></li>
+  <a href="/publication/PLASTIC">(PLASTIC)</a> <a href="/publication/Continual-Linear-Classfication-GD">(GD_for_Continual_Linear_Classifier)</a> <a href="/publication/2024-09-26-DASH">(DASH)</a></li>
 <li> <red><i class="fa fa-cubes"></i> <b>Multifacetedness</b></red><br>
   <b>Learning with multiple (possibly conflicting) goals.</b><br>
-  <a href="../_publications/2023-02-02-sgda-with-shuffling.md">(SGDAwithShuffling)</a> <a href="../_publications/2024-05-02-Alex-GDA.md">(SimGDA&le;AltGDA&le;AlexGDA)</a> <a href="../_publications/2023-09-22-fair-streaming-pca.md">(FairStreamingPCA)</a></li>
+  <a href="/publication/sgda-with-shuffling">(SGDAwithShuffling)</a> <a href="/publication/Alex-GDA">(SimGDA&le;AltGDA&le;AlexGDA)</a> <a href="/publication/fair-streaming-pca">(FairStreamingPCA)</a></li>
 </ul>
 </details>
 
