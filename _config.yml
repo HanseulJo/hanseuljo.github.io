@@ -11,10 +11,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hanseul Cho"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Hanseul Cho"
-description              : &description "PhD candidate at KAIST AI. Prev intern at Google NYC. Working on ML/DL/Opt+Theory and LLMs."
+description              : &description "PhD candidate at KAIST AI. Ex-intern at Google NYC. Working on Opt/ML Theory & LLMs."
 url                      : https://hanseuljo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HanseulJo/hanseuljo.github.io"
@@ -86,6 +86,7 @@ analytics:
 # HS: This will affect the webpage's sidebar, whose template is in "/_includes/author-profile.html".
 author:
   name             : *name
+  namemothertongue : "조한슬"
   avatar           : "me-small.jpeg"
   bio              : *description
   location         : "Seoul, South Korea"
