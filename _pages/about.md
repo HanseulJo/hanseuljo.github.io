@@ -115,7 +115,7 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>
         <a href="/publication/Continual-Linear-Classfication-GD">Understaning dynamics of GD in <b>Continual Linear Classification</b></a>
       </li>
       <li>
-        <a href="/publication/DASH"><b>PLASTIC</b> for maintaining plasticity by selectively forgetting overfitted noises</a>
+        <a href="/publication/DASH"><b>DASH</b> for maintaining plasticity by selectively forgetting overfitted noises</a>
       </li>
     </ul>
     </details>
