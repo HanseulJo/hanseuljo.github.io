@@ -34,7 +34,15 @@ tags:
 <!-- markdownlint-disable MD033 -->
 
 <br>
-📌 TL;DR: [Position Coupling](/_publications/2024-09-26-Position-Coupling.md) + Scratchpad: Unlocked length-generalizability of Transformers on more complex arithmetic tasks.
+📌 TL;DR: [**Position Coupling**](/publication/Position-Coupling) + Scratchpad: Unlocks length-generalizability of Transformers on two more complex arithmetic tasks:
+* **Multiple-Integer Addition**: requiring gen. in (1) **# summands** & (2) len(summands)
+* **Integer Multiplication**: requiring gen. in (1) len(multiplier) & (2) len(multiplicand)
+
+💡 IDEA: reduction of multiplication into multi-op addition ⬇️
+<p style="text-align: center">
+($M$-digit)$\times$($N$-digit) $\simeq$ $\sum_{i=1}^{N}$ $\big($ ($M$-digit)$\times$($1$-digit) $\big)_i$
+</p>
+...and "($M$-digit)$\times$($1$-digit)" can be effectively solved with Position Coupling!
 
 ## Main Figures
 

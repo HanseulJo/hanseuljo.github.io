@@ -35,6 +35,9 @@ tags:
 ---
 <!-- markdownlint-disable MD033 -->
 
+<br>
+📣💁🏻‍♂️ Interested? Please check out our **multi-position extension of Position Coupling with scratchpads** [(Click here to see the paper)](/publication/Position-Coupling-Scratchpad) for extending the scope of generalization in both summand *lengths* and their ***count***!
+
 ## Main Figures
 
 ![Position_Coupling1](/assets/img/position-coupling/Addition_EM_Method_Comparison.png)
