@@ -17,6 +17,7 @@ code:
 x:
 linkedin:
 doi: "10.48550/arXiv.2210.05995"
+scholar: "9yKSN-GCB0IC"
 categories: 
     - ICLR
     - KAIA

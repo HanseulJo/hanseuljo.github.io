@@ -111,7 +111,7 @@
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
+        <li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user={{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.semanticscholar %}
         <li><a href="https://www.semanticscholar.org/author/{{ author.semanticscholar }}"><i class="ai ai-semantic-scholar ai-fw" aria-hidden="true"></i> Semantic Scholar</a></li>

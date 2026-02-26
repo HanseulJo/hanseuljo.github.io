@@ -19,6 +19,7 @@ code: HanseulJo/fair-streaming-pca
 x: https://x.com/nick_jhlee/status/1705157953186394247?s=20
 linkedin:
 doi: "10.48550/arXiv.2310.18593"
+scholar: "u-x6o8ySG0sC"
 categories: 
     - NeurIPS
 tags:

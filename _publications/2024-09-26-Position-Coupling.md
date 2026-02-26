@@ -19,6 +19,7 @@ arxiv: https://arxiv.org/abs/2405.20671
 pdf: https://openreview.net/pdf?id=5cIRdGM1uG
 code: HanseulJo/position-coupling
 doi: "10.48550/arXiv.2405.20671"
+scholar: "qjMakFHDy7sC"
 x:
 linkedin: https://www.linkedin.com/posts/hanseul-cho_icml2024-activity-7257572668348981250-qP5f
 categories: 

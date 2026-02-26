@@ -19,7 +19,8 @@ paperurl: https://journal.kics.or.kr/digital-library/103567
 arxiv: 
 pdf: https://journal.kics.or.kr/digital-library/manuscript/file/103567/01%20조한슬202505-111-A-RU.pdf
 code:
-doi: 10.7840/kics.2025.50.11.1647
+doi: "10.7840/kics.2025.50.11.1647"
+scholar: "roLk4NBRz8UC"
 x:
 linkedin:
 categories: 

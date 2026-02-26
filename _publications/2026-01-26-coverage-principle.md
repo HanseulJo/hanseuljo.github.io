@@ -25,6 +25,7 @@ code: kaistAI/coverage-principle
 x: https://x.com/hoyeon_chang/status/1927363218420228225
 linkedin:
 doi: "10.48550/arXiv.2505.20278"
+scholar: "hqOjcs7Dif8C"
 categories: 
     - ICLR
 tags:
