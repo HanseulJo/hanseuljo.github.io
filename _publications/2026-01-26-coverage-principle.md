@@ -19,7 +19,7 @@ authors:
 venue: <a href="https://iclr.cc/Conferences/2026"><b>ICLR 2026</b></a>
 award: 
 paperurl: https://openreview.net/forum?id=VCjlm003WL
-arxiv: https://arxiv.org/abs/2505.20278
+arxiv: https://arxiv.org/abs/2505.20278v3
 pdf: https://openreview.net/pdf?id=VCjlm003WL
 code: kaistAI/coverage-principle
 x: https://x.com/hanseuljo/status/2028438367730561284
