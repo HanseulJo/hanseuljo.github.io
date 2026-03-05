@@ -20,7 +20,7 @@ tags:
 
 ## Slides (PC recommended)
 
-*This slide is presented in OptiML's internal workshop. (Latest Update: 2026.02.13.)
+*This slide was presented in OptiML's internal workshop. (Latest Update: 2026.02.13.)
 
 <object data="/files/group_meeting/20260213_OptiML_Workshop_HanseulCho.pdf" width="960" height="640" type='application/pdf'></object>
 
