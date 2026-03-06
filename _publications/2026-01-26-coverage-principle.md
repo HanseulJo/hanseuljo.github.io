@@ -19,7 +19,7 @@ authors:
 venue: <a href="https://iclr.cc/Conferences/2026"><b>ICLR 2026</b></a>
 award: 
 paperurl: https://openreview.net/forum?id=VCjlm003WL
-arxiv: https://arxiv.org/abs/2505.20278v3
+arxiv: https://arxiv.org/abs/2505.20278
 pdf: https://openreview.net/pdf?id=VCjlm003WL
 code: kaistAI/coverage-principle
 x: https://x.com/hanseuljo/status/2028438367730561284
@@ -40,15 +40,19 @@ tags:
 
 ## Main Figure
 
-![Main Figure](/assets/img/coverage-principle/main_figure.png)
+<object data="/assets/img/coverage-principle/main_figure.pdf" width="100%" height="48%" type='application/pdf'></object>
 
-## Main Theorem (which I mostly contributed to)
+## Main Theorem (to which I mostly contributed)
 
-![Main Theorem](/assets/img/coverage-principle/main_theorem.png)
+<object data="/assets/img/coverage-principle/main_theorem.pdf" width="100%" height="40%" type='application/pdf'></object>
 
 ## Abstract
 
 Despite impressive capabilities, LLMs' successes often rely on pattern-matching behaviors, yet these are also linked to OOD generalization failures in compositional tasks. However, behavioral studies commonly employ task setups that allow multiple generalization sources (e.g., algebraic invariances, structural repetition), obscuring a precise and testable account of how well LLMs perform generalization through pattern matching and their limitations. To address this ambiguity, we first formalize pattern matching as functional equivalence, i.e., identifying pairs of subsequences of inputs that consistently lead to identical results when the rest of the input is held constant. Then, we systematically study how decoder-only Transformer and Mamba behave in controlled tasks with compositional structures that isolate this mechanism. Our formalism yields predictive and quantitative insights: (1) Instance-wise success of pattern matching is well predicted by the number of contexts witnessing the relevant functional equivalence. (2) We prove a tight sample complexity bound of learning a two-hop structure by identifying the exponent of the data scaling law for perfect in-domain generalization. Our empirical results align with the theoretical prediction, under 20x parameter scaling and across architectures. (3) Path ambiguity is a structural barrier: when a variable influences the output via multiple paths, models fail to form unified intermediate state representations, impairing accuracy and interpretability. (4) Chain-of-Thought reduces data requirements yet does not resolve path ambiguity. Hence, we provide a predictive, falsifiable boundary for pattern matching and a foundational diagnostic for disentangling mixed generalization mechanisms.
+
+## Errata
+
+* Appendix C, Algorithm 1, Line 16: "$\mathrm{\bf foreach}~\boldsymbol{b} \in \mathcal{X}^{\|I^{\mathsf{c}}\|}~\mathrm{\bf do}$".
 
 ## Read the Full Paper
 
