@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 authors:
     - me
-    - Baekrok Shin
+    - BS
     - CM
     - Sang-Geun Hong
     - U-Ju Byeon
