@@ -148,24 +148,26 @@ During my journey to a Ph.D.👨🏻‍🎓, my ultimate research goal is to <b>
 
 Please don't hesitate to reach out for questions, discussions, and collaborations! 🤗
 
-## ‼️News‼️
+## ‼️News‼️  
+<!-- Keep news within a year; move older news to 'Past News' -->
 
 <ul class="nobull">
+  <li>🗞️ <newsdate>[May '26]</newsdate> Selected as a <a href="https://icml.cc/Conferences/2026/ProgramCommittee#gold:~:text=Hanseul%20Cho">Gold Reviewer</a> (top 25%: 4,439 of 17,749 reviewers) at ICML 2026 (&amp; awarded Free Registration).</li>
   <li>🗞️ <newsdate>[Jan. '26]</newsdate> A <a href="/publication/coverage-principle">paper</a> is accepted to <b>ICLR 2026</b>! We provide a formal framework (and empirically/theoretically validate it) to study the pattern-matching behavior of LLMs on compositional tasks (e.g., multi-hop). See you in Rio de Janeiro, Brazil🇧🇷!</li>
   <li>🗞️ <newsdate>[Jun. '25]</newsdate> My Internship at Google has been extended to 08/22/2025. </li>
-  <li>🗞️ <newsdate>[Jun. '25]</newsdate> I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer">Top Reviewers (top 1.88%: 206 of 10,943 reviewers)</a> at ICML 2025! </li>
-  <li>🗞️ <newsdate>[May '25]</newsdate> I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
-  <li>🗞️ <newsdate>[Feb. '25]</newsdate> I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>)  </li>
+  <li>🗞️ <newsdate>[Jun. '25]</newsdate> I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer:~:text=Hanseul%20Cho">Top Reviewers</a> (top 1.88%: 206 of 10,943 reviewers) at ICML 2025! </li>
 </ul><p></p>
 
 <details>
   <summary style="text-decoration: underline;">🕰️ Past News 🕰️</summary>
   <!-- The text below will be hidden/shown -->
   <ul class="nobull">
+    <li>🗞️ <newsdate>[May '25]</newsdate> I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
+    <li>🗞️ <newsdate>[Feb. '25]</newsdate> I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>)  </li>
     <li>🗞️ <newsdate>[Jan. '25]</newsdate> Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
     <li>🗞️ <newsdate>[Jan. '25]</newsdate> Two papers got accepted to <b>ICLR 2025</b>! <a href="/publication/Position-Coupling-Scratchpad">One</a> is the sequel of our <a href="/publication/Position-Coupling">Position Coupling</a> paper; <a href="/publication/Continual-Linear-Classfication-GD">another</a> is about a theoretical analysis of continual learning algorithm. See you in Singapore🇸🇬!</li>
     <li>🗞️ <newsdate>[Nov. '24]</newsdate> An early version of our <a href="/publication/Continual-Linear-Classfication-GD">paper</a> on theoretical analysis of continual learning is accepted to <a href="http://aiassociation.kr">JKAIA 2024</a> and won the <b>Best Paper Award</b> (top 3 papers)!</li>
-    <li>🗞️ <newsdate>[Nov. '24]</newsdate> I was selected as one of the <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Reviewers (top 8.60%: 1,304 of 15,160 reviewers)</a> at NeurIPS 2024! (+ Free registration! 😎) </li>
+    <li>🗞️ <newsdate>[Nov. '24]</newsdate> I was selected as one of the <a href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers:~:text=Hanseul%20Cho">Top Reviewers (top 8.60%: 1,304 of 15,160 reviewers)</a> at NeurIPS 2024! (+ Free registration! 😎) </li>
     <li>🗞️ <newsdate>[Sep. '24]</newsdate> Two papers got accepted to <b>NeurIPS 2024</b>! <a href="/publication/Position-Coupling">One</a> is about length generalization of arithmetic Transfomers, and <a href="/publication/DASH-Direction-Aware-SHrinking">another</a> is about mitigating loss of plasticity in incremental neural net training. See you in Vancouver, Canada🇨🇦!</li>
     <li>🗞️ <newsdate>[Jun. '24]</newsdate> An early version of our <a href="/publication/Position-Coupling">paper</a> on length generalization of Transformers got accepted to the ICML 2024 Workshop on <a href="https://longcontextfm.github.io/">Long-Context Foundation Models</a>!</li>
     <li>🗞️ <newsdate>[May '24]</newsdate> A <a href="/publication/Alex-GDA">paper</a> got accepted to <b>ICML 2024</b> as a <b>spotlight paper</b> (top 3.5% among all submissions)! We show global convergence of Alt-GDA (which is <i>strictly</i> faster than Sim-GDA) and propose an enhanced algorithm called Alex-GDA for minimax optimization. See you in Vienna, Austria🇦🇹!</li>
