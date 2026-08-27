@@ -152,16 +152,17 @@ Please don't hesitate to reach out for questions, discussions, and collaboration
 <!-- Keep news within a year; move older news to 'Past News' -->
 
 <ul class="nobull">
+  <li>🗞️ <newsdate>[Aug '26]</newsdate> We are co-organizing the <a href="https://let-workshop.github.io/">LeT (<b>Le</b>arning <b>T</b>heory) Workshop</a> on October 7th-8th at POSTECH. The workshop aims to bring together researchers interested in ML/DL/AI theory.</li>
   <li>🗞️ <newsdate>[May '26]</newsdate> Selected as a <a href="https://icml.cc/Conferences/2026/ProgramCommittee#gold:~:text=Hanseul%20Cho">Gold Reviewer</a> (top 25%: 4,439 of 17,749 reviewers) at ICML 2026 (&amp; awarded Free Registration).</li>
   <li>🗞️ <newsdate>[Jan. '26]</newsdate> A <a href="/publication/coverage-principle">paper</a> is accepted to <b>ICLR 2026</b>! We provide a formal framework (and empirically/theoretically validate it) to study the pattern-matching behavior of LLMs on compositional tasks (e.g., multi-hop). See you in Rio de Janeiro, Brazil🇧🇷!</li>
-  <li>🗞️ <newsdate>[Jun. '25]</newsdate> My Internship at Google has been extended to 08/22/2025. </li>
-  <li>🗞️ <newsdate>[Jun. '25]</newsdate> I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer:~:text=Hanseul%20Cho">Top Reviewers</a> (top 1.88%: 206 of 10,943 reviewers) at ICML 2025! </li>
 </ul><p></p>
 
 <details>
   <summary style="text-decoration: underline;">🕰️ Past News 🕰️</summary>
   <!-- The text below will be hidden/shown -->
   <ul class="nobull">
+    <li>🗞️ <newsdate>[Jun. '25]</newsdate> My Internship at Google has been extended to 08/22/2025. </li>
+    <li>🗞️ <newsdate>[Jun. '25]</newsdate> I was selected as one of the <a href="https://icml.cc/Conferences/2025/ProgramCommittee#top-reviewer:~:text=Hanseul%20Cho">Top Reviewers</a> (top 1.88%: 206 of 10,943 reviewers) at ICML 2025! </li>
     <li>🗞️ <newsdate>[May '25]</newsdate> I visit NYC🇺🇸 from 2025-05-02 to 2025-08-23 (see the item below). Let's grab a coffee and have a chat if you are in NYC! </li>
     <li>🗞️ <newsdate>[Feb. '25]</newsdate> I'll work as an  <b>Intern (Student Researcher)</b> at <b>Google</b> in New York City🇺🇸! (05/05/2025&ndash;07/25/2025, Host: <a href="https://bsrinadh.github.io">Srinadh Bhojanapalli</a>)  </li>
     <li>🗞️ <newsdate>[Jan. '25]</newsdate> Invited as a reviewer of  <a href="https://jmlr.org/tmlr/index.html">Transactions on Machine Learning Research (TMLR)</a>.</li>
