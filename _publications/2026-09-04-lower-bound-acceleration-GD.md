@@ -2,16 +2,16 @@
 title: "Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent"
 collection: publications
 permalink: /publication/lower-bound-acceleration-GD
-date: 2026-09-04
+date: 2026-10-02
 toc: true
 toc_sticky: true
 authors:
-    - Minchan Jung
+    - <a href="https://scholar.google.com/citations?user=ZB5ToPwAAAAJ&hl=en">Minchan Jung</a>*
     - me*
     - CY
-venue: ArXiv Preprint
+venue: <a href="https://opt-ml.org/"><b>OPT @ NeurIPS2026</b></a>
 award: 
-paperurl: 
+paperurl: https://openreview.net/forum?id=ldqRpkqVTF
 arxiv: https://arxiv.org/abs/2609.04032
 pdf: https://arxiv.org/pdf/2609.04032
 code: 
@@ -20,6 +20,8 @@ linkedin:
 doi: 
 scholar: 
 categories: 
+    - NeurIPS Workshop
+    - OPT
     - ArXiv
 tags:
     - Lower Bounds
