@@ -2,7 +2,7 @@
 title: "Data-Constrained Language Model Pretraining: Improved Regularization and Scaling Laws"
 collection: publications
 permalink: /publication/data-constrained
-date: 2026-07-10
+date: 2026-09-25
 toc: true
 toc_sticky: true
 authors:
@@ -11,9 +11,9 @@ authors:
     - me
     - <a href="https://weihu.me/">Wei Hu</a>*
     - <a href="https://scholar.google.com/citations?user=gFLW9qcAAAAJ&hl=en">Yixin Wang</a>*
-venue: <a href="https://sites.google.com/view/hidimlearning/home"><b>HiLD @ ICML2026</b></a>
+venue: <a href="https://neurips.cc/Conferences/2026"><b>NeurIPS2026</b></a> (short version at <a href="https://sites.google.com/view/hidimlearning/home"><b>HiLD @ ICML2026</b></a>)
 award: 
-paperurl: https://openreview.net/forum?id=W5k9IVRdp4
+paperurl: https://openreview.net/forum?id=lYgfGE5Vvq
 arxiv: https://arxiv.org/abs/2606.06888
 pdf: https://arxiv.org/pdf/2606.06888
 code: yixinw-lab/dc_pretrain
@@ -22,6 +22,7 @@ linkedin:
 doi: 10.48550/arXiv.2606.06888
 scholar: "5nxA0vEk-isC"
 categories: 
+    - NeurIPS
     - ArXiv
     - ICML Workshop
     - HiLD
