@@ -9,7 +9,7 @@ author_profile: true
 {% include base_path %}
 
 {% if site.author.googlescholar %}
-  You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  You can also find my articles on <a href="https://scholar.google.com/citations?&hl=en&user={{ author.googlescholar }}">my Google Scholar profile</a>.
 {% endif %}
 
 {% for post in site.publications reversed %}

@@ -19,6 +19,7 @@ arxiv: https://arxiv.org/abs/2405.20671
 pdf: https://openreview.net/pdf?id=5cIRdGM1uG
 code: HanseulJo/position-coupling
 doi: "10.48550/arXiv.2405.20671"
+scholar: "qjMakFHDy7sC"
 x:
 linkedin: https://www.linkedin.com/posts/hanseul-cho_icml2024-activity-7257572668348981250-qP5f
 categories: 
@@ -34,6 +35,9 @@ tags:
     - Algorithmic Tasks
 ---
 <!-- markdownlint-disable MD033 -->
+
+<br>
+📣💁🏻‍♂️ Interested? Please check out our **multi-position extension of Position Coupling with scratchpads** [(Click here to see the paper)](/publication/Position-Coupling-Scratchpad) for extending the scope of generalization in both summand *lengths* and their ***count***!
 
 ## Main Figures
 
@@ -55,6 +59,6 @@ Even for simple arithmetic tasks like integer addition, it is challenging for Tr
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/iNEl39UaLR9HAF" width="960" height="540" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> </div>
 
-## Read theFull Paper
+## Read the Full Paper
 
 <object data="{{ page.pdf }}" width="960" height="1000" type='application/pdf'></object>

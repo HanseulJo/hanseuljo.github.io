@@ -18,6 +18,7 @@ code:
 x:
 linkedin:
 doi: "10.48550/arXiv.2504.12712"
+scholar: "WF5omc3nYNoC"
 categories: 
     - ICLR
     - Arxiv

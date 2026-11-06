@@ -1,5 +1,5 @@
 ---
-title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environments"
+title: "Deep Model-Based Optimization of Jamming Effectiveness under Aircraft AESA Radar Operational Environments [KOR]"
 collection: publications
 permalink: /publication/deep-model-based-jammer-optimization
 date: 2025-11-15
@@ -7,19 +7,20 @@ toc: true
 toc_sticky: true
 authors:
     - me
-    - Baekrok Shin
+    - BS
     - CM
     - Sang-Geun Hong
     - U-Ju Byeon
     - Jin-Yong Sung
     - CY
-venue: <a href="https://journal.kics.or.kr"><b>J-KICS</b></a>
+venue: Journal of Kor. Inst. of Comm & Info. Sci. (<a href="https://journal.kics.or.kr"><b>J-KICS</b></a>)
 award: 
 paperurl: https://journal.kics.or.kr/digital-library/103567
 arxiv: 
 pdf: https://journal.kics.or.kr/digital-library/manuscript/file/103567/01%20조한슬202505-111-A-RU.pdf
 code:
-doi: 10.7840/kics.2025.50.11.1647
+doi: "10.7840/kics.2025.50.11.1647"
+scholar: "roLk4NBRz8UC"
 x:
 linkedin:
 categories: 
