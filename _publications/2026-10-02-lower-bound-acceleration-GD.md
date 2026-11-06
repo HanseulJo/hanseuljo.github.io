@@ -17,8 +17,8 @@ pdf: https://arxiv.org/pdf/2609.04032
 code: 
 x: https://x.com/hanseuljo/status/2095755900044919165?s=20
 linkedin:
-doi: 
-scholar: 
+doi: "10.48550/arXiv.2609.04032"
+scholar: "8k81kl-MbHgC"
 categories: 
     - NeurIPS Workshop
     - OPT
