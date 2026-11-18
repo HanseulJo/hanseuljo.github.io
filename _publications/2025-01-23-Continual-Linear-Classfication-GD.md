@@ -10,7 +10,7 @@ authors:
     - me*
     - CY
 venue: <a href="https://iclr.cc/Conferences/2025"><b>ICLR 2025</b></a>
-award: <b>Best Paper Award</b> at the 11th Joint Conference of Korean Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240901&CpPage=282#CONF">JKAIA 2024</a>)
+award: <b>Best Paper Award</b> at the 2024 Joint Conference of Korean Artificial Intelligence Association (<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240901&CpPage=282#CONF">JKAIA 2024</a>)
 paperurl: https://openreview.net/forum?id=DTqx3iqjkz
 arxiv: https://arxiv.org/abs/2504.12712
 pdf: https://openreview.net/pdf?id=DTqx3iqjkz
